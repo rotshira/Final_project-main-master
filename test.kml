@@ -1,0 +1,23 @@
+<Document>
+
+
+<Style id="green">
+<LineStyle>
+<color>ff0000ff</color>
+<scale>0.5</scale>
+</LineStyle>
+</Style>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80261416201766,32.08402866997608,4.0  34.8020482316998,32.0838433084868,298.4881550342992
+</coordinates>
+</LineString>
+</Placemark>
+
+</Document>

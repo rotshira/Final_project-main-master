@@ -1,0 +1,50 @@
+<Document>
+<Style id="redred">
+<IconStyle>
+<color>00ff00ff</color>
+<scale>0.5</scale>
+</IconStyle>
+</Style>
+
+<Style id="poly">
+<LineStyle>
+<width>2.7</width>
+</LineStyle>
+<PolyStyle>
+<fill>0</fill>
+</PolyStyle>
+</Style>
+ 
+<Style id="fill_poly">
+<LineStyle>
+<width>2.7</width>
+</LineStyle>
+<PolyStyle>
+<fill>1</fill>
+</PolyStyle>
+</Style>
+ 
+
+<Style id="green">
+<IconStyle>
+<color>ff0000ff</color>
+<scale>0.5</scale>
+</IconStyle>
+</Style>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 0</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>0</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>30.000000000001315 0.0 0.0</coordinates>
+</Point>
+</Placemark></Document>

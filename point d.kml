@@ -1,0 +1,219 @@
+<Document>
+
+
+<Style id="green">
+<LineStyle>
+<color>ff0000ff</color>
+<scale>0.5</scale>
+</LineStyle>
+</Style>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>32 56.0 54.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.8103184230834,32.0883580926148,1215.3254915624211
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>1 0.0 0.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.80275468496574,32.09754859062749,1.8
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>3 332.0 54.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.79824250610619,32.09110479021101,1215.3254915624211
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>4 164.0 52.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.805027699801926,32.07597965305459,1183.816130410083
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>70 0.0 0.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.80275468496574,32.09754859062749,1.8
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>8 102.0 50.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.8124422108371,32.08207261442552,1150.866664678467
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>9 243.0 16.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.788766781606014,32.07831293434715,415.25603372549875
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>74 242.0 40.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.79164836823074,32.07931084802074,965.9814145298088
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>11 198.0 50.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.79917130113848,32.075798928984646,1150.866664678467
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>14 50.0 1.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.81482924459564,32.09254187174524,27.97860965592527
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>80 0.0 0.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.80275468496574,32.09754859062749,1.8
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>17 299.0 14.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.789130519355545,32.09057664595929,364.6828433995016
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>19 185.0 2.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.80084111952301,32.07057630013521,54.14924505375145
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>20 0.0 0.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.80275468496574,32.09754859062749,1.8
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>23 254.0 47.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.792024090102096,32.08162792132436,1098.8305524287557
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<tessellate>1</tessellate>
+<BallonStyle><text>31 59.0 36.0</text></BallonStyle>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.802489032690744,32.0840227839983,1.5   34.81361747667593,32.08950134775791,883.4778784387097
+</coordinates>
+</LineString>
+</Placemark>
+
+</Document>

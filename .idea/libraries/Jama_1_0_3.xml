@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Jama-1.0.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Jama-1.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/javafx-ui-common.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/sellcom-java-1.6.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/javafx-graphics-21.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

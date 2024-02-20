@@ -1,0 +1,5981 @@
+<Document>
+
+
+<Style id="green">
+<LineStyle>
+<color>ff0000ff</color>
+<scale>0.5</scale>
+</LineStyle>
+</Style>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>0</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>1</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>2</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>3</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>4</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>5</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>6</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>7</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>8</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>9</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>10</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>11</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>12</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>13</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>14</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>15</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>16</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>17</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>18</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>19</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>20</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>21</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>22</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>23</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>24</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>25</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>26</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>27</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>28</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>29</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>30</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>31</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>32</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>33</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>34</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791689775499975,32.07955066651011,985.8885434857609
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>35</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>36</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>37</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>38</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>39</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>40</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>41</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>42</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>43</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>44</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>45</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>46</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>47</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>48</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>49</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>50</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>51</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>52</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>53</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>54</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>55</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>56</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>57</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>58</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>59</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>60</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>61</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>62</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>63</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>64</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>65</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>66</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>67</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>68</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>69</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>70</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>71</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>72</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>73</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>74</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>75</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>76</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>77</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>78</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>79</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>80</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>81</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>82</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>83</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>84</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>85</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>86</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>87</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>88</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>89</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>90</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>91</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>92</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>93</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>94</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>95</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>96</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>97</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>98</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>99</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>100</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>101</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>102</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>103</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>104</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>105</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>106</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>107</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>108</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>109</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>110</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>111</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>112</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>113</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>114</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>115</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>116</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>117</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>118</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>119</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>120</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>121</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>122</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>123</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>124</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>125</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>126</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>127</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>128</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>129</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>130</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>131</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>132</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>133</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>134</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>135</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>136</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>137</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>138</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>139</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>140</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>141</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>142</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>143</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>144</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>145</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>146</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>147</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>148</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>149</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>150</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>151</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>152</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>153</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>154</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>155</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>156</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>157</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>158</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>159</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>160</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>161</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>162</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>163</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>164</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>165</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>166</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>167</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>168</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>169</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>170</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>171</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>172</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>173</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>174</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>175</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>176</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>177</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>178</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>179</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>180</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>181</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>182</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>183</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>184</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>185</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>186</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>187</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>188</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>189</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>190</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>191</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>192</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>193</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>194</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>195</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>196</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>197</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>198</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>199</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>200</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>201</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>202</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>203</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>204</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>205</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>206</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>207</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>208</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>209</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>210</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>211</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>212</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>213</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>214</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>215</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>216</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>217</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>218</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>219</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>220</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>221</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>222</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>223</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>224</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>225</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>226</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>227</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>228</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>229</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>230</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>231</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>232</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>233</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>234</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>235</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>236</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>237</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>238</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>239</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>240</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>241</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>242</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>243</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>244</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>245</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>246</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>247</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>248</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>249</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>250</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>251</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>252</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>253</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>254</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>255</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>256</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>257</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>258</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>259</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>260</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>261</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>262</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>263</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>264</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>265</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>266</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>267</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>268</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>269</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>270</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>271</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>272</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>273</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>274</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>275</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>276</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>277</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>278</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>279</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>280</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>281</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>282</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>283</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>284</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>285</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>286</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>287</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>288</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>289</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>290</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>291</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>292</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>293</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>294</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>295</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>296</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>297</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>298</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>299</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>300</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>301</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>302</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>303</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>304</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.79177524270685,32.07977526489043,1005.4959095382873
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>305</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>306</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>307</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>308</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>309</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>310</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>311</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>312</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>313</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>314</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>315</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>316</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>317</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>318</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>319</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>320</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>321</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>322</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>323</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>324</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>325</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>326</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>327</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>328</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>329</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>330</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>331</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>332</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>333</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>334</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>335</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>336</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>337</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>338</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>339</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>340</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>341</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>342</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>343</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>344</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>345</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>346</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>347</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>348</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>349</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>350</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>351</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>352</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>353</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>354</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>355</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>356</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>357</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>358</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>359</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>360</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>361</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>362</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>363</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>364</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>365</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>366</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>367</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>368</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>369</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>370</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>371</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>372</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>373</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>374</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>375</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>376</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>377</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>378</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>379</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>380</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>381</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>382</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>383</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>384</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>385</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>386</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>387</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>388</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>389</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>390</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>391</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>392</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>393</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>394</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>395</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>396</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<LineString>
+<TimeStamp>
+<when>397</when>
+</TimeStamp>
+<tessellate>1</tessellate>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>
+34.80264075951912,32.08371061639913,1.5   34.791795376162995,32.08015779206976,1024.7975400937478
+</coordinates>
+</LineString>
+</Placemark>
+
+</Document>

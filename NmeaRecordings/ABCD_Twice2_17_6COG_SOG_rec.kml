@@ -1,0 +1,4882 @@
+<Document>
+<Style id="redred">
+<IconStyle>
+<color>00ff00ff</color>
+<scale>0.5</scale>
+</IconStyle>
+</Style>
+
+<Style id="poly">
+<LineStyle>
+<width>2.7</width>
+</LineStyle>
+<PolyStyle>
+<fill>0</fill>
+</PolyStyle>
+</Style>
+ 
+<Style id="fill_poly">
+<LineStyle>
+<width>2.7</width>
+</LineStyle>
+<PolyStyle>
+<fill>1</fill>
+</PolyStyle>
+</Style>
+ 
+
+<Style id="green">
+<IconStyle>
+<color>ff0000ff</color>
+<scale>0.5</scale>
+</IconStyle>
+</Style>
+
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 0</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>0</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245518888781 32.08370198268696 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 1</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>1</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802455192530836 32.08370216824106 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 2</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>2</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245519799536 32.08370244657218 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 3</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>3</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245643267915 32.083702079328475 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 4</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>4</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245991905596 32.0837021592507 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 5</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>5</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246371398043 32.083705616981234 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 6</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>6</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246587115622 32.08370884235339 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 7</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>7</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247050553974 32.08371161971879 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 8</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>8</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247430791053 32.08371410754047 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 9</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>9</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247872733554 32.0837156924566 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 10</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>10</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80248563205826 32.08371822928834 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 11</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>11</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802490502024895 32.08371924326001 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 12</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>12</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802497101992024 32.083722312244795 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 13</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>13</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250162137091 32.08372293146002 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 14</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>14</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250674703708 32.08372382265505 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 15</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>15</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80251194338284 32.08372433784631 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 16</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>16</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80251682753685 32.08372530108775 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 17</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>17</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252404761017 32.083727091874856 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 18</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>18</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8025290294357 32.083727570796846 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 19</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>19</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802534254906526 32.08372778389286 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 20</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>20</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802538604142335 32.083728039074664 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 21</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>21</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254390868078 32.083729101845826 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 22</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>22</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255190689082 32.08373228327245 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 23</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>23</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255629415625 32.08373589564464 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 24</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>24</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8025588878482 32.08374337066431 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 25</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>25</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255884914426 32.083747638877234 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 26</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>26</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255842554428 32.08375300860026 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 27</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>27</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255853363552 32.08375996724192 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 28</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>28</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255787807976 32.08376475993411 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 29</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>29</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255781245135 32.083771997338566 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 30</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>30</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255728662769 32.083777174258636 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 31</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>31</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255698162539 32.083781620602686 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 32</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>32</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802556868639535 32.083786444723806 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 33</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>33</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255655627991 32.08379144832187 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 34</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>34</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802556818463074 32.083796082449176 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 35</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>35</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255614121787 32.083803855453525 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 36</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>36</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255613703121 32.08380868053228 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 37</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>37</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255605051097 32.083813690650864 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 38</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>38</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255613007099 32.08382064957132 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 39</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>39</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255571746437 32.08382527575356 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 40</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>40</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255499318294 32.08383006126941 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 41</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>41</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8025543572809 32.083834855880546 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 42</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>42</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255288793988 32.08383932355043 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 43</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>43</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802551351813385 32.08384338659741 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 44</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>44</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254888272302 32.08384666823401 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 45</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>45</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254590121425 32.08384962537649 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 46</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>46</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254529523229 32.08385386242242 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 47</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>47</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802544176994374 32.08385821340308 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 48</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>48</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802541250489156 32.08386559881257 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 49</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>49</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802540373092576 32.083869612655604 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 50</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>50</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802539353170026 32.08387398111106 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 51</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>51</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80253843589165 32.0838781774015 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 52</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>52</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802537667838955 32.083882583059435 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 53</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>53</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80253703580678 32.08388681734592 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 54</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>54</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802535699731855 32.08389396502038 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 55</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>55</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80253538906281 32.0838987828456 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 56</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>56</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80253450380547 32.08390317253435 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 57</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>57</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80253360041574 32.08390774783941 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 58</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>58</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80253088259761 32.08391240046428 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 59</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>59</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802528819845286 32.083916694744396 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 60</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>60</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252698412448 32.0839208654537 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 61</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>61</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252374960092 32.08392695239643 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 62</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>62</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252262462242 32.08393356426675 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 63</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>63</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252184192883 32.083938530419765 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 64</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>64</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252107960138 32.08394349886856 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 65</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>65</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802519851300346 32.08395037910055 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 66</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>66</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802519368598475 32.08395161144407 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 67</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>67</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802516520476935 32.08395599630843 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 68</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>68</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80251425860493 32.083959596398586 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 69</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>69</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802512048562185 32.08396321974616 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 70</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>70</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802509838519256 32.083966843093705 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 71</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>71</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802506706089 32.08397204510345 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 72</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>72</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250424171641 32.083975762190505 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 73</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>73</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250115762863 32.083981905468555 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 74</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>74</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802499300461214 32.08398587015467 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 75</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>75</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802496554399845 32.083991530477455 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 76</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>76</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249467727806 32.08399608321251 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 77</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>77</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249269890937 32.08400080229838 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 78</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>78</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802492519806265 32.08400469649422 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 79</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>79</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802492612347216 32.08400896410705 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 80</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>80</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249305363046 32.08401228335287 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 81</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>81</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249513617303 32.08401511442426 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 82</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>82</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249798967884 32.0840174071557 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 83</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>83</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249918045651 32.08401999968581 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 84</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>84</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802500124569306 32.084022076528335 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 85</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>85</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249829188339 32.084025949602804 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 86</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>86</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249749153298 32.08402940915764 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 87</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>87</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249736089468 32.08403181913257 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 88</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>88</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249627821625 32.08403364055858 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 89</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>89</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8024956883096 32.08403561919421 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 90</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>90</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249378265604 32.0840376484795 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 91</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>91</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802490872636604 32.08404211022731 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 92</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>92</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80248700040815 32.08404360273712 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 93</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>93</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80248459185184 32.084044471364 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 94</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>94</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802480451086595 32.08404440106718 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 95</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>95</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802476653180136 32.084043562297005 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 96</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>96</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802473119881235 32.084042611387915 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 97</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>97</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802468755217966 32.08404143673536 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 98</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>98</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802459688771535 32.08403699057722 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 99</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>99</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245579394479 32.08403119068639 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 100</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>100</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245586923063 32.08402729403343 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 101</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>101</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245639936473 32.08402090745157 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 102</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>102</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245675275205 32.08401590583222 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 103</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>103</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245727858207 32.08401072891247 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 104</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>104</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245770067719 32.08400610335065 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 105</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>105</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245827690972 32.083999161413765 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 106</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>106</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802458787243935 32.08399491524468 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 107</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>107</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245889315259 32.08398795657866 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 108</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>108</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245904960129 32.083981277026396 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 109</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>109</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245909672424 32.083976080941135 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 110</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>110</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802458518165196 32.083968581108714 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 111</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>111</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245835226068 32.08396338678863 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 112</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>112</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245872936889 32.08395820047655 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 113</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>113</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802459091961 32.08395124807641 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 114</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>114</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80245994842355 32.083946666234226 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 115</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>115</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802460387402185 32.08394185564989 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 116</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>116</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246176310425 32.08393414979051 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 117</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>117</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246223166206 32.083929341228945 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 118</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>118</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802462722477195 32.083922394535286 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 119</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>119</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246314589199 32.08391795522714 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 120</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>120</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246295805774 32.083913504178796 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 121</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>121</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246370492438 32.08390657403838 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 122</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>122</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8024640932514 32.08390231852145 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 123</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>123</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246401688012 32.08389563795762 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 124</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>124</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246443836968 32.08389157099786 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 125</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>125</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802464627584996 32.08388656292789 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 126</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>126</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246514193734 32.08388213058714 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 127</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>127</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802467743880975 32.08387612351251 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 128</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>128</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802468690609416 32.08387250048715 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 129</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>129</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246964195409 32.08386849887291 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 130</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>130</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802470968247825 32.083864768860394 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 131</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>131</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247520487484 32.0838612908296 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 132</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>132</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802475428657175 32.08385758412258 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 133</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>133</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247548596741 32.08384941874806 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 134</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>134</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802475846395794 32.08384571985446 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 135</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>135</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8024755582298 32.08384127269637 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 136</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>136</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247556225943 32.08383663319744 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 137</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>137</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247493038759 32.08382885742387 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 138</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>138</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247487989833 32.08382347577529 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 139</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>139</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247432392451 32.0838194205466 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 140</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>140</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802474244370714 32.08381246162588 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 141</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>141</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247459892954 32.08380857615379 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 142</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>142</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802474002791236 32.083805462385904 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 143</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>143</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802473075958304 32.083799670116505 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 144</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>144</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802471654435465 32.08379675662161 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 145</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>145</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247029049183 32.08379102734658 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 146</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>146</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247080988156 32.08378734218163 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 147</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>147</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802470152436356 32.083783485406315 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 148</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>148</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246723684523 32.08377668676103 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 149</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>149</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246647090271 32.083773221565224 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 150</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>150</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246595370063 32.08377066103077 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 151</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>151</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246653297693 32.08376811014811 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 152</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>152</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80246900317134 32.08376450287961 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 153</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>153</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802470514378456 32.08376468237987 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 154</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>154</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247383585318 32.08376377677586 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 155</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>155</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80247828205674 32.08376284996696 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 156</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>156</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80248635203314 32.08376174239373 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 157</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>157</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249087638135 32.08376233473255 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 158</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>158</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802495628173546 32.083762884757135 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 159</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>159</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250081904292 32.083763438535556 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 160</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>160</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250390042833 32.08376519093192 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 161</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>161</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250649052621 32.08376717939873 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 162</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>162</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80251002774089 32.08376901346014 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 163</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>163</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80251297380319 32.08377092712323 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 164</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>164</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802517043586946 32.083772711077636 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 165</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>165</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802520748883666 32.08377266936042 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 166</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>166</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252482950336 32.083773272090276 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 167</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>167</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252897099876 32.08377325007989 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 168</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>168</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80253614346799 32.0837727847541 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 169</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>169</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8025429650514 32.08377345080551 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 170</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>170</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254736432365 32.08377452778147 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 171</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>171</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802552045392034 32.08377541439706 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 172</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>172</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255634914432 32.08377960609993 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 173</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>173</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8025591620709 32.08378379490801 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 174</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>174</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255945290765 32.08379186383981 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 175</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>175</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802559312100726 32.08379631614631 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 176</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>176</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802558846099124 32.08380354288428 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 177</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>177</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255848395361 32.08380780007413 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 178</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>178</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255829302309 32.083811322345234 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 179</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>179</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802557600278234 32.08381554974197 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 180</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>180</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255740521258 32.08381944338189 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 181</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>181</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802557125556056 32.08382612001808 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 182</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>182</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802557188238396 32.083832800685 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 183</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>183</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802556737707064 32.083837424302125 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 184</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>184</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802556338580835 32.08384381778849 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 185</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>185</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255597494626 32.083848818875325 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 186</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>186</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255585958603 32.0838554990334 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 187</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>187</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802555693897695 32.083860136388424 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 188</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>188</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255572791627 32.08386477579807 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 189</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>189</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802555632750675 32.08386922898111 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 190</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>190</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255522754439 32.0838736695207 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 191</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>191</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255444539327 32.08387975735018 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 192</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>192</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802553443388355 32.083884128810126 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 193</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>193</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80255237078032 32.08388933840977 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 194</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>194</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802550438079514 32.08389430147227 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 195</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>195</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802548200618304 32.08389889073544 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 196</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>196</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8025479292954 32.08390389606803 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 197</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>197</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802547554633094 32.083908524589894 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 198</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>198</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254678311041 32.08391517310128 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 199</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>199</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254642742742 32.08391980270835 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 200</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>200</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254592952048 32.08392442280213 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 201</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>201</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254609910818 32.08392887438127 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 202</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>202</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254512342889 32.083935503420044 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 203</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>203</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254454720311 32.08394244535709 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 204</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>204</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254450345052 32.08394727029331 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 205</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>205</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802544024488995 32.08395189183859 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 206</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>206</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254366779129 32.08395800844452 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 207</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>207</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254316252969 32.083962441542944 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 208</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>208</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254324134317 32.08396828692782 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 209</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>209</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254264404756 32.083972524867654 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 210</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>210</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254233767395 32.08397604122669 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 211</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>211</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802541765405124 32.08397953342384 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 212</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>212</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254166762846 32.083983708143975 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 213</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>213</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80254093629746 32.083986990043925 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 214</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>214</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80253981219841 32.08399057613932 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 215</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>215</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80253770836917 32.08399614074693 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 216</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>216</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80253559414733 32.08400001099037 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 217</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>217</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80253368636509 32.08400375676321 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 218</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>218</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802528955332455 32.084013135312176 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 219</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>219</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802526724380336 32.08401716393713 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 220</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>220</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252388576007 32.0840227910664 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 221</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>221</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8025216548075 32.08402681969126 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 222</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>222</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80251867283897 32.08403113957912 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 223</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>223</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802515690870194 32.08403545946699 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 224</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>224</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802513889391406 32.08403964098534 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 225</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>225</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80251186169419 32.084045806369154 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 226</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>226</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80251106670931 32.08404983263743 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 227</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>227</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802513249508856 32.08405797434119 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 228</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>228</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802516507058684 32.08406236857522 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 229</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>229</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80251880511989 32.08406636976501 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 230</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>230</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252157453342 32.08406911505212 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 231</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>231</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252471220023 32.08407079351449 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 232</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>232</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252778878327 32.08407271353086 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 233</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>233</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252778878327 32.08407271353086 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 234</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>234</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802527246748504 32.08407545871382 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 235</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>235</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80252586790683 32.08407798278552 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 236</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>236</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802524408189974 32.08408067948315 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 237</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>237</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802520344925405 32.08408301790378 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 238</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>238</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8025169516226 32.08408370389357 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 239</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>239</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80251494989777 32.08408541153287 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 240</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>240</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80251437806865 32.08408681408246 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 241</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>241</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80251266778073 32.084089820467995 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 242</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>242</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250923470753 32.0840914377859 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 243</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>243</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250664808821 32.08409176916774 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 244</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>244</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802506659017745 32.08409232582998 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 245</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>245</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802506659017745 32.08409232582998 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 246</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>246</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250446449932 32.084090262270855 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 247</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>247</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250299794323 32.08408676698506 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 248</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>248</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250388516325 32.08408313305897 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 249</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>249</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250462942594 32.08407648229551 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 250</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>250</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250493617345 32.084072593875554 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 251</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>251</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250469548313 32.08406591613891 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 252</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>252</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8025047827203 32.08406183405453 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 253</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>253</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250500762498 32.08405515591905 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 254</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>254</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250545722262 32.084049601693 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 255</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>255</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250557793089 32.08404552022656 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 256</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>256</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802505940079236 32.08404126303694 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 257</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>257</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802506155612846 32.08403486315704 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 258</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>258</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250628837944 32.08403003940121 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 259</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>259</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250632433702 32.08402280184594 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 260</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>260</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250620555062 32.08401853470419 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 261</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>261</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250714862639 32.08401434256046 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 262</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>262</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250581030502 32.084007195190466 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 263</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>263</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250416306796 32.0840021917752 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 264</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>264</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250251937675 32.08399680311531 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 265</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>265</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250207207559 32.08399143478558 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 266</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>266</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250102208664 32.08398341170249 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 267</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>267</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249958081862 32.083975714534645 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 268</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>268</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802499356488156 32.083971264711366 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 269</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>269</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249893120048 32.08396589508501 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 270</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>270</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249905488149 32.083959493440844 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 271</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>271</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8024984469675 32.083954696198965 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 272</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>272</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802497760439685 32.08394990665096 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 273</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>273</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249663571427 32.08394651314226 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 274</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>274</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249734896595 32.083940139493855 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 275</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>275</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249763573924 32.083935692270636 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 276</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>276</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249758675641 32.08392901152067 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 277</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>277</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249916116136 32.083926155567845 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 278</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>278</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250147717518 32.083920949032745 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 279</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>279</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250389517891 32.083915181261006 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 280</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>280</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8025048806924 32.083912527018555 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 281</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>281</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250644788513 32.08390946461968 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 282</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>282</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250756505994 32.08390454506004 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 283</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>283</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802508007165194 32.08390066609895 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 284</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>284</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802507912443275 32.08389584169283 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 285</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>285</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250660623762 32.08389076584582 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 286</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>286</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802505650124665 32.08388357414648 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 287</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>287</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250396714864 32.08387506446164 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 288</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>288</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802503354852035 32.083869894435836 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 289</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>289</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802501985111675 32.0838654038858 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 290</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>290</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250188567122 32.08385900193541 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 291</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>291</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802501319829915 32.08385532173141 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 292</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>292</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80250045435749 32.083850647157696 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 293</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>293</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802500179246174 32.083847501004115 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 294</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>294</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249993770333 32.08384388804165 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 295</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>295</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249954953958 32.08384206190292 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 296</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>296</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802499810763386 32.083838914891466 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 297</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>297</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.80249941085204 32.08383746981906 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 298</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>298</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.8024990076185 32.08383641058253 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 299</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>299</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802499475068394 32.083833093934025 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 300</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>300</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802499018259496 32.08383090119668 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 301</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>301</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802499054915685 32.0838281176715 1.5</coordinates>
+</Point>
+</Placemark>
+
+<Placemark>
+ <styleUrl>#green</styleUrl>
+<Style>
+<BalloonStyle>
+<text>This point was taken at time 302</text>
+</BalloonStyle>
+</Style>
+ <TimeStamp>
+<when>302</when>
+ </TimeStamp>
+<Point>
+<altitudeMode>relativeToGround</altitudeMode>
+<coordinates>34.802499054915685 32.0838281176715 1.5</coordinates>
+</Point>
+</Placemark></Document>

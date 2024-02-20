@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>bursa_mapping_v0.3.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Temporary Places</name>
+		<open>1</open>
+<Placemark>
+			<name>b1</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80265548089448,32.0844772599846,81 34.80321470337942,32.08449141756736,81 34.80320081893586,32.08464969851838,81 34.8026467480365,32.08462091311976,81 34.80265548089448,32.0844772599846,81 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b2</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80275385943935,32.08380103053013,107 34.8030505692083,32.08381230851071,107 34.80313446138617,32.08394764300221,107 34.80307771004368,32.08419309071562,107 34.8027285399815,32.08417817918431,107 34.80275385943935,32.08380103053013,107 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b3</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80186998186622,32.08397291151756,144 34.80187770054454,32.08375868960869,144 34.80237410759548,32.08377584718893,144 34.80236629288618,32.08399449715714,144 34.80186998186622,32.08397291151756,144 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b4</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80221879566288,32.08342730625972,90 34.80224208043316,32.08325130937447,90 34.80276833529926,32.08328430016789,90 34.80277043083839,32.08347038348656,90 34.80221879566288,32.08342730625972,90 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b5</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80126802324725,32.08348333931545,114 34.80127024382341,32.08335470048607,114 34.80164557217167,32.0833640114932,114 34.80164301380551,32.08349194145883,114 34.80126802324725,32.08348333931545,114 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b6</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80231598604517,32.08447858634649,36 34.80224519260806,32.08442999672727,36 34.80223098589156,32.08436477760117,36 34.80226537237297,32.08430701774779,36 34.80234074401972,32.08428454788866,36 34.80245502436085,32.08430315931923,36 34.8025075575042,32.08438506499972,36 34.80246455779736,32.08446367551445,36 34.80239280981169,32.08447522006213,36 34.80231598604517,32.08447858634649,36 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b7</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80101161905993,32.08409069118624,77 34.80094962274972,32.08393782191139,77 34.80154744050868,32.08397696050269,77 34.8014763337757,32.08411646350429,77 34.8010210843255,32.08408682966549,77 34.80101161905993,32.08409069118624,77 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b8</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80021858647261,32.08324749579484,119 34.80041586299448,32.08324452142301,119 34.80053162695347,32.08328111287511,119 34.80074726261942,32.08319595860809,119 34.80081755240994,32.08321512195477,119 34.80076496288258,32.08341334444435,119 34.80059206371176,32.08360687488489,119 34.80050595991803,32.08365276239674,119 34.80032006595182,32.08355285060556,119 34.80025860366806,32.0834111321002,119 34.80021858647261,32.08324749579484,119 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b9</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.7996482143907,32.0834220535608,36 34.79996329801426,32.08275273922905,36 34.80067476178561,32.08296489190709,36 34.80061973599187,32.08306024952452,36 34.80050612910176,32.08309796221128,36 34.80022030807788,32.08300300700508,36 34.79995793505534,32.08352937643642,36 34.7996482143907,32.0834220535608,36 34.7996482143907,32.0834220535608,36 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b11</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.8011360685238,32.08431585816616,97 34.80117042650818,32.08446361204441,97 34.80082380958238,32.08471563554524,97 34.80071998904633,32.08460219142323,97 34.8011360685238,32.08431585816616,97 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b12</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.79956458410499,32.08441126559168,147 34.79964097132353,32.08461531958679,147 34.79942649854674,32.08467129238036,147 34.79935544793116,32.08446688644939,147 34.79956458410499,32.08441126559168,147 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b13</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.79962579314182,32.08526317299558,113 34.79964990636474,32.08524012041487,113 34.79968871310492,32.0851278309606,113 34.79976858368696,32.08507451936023,113 34.79990823490776,32.08508242360018,113 34.79996950863889,32.08516072012627,113 34.80015463459727,32.08543382549099,113 34.79980504751011,32.08554721906521,113 34.79966029297012,32.08526684270706,113 34.79962579314182,32.08526317299558,113 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b14</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.8000208096644,32.08630166000324,135 34.80040821866094,32.08616997636091,135 34.80048019084535,32.08633965146448,135 34.80047856037197,32.08643231539664,135 34.80038570564778,32.08653609166527,135 34.80027838181043,32.08652590418053,135 34.80015882853181,32.08647355629243,135 34.80005357506869,32.08629754356733,135 34.8000208096644,32.08630166000324,135 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b15</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80380967764673,32.08322464756107,265 34.80390698009907,32.083401706156,265 34.8039198852418,32.08343025367437,265 34.8037421398709,32.08350179008881,265 34.80363408364492,32.0834889208796,265 34.80351227437878,32.08339439634589,265 34.80350125113237,32.08329973188262,265 34.80360999644588,32.08318800325014,265 34.80380967764673,32.08322464756107,265 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b15b</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80367742993225,32.08350318109775,235 34.80395304865108,32.08337584856236,235 34.80387695961293,32.08368671493477,235 34.80351321884817,32.08367422259688,235 34.80351862194999,32.08342353526771,235 34.80367742993225,32.08350318109775,235 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b16</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80398179454159,32.08478896143197,105 34.80402626019321,32.08467324472026,105 34.8041310740792,32.08460865814496,105 34.80424123553659,32.08456730971813,105 34.80448333567502,32.08482409935062,105 34.80410387690711,32.08495728701648,105 34.80398179454159,32.08478896143197,105 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b20</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80244475939968,32.08456109178411,98.00000000000001 34.80263175659756,32.08456804562107,98.00000000000001 34.80264024806193,32.0847213018642,98.00000000000001 34.80266530254681,32.08487115449804,98.00000000000001 34.8025855575546,32.08492740039236,98.00000000000001 34.80241684275765,32.084950786312,98.00000000000001 34.80226411249741,32.0848657380553,98.00000000000001 34.80226149822723,32.08468521378102,98.00000000000001 34.80237540954463,32.08467580034653,98.00000000000001 34.80238094817804,32.0846092419758,98.00000000000001 34.80244475939968,32.08456109178411,98.00000000000001 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b17</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80465188803772,32.084948996748,104 34.80479481991156,32.08515434574059,104 34.80466294948232,32.0854023548024,104 34.8044962726548,32.08536690353056,104 34.80434446120849,32.08519775164014,104 34.80465188803772,32.084948996748,104 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b21</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80467790298186,32.08395311235383,114 34.80496509832862,32.08409968396131,114 34.8048740662074,32.08427734805473,114 34.80460669682701,32.08416294656935,114 34.80467790298186,32.08395311235383,114 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+			<name>b22</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80504354727444,32.08433179687335,114 34.80528787244825,32.08440485053005,114 34.80516448028397,32.08465458935484,114 34.80494615584392,32.08458302135063,114 34.80504354727444,32.08433179687335,114 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+<Placemark>
+		<name>b72</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80190374671975,32.08257630035391,120 34.80196916052061,32.082738536179,120 34.80146807801862,32.08280017449416,120 34.80162415480953,32.08261525158147,120 34.80190374671975,32.08257630035391,120 
+					</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+	</Placemark>
+<Placemark>
+			<name>b10</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Polygon>
+				<extrude>1</extrude>
+				<tessellate>1</tessellate>
+				<altitudeMode>absolute</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80007735276978,32.08431328845008,71 34.80011230000274,32.08430534458803,71 34.80045380607692,32.08449340255361,71 34.80045075480023,32.08459242558226,71 34.80026914392249,32.08470873595354,71 34.8001775878618,32.08467770465794,71 34.80007034433834,32.08440730484436,71 34.80006773092887,32.08432973164312,71 34.80007735276978,32.08431328845008,71 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
