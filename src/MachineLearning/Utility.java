@@ -64,7 +64,7 @@ public class Utility {
         }
 
         //Get the KML 3d buildings
-        String walls_file = "C:\\Users\\shira\\OneDrive\\Desktop\\Final_project-main-master\\src\\EsriBuildingsBursaNoindentWithBoazBuilding.kml";
+        String walls_file = "src\\EsriBuildingsBursaNoindentWithBoazBuilding.kml";
         List<Building> bs = null;
         try {
             bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
