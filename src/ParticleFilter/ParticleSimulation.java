@@ -7,7 +7,6 @@ import Geometry.BuildingsFactory;
 import Geometry.Point2D;
 import Geometry.Point3D;
 import Parsing.nmea.NMEAProtocolParser;
-//import Utils.GeoUtils;
 import Utils.GeoUtils;
 import Utils.KML_Generator;
 import dataStructres.NMEAPeriodicMeasurement;
@@ -26,14 +25,20 @@ public class ParticleSimulation {
 
 
     public static void main(String[] args) {
-//      simulationMain2();
-//        testParse();
-//        test();
-//       NMEAParser();
-//        NEMAFIlePF();
-//        NEMAFIlePF2();
-        NEMAFIlePF3();
+//         simulationMain2();
+        testParse();
+        //  test();
+         NMEAParser();
+           NEMAFIlePF();
+         NEMAFIlePF2();
+            NEMAFIlePF3();
+
+
 //           test3();
+
+
+
+
     }
 
     private static void testParse() {
@@ -55,141 +60,147 @@ public class ParticleSimulation {
         System.out.println("end");
 
 
-}
+    }
 
     private static void test3() {
 
 
-            for(int j=1;j<6;j++)
-                for(int i=0;i<400;i+=10)
-                    System.out.println("Power is : "+j+". Dist is : "+Math.sqrt(2)*i+". Receivd SNR :"+SenseEden.GetSnr(0,0,i,i,j));
+        for(int j=1;j<6;j++)
+            for(int i=0;i<400;i+=10)
+                System.out.println("Power is : "+j+". Dist is : "+Math.sqrt(2)*i+". Receivd SNR :"+SenseEden.GetSnr(0,0,i,i,j));
 
     }
 
 
 
     private static void NEMAFIlePF2() {
-            String walls_file = "BoazMapJune8.kml";
-            Particles ParticleList;
-            Point3D pivot, pivot2;
-
-            List<ActionFunction>  Actions;
-            List<Building> bs = null;
-            try {
-                bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            System.out.println("Number of buildings is " + bs.size());
-            System.out.println("Number of particles is: "+ Particles.NumberOfParticles);
 
 
-            String Particle_path = "KaminData\\CombineHeadong";
-            String Particle_path3 = "KaminData\\Simulaton_routeTest_initial.kml";
 
-            List<Particles> PointInTime=  new ArrayList<>();
-            String Particle_ans_path = "NMEA_SmartPhones_Recordings\\Constructed_ABCD_Route_9_8_2016_V.kml";
-            String Particle_ans_path2 = "KaminData\\400ParticlesTry2.kml";
+        String walls_file = "BoazMapJune8.kml";
+        Particles ParticleList;
+        Point3D pivot, pivot2;
+
+        List<ActionFunction>  Actions;
+        List<Building> bs = null;
+        try {
+            bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        System.out.println("Number of buildings is " + bs.size());
+        System.out.println("Number of particles is: "+ Particles.NumberOfParticles);
+
+
+        String Particle_path = "KaminData\\CombineHeadong";
+        String Particle_path3 = "KaminData\\Simulaton_routeTest_initial.kml";
+
+        List<Particles> PointInTime=  new ArrayList<>();
+        String Particle_ans_path = "NMEA_SmartPhones_Recordings\\Constructed_ABCD_Route_9_8_2016_V.kml";
+        String Particle_ans_path2 = "KaminData\\400ParticlesTry2.kml";
+
 
         ParticleList = new Particles();
-            pivot = new Point3D(670053, 3551100, 1);
-            pivot2 =  new Point3D(pivot);
-            pivot2.offset(100, 100, 0);
+        pivot = new Point3D(670053, 3551100, 1);
+        pivot2 =  new Point3D(pivot);
+        pivot2.offset(100, 100, 0);
 
 
-               pivot = new Point3D(670003, 3551050, 1);
-             pivot2 =  new Point3D(pivot);
-            pivot2.offset(130, 130, 0);
+           pivot = new Point3D(670003, 3551050, 1);
+         pivot2 =  new Point3D(pivot);
+        pivot2.offset(130, 130, 0);
 
-            ParticleList.initParticlesWithHeading(pivot, pivot2);
+        ParticleList.initParticlesWithHeading(pivot, pivot2);
 
         KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path3,5);
 
 
-            NMEAProtocolParser parser = new NMEAProtocolParser();
-//            String NMEAFIlePath = "KaminData\\NMEAFiles\\routeABCDtwice11AM_NMEA.txt";
-//      String NMEAFIlePath = "NmeaRecordings\\ABCD_Twice_2nd_Time.txt";
-        String NMEAFIlePath = "NmeaRecordings\\April2015.txt";
+        NMEAProtocolParser parser = new NMEAProtocolParser();
+           String NMEAFIlePath = "KaminData\\NMEAFiles\\routeABCDtwice11AM_NMEA.txt";
+//         String NMEAFIlePath = "NmeaRecordings\\ABCD_Twice_2nd_Time.txt";
+//        String NMEAFIlePath = "NmeaRecordings\\April2015.txt";
 
-//         String NMEAFIlePath = "NmeaRecordings\\Diagonal_A_C_D_B_A_Twice.txt";
-//
-//            String NMEAFIlePath = "NMEA_SmartPhones_Recordings\\2.txt";
+        // String NMEAFIlePath = "NmeaRecordings\\Diagonal_A_C_D_B_A_Twice.txt";
+
+
+
+        //   String NMEAFIlePath = "NMEA_SmartPhones_Recordings\\2.txt";
 
 
         List<NMEAPeriodicMeasurement> NmeaList = null;
-            try {
-                NmeaList = parser.parse(NMEAFIlePath);
-            } catch (IOException e) {
-                e.printStackTrace();
-            } catch (ParseException e) {
-                e.printStackTrace();
-            }
+        try {
+            NmeaList = parser.parse(NMEAFIlePath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
 
-      //  String Recons_Path= "NmeaRecordings\\ABCD_Twice2_17_6COG_SOG_rec.kml";
-     //   String Recons_Path2= "NmeaRecordings\\ABCD_Twice2_17_6from_NMEA.kml";
+          String Recons_Path= "NmeaRecordings\\ABCD_Twice2_17_6COG_SOG_rec.kml";
+           String Recons_Path2= "NmeaRecordings\\ABCD_Twice2_17_6from_NMEA.kml";
 
-     //   UtilsAlgorithms.GenerateKMLfromCOG_SOS(NmeaList, Recons_Path);
-      //  UtilsAlgorithms.GenerateKMLfromNMEA_List(NmeaList, Recons_Path2);
+           UtilsAlgorithms.GenerateKMLfromCOG_SOS(NmeaList, Recons_Path);
+          UtilsAlgorithms.GenerateKMLfromNMEA_List(NmeaList, Recons_Path2);
 
-            int NumberOfSamples = NmeaList.size();
-            List<Sat> allSats;
+        int NumberOfSamples = NmeaList.size();
+        List<Sat> allSats;
         List<Point3D> PointsInTIme = new ArrayList<>();
-            List<Particles> finalList= new ArrayList<>();
-             finalList.add(ParticleList);
+        List<Particles> finalList= new ArrayList<>();
+        finalList.add(ParticleList);
 
         List<Point3D> ans = new ArrayList<Point3D>();
-            int j=0;
+        int j=0;
 
-            for(int i=2;i<NumberOfSamples; i++)
-            {
+        for(int i=2;i<NumberOfSamples; i++)
+        {
 
-                System.out.println("Compute position for TimeStamp # "+i);
-                double COG = NmeaList.get(i).getCOG();
-                double SOG = NmeaList.get(i).getSOG();
-                double dt = NmeaList.get(i).getUtcTime()-NmeaList.get(i-1).getUtcTime();
-                if(dt>=1)
-                    dt=1;
-              //  System.out.println("SOG: "+ SOG+"  .  COG: "+COG+"  dt:  "+dt );
-               // ParticleList.MoveParticlesBySOG_COGWithHeading(SOG, COG);
-                ParticleList.MoveParticlesBySOG_COG(SOG, COG, dt);
+            System.out.println("Compute position for TimeStamp # "+i);
+            double COG = NmeaList.get(i).getCOG();
+            double SOG = NmeaList.get(i).getSOG();
+            double dt = NmeaList.get(i).getUtcTime()-NmeaList.get(i-1).getUtcTime();
+            if(dt>=1)
+                dt=1;
+              System.out.println("SOG: "+ SOG+"  .  COG: "+COG+"  dt:  "+dt );
+             ParticleList.MoveParticlesBySOG_COGWithHeading(SOG, COG);
+            ParticleList.MoveParticlesBySOG_COG(SOG, COG, dt);
 
-                allSats = UtilsAlgorithms.GetUpdateSatList(NmeaList.get(i));
+            allSats = UtilsAlgorithms.GetUpdateSatList(NmeaList.get(i));
 
-                ParticleList.OutFfRegion(bs, pivot, pivot2);
+            ParticleList.OutFfRegion(bs, pivot, pivot2);
 
-                ParticleList.MessureSignalFromSats( bs,  allSats);
+            ParticleList.MessureSignalFromSats( bs,  allSats);
 
-              //  ParticleList.ComputeWeight4KaminV0(allSats);
-               ParticleList.ComputeWeight4KaminV1(allSats);
+              ParticleList.ComputeWeight4KaminV0(allSats);
+            ParticleList.ComputeWeight4KaminV1(allSats);
 
-                //      ParticleList.printWeights();
+                  ParticleList.printWeights();
 
-                ParticleList.sort();
+            ParticleList.sort();
 
-               // for(int x=0;x<10; x++)
-                //    PointsInTIme.add(ParticleList.getParticleList().get(x).pos);
+             for(int x=0;x<10; x++)
+                PointsInTIme.add(ParticleList.getParticleList().get(x).pos);
 
-                Point3D tmp = ParticleList.GetBestParticle();
-              //  Point3D tmp = ParticleList.GetOptimalLocation(7);
-                ans.add(tmp);
-               // PointInTime.add(i-2, ParticleList);
+            Point3D tmp = ParticleList.GetBestParticle();
+//              Point3D tmp = ParticleList.GetOptimalLocation(7);
+            ans.add(tmp);
+             PointInTime.add(i-2, ParticleList);
 
-                 ParticleList.Resample();
+            ParticleList.Resample();
 
-                 //   System.out.println(ParticleList.getParticleList().get(k).pos);
-              //   String Particle_path2=Particle_path+i+".kml";
-              //  KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path2,12);
-                //  KML_Point3D_List_Generator.Generate_kml_from_List(PointList,Particle_path2);
-                //  ParticleList.ComputeAndPrintErrors(path.get(i));
-
-            }
-
-            KML_Generator.generateKMLfromParticles(PointsInTIme, Particle_ans_path2, 20);
-            KML_Generator.Generate_kml_from_List(ans, Particle_ans_path, false);
-            System.out.println("end of program");
-
-
+//               System.out.println(ParticleList.getParticleList().get(k).pos);
+               String Particle_path2=Particle_path+i+".kml";
+              KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path2,12);
+//              KML_Point3D_List_Generator.Generate_kml_from_List(PointList,Particle_path2);
+//              ParticleList.ComputeAndPrintErrors(path.get(i));
+//
         }
+
+        //     KML_Generator.generateKMLfromParticles(PointsInTIme, Particle_ans_path2, 20);
+        KML_Generator.Generate_kml_from_List(ans, Particle_ans_path, false);
+        System.out.println("end of program");
+
+
+    }
 
 
     private static void NEMAFIlePF3() {
@@ -220,14 +231,14 @@ public class ParticleSimulation {
 
 
         ParticleList = new Particles();
-        pivot = new Point3D(105555, 3551100, 1);
+        pivot = new Point3D(670053, 3551100, 1);
         pivot2 =  new Point3D(pivot);
-        pivot2.offset(200, 100, 0);
+        pivot2.offset(100, 100, 0);
 
 
-           pivot = new Point3D(670003, 3551050, 1);
-         pivot2 =  new Point3D(pivot);
-        pivot2.offset(130, 130, 0);
+        //   pivot = new Point3D(670003, 3551050, 1);
+        // pivot2 =  new Point3D(pivot);
+        //pivot2.offset(130, 130, 0);
 
         ParticleList.initParticlesWithHeading(pivot, pivot2);
 
@@ -235,15 +246,15 @@ public class ParticleSimulation {
 
 
         NMEAProtocolParser parser = new NMEAProtocolParser();
-           String NMEAFIlePath = "KaminData\\NMEAFiles\\routeABCDtwice11AM_NMEA.txt";
-//         String NMEAFIlePath = "NmeaRecordings\\ABCD_Twice_2nd_Time.txt";
-//        String NMEAFIlePath = "NmeaRecordings\\2.txt";
-//
-//         String NMEAFIlePath = "NmeaRecordings\\Diagonal_A_C_D_B_A_Twice.txt";
-//
-//
-//
-//           String NMEAFIlePath = "NMEA_SmartPhones_Recordings\\2.txt";
+        //   String NMEAFIlePath = "KaminData\\NMEAFiles\\routeABCDtwice11AM_NMEA.txt";
+        // String NMEAFIlePath = "NmeaRecordings\\ABCD_Twice_2nd_Time.txt";
+        String NMEAFIlePath = "NmeaRecordings\\2.txt";
+
+        // String NMEAFIlePath = "NmeaRecordings\\Diagonal_A_C_D_B_A_Twice.txt";
+
+
+
+        //   String NMEAFIlePath = "NMEA_SmartPhones_Recordings\\2.txt";
 
 
         List<NMEAPeriodicMeasurement> NmeaList = null;
@@ -315,10 +326,10 @@ public class ParticleSimulation {
         }
 
         //     KML_Generator.generateKMLfromParticles(PointsInTIme, Particle_ans_path2, 20);
-       //NMEAPeriodicMeasurement parse(List<String> NmeaREcords)
-       // {}
+        //NMEAPeriodicMeasurement parse(List<String> NmeaREcords)
+        // {}
 
-//        KML_Generator.Generate_kml_from_List(ans, Particle_ans_path, false);
+        KML_Generator.Generate_kml_from_List(ans, Particle_ans_path, false);
         System.out.println("end of program");
 
 
@@ -370,58 +381,58 @@ public class ParticleSimulation {
 
 
         String Particle_ans_path = "KaminData\\ans_RouteTest.kml";
-//        KML_Generator.Generate_kml_from_List(ans, Particle_ans_path, false);
+        KML_Generator.Generate_kml_from_List(ans, Particle_ans_path, false);
 
 
     }
 
     private static void NEMAFIlePF() {
 
-            String walls_file = "BoazMapJune8.kml";
-            Particles ParticleList;
-            Point3D pivot, pivot2;
+        String walls_file = "BoazMapJune8.kml";
+        Particles ParticleList;
+        Point3D pivot, pivot2;
 
-            List<ActionFunction>  Actions;
-            List<Building> bs = null;
-            try {
-                bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            System.out.println("Number of buildings is " + bs.size());
+        List<ActionFunction>  Actions;
+        List<Building> bs = null;
+        try {
+            bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        System.out.println("Number of buildings is " + bs.size());
         System.out.println("Number of particles is: "+ Particles.NumberOfParticles);
 
 
-            String Particle_path = "KaminData\\BayesianWeight900Par";
-            String Particle_path3 = "KaminData\\Simulaton_routeTest_initial.kml";
+        String Particle_path = "KaminData\\BayesianWeight900Par";
+        String Particle_path3 = "KaminData\\Simulaton_routeTest_initial.kml";
 
 
-            String Particle_ans_path = "KaminData\\August3.kml";
+        String Particle_ans_path = "KaminData\\August3.kml";
 
-            ParticleList = new Particles();
-           pivot = new Point3D(670053, 3551100, 1);
-           pivot2 =  new Point3D(pivot);
-            pivot2.offset(100, 100, 0);
-
-
-        pivot = new Point3D(670003, 3551050, 1);
+        ParticleList = new Particles();
+        pivot = new Point3D(670053, 3551100, 1);
         pivot2 =  new Point3D(pivot);
-        pivot2.offset(130, 130, 0);
+        pivot2.offset(100, 100, 0);
 
-            ParticleList.initParticles(pivot, pivot2);
-            KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path3,5);
 
-            NMEAProtocolParser parser = new NMEAProtocolParser();
-            String NMEAFIlePath = "KaminData\\NMEAFiles\\routeABCDtwice11AM_NMEA.txt";
-//            String NMEAFIlePath = "KaminData\\NMEAFiles\\route_ABCD_STM_1Hz_twice.txt";
-//
-//       String NMEAFIlePath = "NmeaRecordings\\ABCD_Twice2_17_6.txt";
-//         String NMEAFIlePath = "NmeaRecordings\\ABCD_Twice_2nd_Time.txt";
+        //   pivot = new Point3D(670003, 3551050, 1);
+        // pivot2 =  new Point3D(pivot);
+        //pivot2.offset(130, 130, 0);
+
+        ParticleList.initParticles(pivot, pivot2);
+        KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path3,5);
+
+        NMEAProtocolParser parser = new NMEAProtocolParser();
+        //String NMEAFIlePath = "KaminData\\NMEAFiles\\routeABCDtwice11AM_NMEA.txt";
+        //  String NMEAFIlePath = "KaminData\\NMEAFiles\\route_ABCD_STM_1Hz_twice.txt";
+
+        String NMEAFIlePath = "NmeaRecordings\\ABCD_Twice2_17_6.txt";
+        //  String NMEAFIlePath = "NmeaRecordings\\ABCD_Twice_2nd_Time.txt";
 
         List<NMEAPeriodicMeasurement> NmeaList = null;
-            try {
-                NmeaList = parser.parse(NMEAFIlePath);
-            } catch (IOException e) {
+        try {
+            NmeaList = parser.parse(NMEAFIlePath);
+        } catch (IOException e) {
             e.printStackTrace();
         } catch (ParseException e) {
             e.printStackTrace();
@@ -429,53 +440,54 @@ public class ParticleSimulation {
 
 
 
-       int NumberOfSamples = NmeaList.size();
+        int NumberOfSamples = NmeaList.size();
         List<Sat> allSats;
 
 
 
 
-            List<Point3D> ans = new ArrayList<Point3D>();
+        List<Point3D> ans = new ArrayList<Point3D>();
 
-            for(int i=2;i<NumberOfSamples; i++)
-            {
+        for(int i=2;i<NumberOfSamples; i++)
+        {
 
-                System.out.println("compute for timestamp "+i);
-                double COG = NmeaList.get(i).getCOG();
-                double SOG = NmeaList.get(i).getSOG();
-                double dt = NmeaList.get(i).getUtcTime()-NmeaList.get(i-1).getUtcTime();
-                if(dt>=1)
-                    dt=1;
-                 ParticleList.MoveParticlesBySOG_COGWithHeading(SOG, COG);
-                ParticleList.MoveParticlesBySOG_COG(SOG, COG, dt);
+            System.out.println("compute for timestamp "+i);
+            double COG = NmeaList.get(i).getCOG();
+            double SOG = NmeaList.get(i).getSOG();
+            double dt = NmeaList.get(i).getUtcTime()-NmeaList.get(i-1).getUtcTime();
+            if(dt>=1)
+                dt=1;
+            //     ParticleList.MoveParticlesBySOG_COGWithHeading(SOG, COG);
+            ParticleList.MoveParticlesBySOG_COG(SOG, COG, dt);
 
-                allSats = UtilsAlgorithms.GetUpdateSatList(NmeaList.get(i));
-                ParticleList.OutFfRegion(bs, pivot, pivot2);
+            allSats = UtilsAlgorithms.GetUpdateSatList(NmeaList.get(i));
+            ParticleList.OutFfRegion(bs, pivot, pivot2);
 
-                ParticleList.MessureSignalFromSats( bs,  allSats);
-
-
-                ParticleList.ComputeWeight4KaminV1(allSats);
-               ParticleList.printWeights();
-                Point3D tmp = ParticleList.GetBestParticle();
-                ans.add(tmp);
-                ParticleList.Resample();
+            ParticleList.MessureSignalFromSats( bs,  allSats);
 
 
-            }
-
-             KML_Generator.Generate_kml_from_List(ans, Particle_ans_path);
-        System.out.println("end of program");
+            ParticleList.ComputeWeight4KaminV1(allSats);
+            //      ParticleList.printWeights();
+            Point3D tmp = ParticleList.GetBestParticle();
+            ans.add(tmp);
+            ParticleList.Resample();
 
 
         }
+
+        KML_Generator.Generate_kml_from_List(ans, Particle_ans_path);
+        System.out.println("end of program");
+
+
+    }
 
 
 
     private static void NMEAParser() {
 
         NMEAProtocolParser parser = new NMEAProtocolParser();
-                String NMEAFIlePath = "KaminData\\NMEAFiles\\routeABCDtwice11AM_NMEA.txt";
+        String NMEAFIlePath = "KaminData\\NMEAFiles\\routeABCDtwice11AM_NMEA.txt";
+
 
         List<NMEAPeriodicMeasurement> NmeaList = null;
         try {
@@ -490,7 +502,7 @@ public class ParticleSimulation {
         for(int i=0; i<NmeaList.size();i++)
         {
             Point3D tmp= new Point3D(NmeaList.get(i).getLat(),NmeaList.get(i).getLon(),NmeaList.get(i).getAlt());
-            tmp = GeoUtils.convertLATLONtoUTM(tmp);
+            // tmp = GeoUtils.convertLATLONtoUTM(tmp);
             pointList.add(tmp);
 
             List<Sat> allSat = UtilsAlgorithms.GetUpdateSatList(NmeaList.get(i));
@@ -499,7 +511,7 @@ public class ParticleSimulation {
             {
                 System.out.println("id: "+allSat.get(j).getSatID()+" Az: "+allSat.get(j).getAzimuth()+" El: "+allSat.get(j).getElevetion()+" SNR: "+allSat.get(j).getSingleSNR());
             }
-            System.out.println("Timestamp "+ i);
+            //   System.out.println("Timestamp "+ i);
             System.out.println();
             System.out.println();
             System.out.println("Time : "+NmeaList.get(i).getTime()+" cog: "+NmeaList.get(i).getCOG()+" Sog : "+NmeaList.get(i).getSOG());
@@ -515,17 +527,18 @@ public class ParticleSimulation {
 
     public  static void simulationMain2() {
 
-       // String walls_file = "EsriBuildingsBursaNoindentWithBoazBuilding.kml"; //todo Roi : Sparse this file to contain only 10 buildings!
+        // String walls_file = "EsriBuildingsBursaNoindentWithBoazBuilding.kml"; //todo Roi : Sparse this file to contain only 10 buildings!
         String walls_file = "Esri_v0.4.kml";
 
-       // Buildings bs;
+
+        // Buildings bs;
         List<Sat> allSats;
 
         List<Point3D> path;
         Particles ParticleList;
         Point3D pivot, pivot2;
         int CurrentGeneration;
-     //   String Simulation_route_kml_path = "C:\\Users\\Roi\\Documents\\PHD\\Papers\\ParticleFilter\\Data\\Simulaton_route.kml";
+        //   String Simulation_route_kml_path = "C:\\Users\\Roi\\Documents\\PHD\\Papers\\ParticleFilter\\Data\\Simulaton_route.kml";
 
 
 
@@ -565,7 +578,7 @@ public class ParticleSimulation {
         List<Point3D> PointList;
         CurrentGeneration = 0;
         Random R1= new Random();
-       for(int i=0;i<path.size()-1; i++)
+        for(int i=0;i<path.size()-1; i++)
         {
             ActionFunction tmp = new ActionFunction(path.get(i), path.get(i+1), 0 , 0,0);
 
@@ -576,8 +589,8 @@ public class ParticleSimulation {
         for(int i=1;i<path.size()-1; i++)
         {
 
-           System.out.println("compute for timestamp "+i);
-//            ActionFunction currentAction = UtilsAlgorithms.getActionFromNMEA(NmeaList.get(i));
+            System.out.println("compute for timestamp "+i);
+            //  ActionFunction currentAction = UtilsAlgorithms.getActionFromNMEA(NmeaList.get(i));
             ParticleList.MoveParticleWithError(Actions.get(i));
             //allSats = UtilsAlgorithms.GetUpdateSatList(NmeaList.get(i));
 
@@ -586,23 +599,23 @@ public class ParticleSimulation {
             //ParticleList.MessureSignalFromSats( bs,  allSats);
             ParticleList.MessureSignalFromSats( bs,  allSats);
 
-          //  ParticleList.MoveParticleWithError(Actions.get(i));
+            //  ParticleList.MoveParticleWithError(Actions.get(i));
 
             ParticleList.ComputeWeightsNoHistory(losData.getSatData(i));
             //ParticleList.ComputeWeights(losData.getSatData(i)); // compute weights with hisotry
             ParticleList.Resample();
 
-           // Point3D tmp = ParticleList.GetParticleWithMaxWeight();
+            // Point3D tmp = ParticleList.GetParticleWithMaxWeight();
             //ans.add(tmp);
             String Particle_path2=Particle_path+i+".kml";
 
-//            KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path2,5);
+            KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path2,5);
             //  KML_Point3D_List_Generator.Generate_kml_from_List(PointList,Particle_path2);
-          //  ParticleList.ComputeAndPrintErrors(path.get(i));
+            //  ParticleList.ComputeAndPrintErrors(path.get(i));
 
         }
 
-       // GUI.Generate_kml_from_List(ans, Particle_ans_path);
+        // GUI.Generate_kml_from_List(ans, Particle_ans_path);
 
 
     }

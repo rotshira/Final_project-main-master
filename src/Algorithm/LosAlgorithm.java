@@ -16,7 +16,6 @@ public class LosAlgorithm {
     public static boolean ComputeLos(Point3D pos, Wall wall, Sat sat)
     {
         Line3D ray = new Line3D(pos, sat.getAzimuth(),sat.getElevetion(), 300);
-
         boolean ans = wall.isIntersecting(ray);
         if(ans==true) // wall is intersection, hence NLOS
             return !ans;

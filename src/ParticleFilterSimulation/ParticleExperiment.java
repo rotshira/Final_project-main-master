@@ -27,7 +27,7 @@ public class ParticleExperiment {
 
     public static void Test_Naive_Boolean() {
 
-        String buildingFilePath = "EsriBuildingsBursaNoindentWithBoazBuilding.kml";
+        String buildingFilePath = "src\\ParticleFilterSimulation\\EsriBuildingsBursaNoindentWithBoazBuilding.kml";
         BuildingsFactory fact = new BuildingsFactory();
 
         List<Building> buildings1 = null;

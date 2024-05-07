@@ -34,7 +34,7 @@ public class Utility {
     public static final int FirstElementInList = 10;
 
     public static void main(String[] args) {
-
+        int cnt = 0;
         Point3D userStationaryPosUtmCord = new Point3D(0, 0, 0);
         List<SirfPeriodicMeasurement> me = null;
         try {
@@ -64,7 +64,7 @@ public class Utility {
         }
 
         //Get the KML 3d buildings
-        String walls_file = "";
+        String walls_file = "C:\\Users\\shira\\OneDrive\\Desktop\\Final_project-main-master\\src\\EsriBuildingsBursaNoindentWithBoazBuilding.kml";
         List<Building> bs = null;
         try {
             bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
@@ -80,16 +80,21 @@ public class Utility {
         if (UserIsStationary && !ComputeLosViaCamera) {
             for (SirfPeriodicMeasurement SirfTimeStamp : me) {
 
-                //  Point3D UserLoc = new Point3D(SirfTimeStamp.getLat(), SirfTimeStamp.getLon(), 1.8);
-                //THis for iterate for each PRN and update the location (Azimuth, Elevation) of each Sattelite in a list (allsats)  .
+                  Point3D UserLoc = new Point3D(SirfTimeStamp.getLat(), SirfTimeStamp.getLon(), 1.8);
+//                THis for iterate for each PRN and update the location (Azimuth, Elevation) of each Sattelite in a list (allsats)  .
                 for (Integer PRN : parsedPrnsSorted) {
 
-
                     SirfSVMeasurement SV = SirfTimeStamp.getSatellites().get(PRN);
-                    Sat tmp = new Sat(SV.getAzimuth(), SV.getElevation(), PRN);
-                    Boolean Los = LosAlgorithm.ComputeLos(userStationaryPosUtmCord, bs,tmp);
-                    SirfTimeStamp.getSatellites().get(PRN).setLOS(Los);
-                    // System.out.println("For timestamp 0 PRN " + PRN + " is labled as " + Los);
+                    if(SV != null)
+                        {
+                            Sat tmp = new Sat(SV.getAzimuth(), SV.getElevation(), PRN);
+                            Boolean Los = LosAlgorithm.ComputeLos(userStationaryPosUtmCord, bs,tmp);
+                            SirfTimeStamp.getSatellites().get(PRN).setLOS(Los);
+                            System.out.println("For timestamp 0 PRN " + PRN + " is labled as " + Los);
+                        }else {
+                                cnt++;
+
+                              }
 
                 }
             }
@@ -99,7 +104,7 @@ public class Utility {
         {
 
         }
-
+        System.out.println("number of null sv " + cnt);
         System.out.println("end of main");
         //  Parsing.SirfCsvWriter.printToFile(me, "c://Parsing//ggg.csv");
 

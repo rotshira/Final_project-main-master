@@ -1,5 +1,7 @@
 package Geometry;
 
+import Utils.GeomUtils;
+
 /**
  * Created by Roi on 1/7/2015.
  */
@@ -31,13 +33,13 @@ public class Line3D {
         //This section converts Sat azimut (where 0 degrees is North ) to unit circle azimut where north is 90 degrees
         //note that elevetion is messures from xy plane , hence the diffrence between those equations and wikipedia equations
         //http://en.wikipedia.org/wiki/Spherical_coordinate_system
-//        double newAzimut = GeomUtils.ConvertSatAzimutInDegreesTOfitUnitCircle(azimuth);
-//        double newX = pos.getX() + dist*Math.cos(Math.toRadians(elevetion))*Math.cos(Math.toRadians(newAzimut));
-//        double newY = pos.getY() + dist*Math.cos(Math.toRadians(elevetion))*Math.sin(Math.toRadians(newAzimut));
-//        double newZ = pos.getZ() + dist*Math.sin(Math.toRadians(elevetion));
-//        Point3D newPoint = new Point3D(newX, newY, newZ);
-//        this.p1 = pos;
-//        this.p2 = newPoint;
+        double newAzimut = GeomUtils.ConvertSatAzimutInDegreesTOfitUnitCircle(azimuth);
+        double newX = pos.getX() + dist*Math.cos(Math.toRadians(elevetion))*Math.cos(Math.toRadians(newAzimut));
+        double newY = pos.getY() + dist*Math.cos(Math.toRadians(elevetion))*Math.sin(Math.toRadians(newAzimut));
+        double newZ = pos.getZ() + dist*Math.sin(Math.toRadians(elevetion));
+        Point3D newPoint = new Point3D(newX, newY, newZ);
+        this.p1 = pos;
+        this.p2 = newPoint;
     }
 
     public Point3D getP1() {
