@@ -27,7 +27,7 @@ public class ParticleExperiment {
 
     public static void Test_Naive_Boolean() {
 
-        String buildingFilePath = "src\\ParticleFilterSimulation\\EsriBuildingsBursaNoindentWithBoazBuilding.kml";
+        String buildingFilePath = "/Users/nisimatiya/Desktop/מדעי המחשב/java/Final_project-main-master/src/ParticleFilterSimulation/EsriBuildingsBursaNoindentWithBoazBuilding.kml";
         BuildingsFactory fact = new BuildingsFactory();
 
         List<Building> buildings1 = null;
@@ -64,6 +64,8 @@ public class ParticleExperiment {
             ParticleList.getNaiveLosNlosState(meas);
 
         }
+
+
     }
 
 }

@@ -394,12 +394,14 @@ public class Particles {
     public Point3D GetParticleWithMaxWeight()
     {
         double w=this.ParticleList.get(0).getWeight();
+
         double tmpW=0;
         int index=0;
         for(int i=1; i<NumberOfParticles; i++)
 
         {
             tmpW = this.ParticleList.get(i).getWeight();
+
             if(tmpW>w)
             {
                 w=tmpW;

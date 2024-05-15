@@ -89,7 +89,9 @@ public class Wall {
 
     //calculate the distance between a point on the wall and the top of the wall
     public double distanceToTop(Point3D pointOnWall) {
-        return maxHeight - pointOnWall.getZ();
-}
+        double distance = maxHeight - pointOnWall.getZ();
+        return distance >= 0 ? distance : -1;
+    }
+
 
 }

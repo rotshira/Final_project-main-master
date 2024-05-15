@@ -16,7 +16,7 @@ public class Building {
     double maxHeigth;
     List<Point3D> BuildindVertices;
 
-    Building(List<Point3D> buildingVertecies)
+    public Building(List<Point3D> buildingVertecies)
     {
         this.walls = new ArrayList<Wall>();
         this.maxHeigth = 0;

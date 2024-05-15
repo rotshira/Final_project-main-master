@@ -109,7 +109,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.802447179939335 32.084103474844476 1.0</coordinates>
+<coordinates>34.802447179939314 32.084103474844476 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -141,7 +141,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.80246836281186 32.084103173392684 1.0</coordinates>
+<coordinates>34.802468362811865 32.084103173392684 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -365,7 +365,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.80261664291074 32.0841010631308 1.0</coordinates>
+<coordinates>34.80261664291074 32.084101063130774 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -397,7 +397,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.802637825780735 32.08410076165065 1.0</coordinates>
+<coordinates>34.802637825780735 32.084100761650646 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -509,7 +509,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.80266889184435 32.08406424056887 1.0</coordinates>
+<coordinates>34.80266889184436 32.084064240568864 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -605,7 +605,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.802667829485536 32.08401013728604 1.0</coordinates>
+<coordinates>34.802667829485536 32.08401013728605 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -653,7 +653,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.802667298307185 32.08398308564449 1.0</coordinates>
+<coordinates>34.80266729830718 32.08398308564449 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -877,7 +877,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.80266481948438 32.08385684464876 1.0</coordinates>
+<coordinates>34.80266481948437 32.083856844648764 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -1085,7 +1085,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.80266251773424 32.0837396208646 1.0</coordinates>
+<coordinates>34.80266251773423 32.08373962086459 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -1101,7 +1101,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.802662340677095 32.08373060365034 1.0</coordinates>
+<coordinates>34.80266234067708 32.08373060365033 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -1213,7 +1213,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.80266110127925 32.08366748315011 1.0</coordinates>
+<coordinates>34.802661101279256 32.083667483150116 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -1293,7 +1293,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.80266021599747 32.083622397078116 1.0</coordinates>
+<coordinates>34.80266021599747 32.083622397078095 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -1533,7 +1533,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.80252217397056 32.08360632220387 1.0</coordinates>
+<coordinates>34.80252217397056 32.08360632220388 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -1597,7 +1597,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.80247980845564 32.08360692511371 1.0</coordinates>
+<coordinates>34.80247980845564 32.083606925113685 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -1613,7 +1613,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.802469217076705 32.08360707583895 1.0</coordinates>
+<coordinates>34.802469217076705 32.083607075838955 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -1629,7 +1629,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.802458625697696 32.08360722656328 1.0</coordinates>
+<coordinates>34.802458625697696 32.083607226563295 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -1741,7 +1741,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.802395254452044 32.083617148106626 1.0</coordinates>
+<coordinates>34.802395254452044 32.08361714810659 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -1773,7 +1773,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.802395608512406 32.0836351825381 1.0</coordinates>
+<coordinates>34.80239560851242 32.0836351825381 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -1933,7 +1933,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.80239737881904 32.08372535469473 1.0</coordinates>
+<coordinates>34.80239737881904 32.08372535469471 1.0</coordinates>
 </Point>
 </Placemark>
 
@@ -2237,7 +2237,7 @@
  </TimeStamp>
 <Point>
 <altitudeMode>relativeToGround</altitudeMode>
-<coordinates>34.80240074242341 32.08389668178848 1.0</coordinates>
+<coordinates>34.80240074242342 32.08389668178849 1.0</coordinates>
 </Point>
 </Placemark>
 

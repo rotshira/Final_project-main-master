@@ -3,6 +3,7 @@ package Algorithm;
 import GNSS.Sat;
 import Geometry.*;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -12,6 +13,52 @@ import java.util.Set;
  * Those set of functions return true for a LOS sattelite and false for NLOS satelite.
  */
 public class LosAlgorithm {
+
+
+    public static void main(String[] args) {
+        //ourtest1();
+        ourtest2();
+
+    }
+
+    private static void ourtest1() {
+        Point3D p1 = new Point3D(0, 0, 0);
+        Point3D p2 = new Point3D(10, 10, 10);
+        Wall wall = new Wall(p1, p2);
+
+        Sat sat = new Sat(45, 45, 0);
+
+        Point3D pos = new Point3D(1, 1, 1);
+        double losDistance = ourComputeLos(pos, wall, sat);
+
+        System.out.println("Distance from intersection point to top of wall: " + losDistance);
+
+    }
+    private static void ourtest2() {
+        // Create a sample building with walls
+        Point3D p1 = new Point3D(0, 0, 0);
+        Point3D p2 = new Point3D(10, 10, 10);
+        Point3D p3 = new Point3D(20, 20, 20);
+        Point3D p4 = new Point3D(30, 30, 30);
+        List<Point3D> temp = new ArrayList<>();
+        temp.add(p1);
+        temp.add(p2);
+        temp.add(p3);
+        temp.add(p4);
+        Building building = new Building(temp);
+
+        // Create a sample satellite
+        Sat sat = new Sat(45, 45, 0); // Sample azimuth and elevation angles
+        // Create a sample observer position
+        Point3D pos = new Point3D(0, 0, 0); // Sample observer position
+        // Test the ourComputeLos function
+        double losDistance = ourComputeLos(pos, building, sat);
+        System.out.println("Line-of-sight distance to top of building: " + losDistance);
+
+
+
+    }
+
     //Computes LOS between a point, a wall, and a satellite.
     public static boolean ComputeLos(Point3D pos, Wall wall, Sat sat)
     {
@@ -30,11 +77,14 @@ public class LosAlgorithm {
     public static double ourComputeLos(Point3D pos, Wall wall, Sat sat){
         Line3D ray = new Line3D(pos, sat.getAzimuth(),sat.getElevetion(), 300);
 
-        Point3D cutPoint = wall.intersectionPoint3D(ray);//intersection pos between a wall
-        if(cutPoint==null)
-            return -1;
-        return wall.distanceToTop(cutPoint);
+        Point3D cutPoint = wall.intersectionPoint3D(ray); // Intersection point between a wall and the ray
+        if(cutPoint == null) {
+            return -1; // No intersection, return -1
+        } else {
+            return wall.distanceToTop(cutPoint); // Calculate and return distance to top of the wall
+        }
     }
+
 
 
 
@@ -64,10 +114,13 @@ public class LosAlgorithm {
         {
             // Compute the LOS distance from the observer's position to the current wall.
             double distance = ourComputeLos(pos, wall, sat);
-            if((distance != -1) && (distance > max_distanceToTop))
+            if((distance != -1) && (distance > max_distanceToTop)){
                 max_distanceToTop = distance;
+
+            }
         }
-        return max_distanceToTop;
+
+        return max_distanceToTop == Integer.MIN_VALUE ? -1: max_distanceToTop;
     }
 
     //Computes LOS between a point, a list of buildings, and a satellite by iterating over the buildings and calling the previous function.
@@ -99,7 +152,7 @@ public class LosAlgorithm {
             if((distance != -1) && (distance > max_distanceToTop))
                 max_distanceToTop = distance;
         }
-        return max_distanceToTop;
+        return max_distanceToTop == Integer.MIN_VALUE ? -1: max_distanceToTop;
     }
 
 
