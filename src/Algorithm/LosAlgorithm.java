@@ -16,8 +16,8 @@ public class LosAlgorithm {
 
 
     public static void main(String[] args) {
-        //ourtest1();
-        ourtest2();
+//        ourtest1();
+//        ourtest2();
 
     }
 
@@ -50,7 +50,7 @@ public class LosAlgorithm {
         // Create a sample satellite
         Sat sat = new Sat(45, 45, 0); // Sample azimuth and elevation angles
         // Create a sample observer position
-        Point3D pos = new Point3D(0, 0, 0); // Sample observer position
+        Point3D pos = new Point3D(0, 0, 35); // Sample observer position
         // Test the ourComputeLos function
         double losDistance = ourComputeLos(pos, building, sat);
         System.out.println("Line-of-sight distance to top of building: " + losDistance);

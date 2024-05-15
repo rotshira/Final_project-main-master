@@ -540,7 +540,7 @@ public class ParticleSimulation {
         Particles ParticleList;
         Point3D pivot, pivot2;
         int CurrentGeneration;
-           String Simulation_route_kml_path = "Simulaton__route_May_2016.kml";
+        String Simulation_route_kml_path = "Simulaton__route_May_2016.kml";
 
 
 
@@ -593,9 +593,9 @@ public class ParticleSimulation {
         {
 
             System.out.println("compute for timestamp "+i);
-            //ActionFunction currentAction = UtilsAlgorithms.getActionFromNMEA(NmeaList.get(i));
+//            ActionFunction currentAction = UtilsAlgorithms.getActionFromNMEA(NmeaList.get(i));
             ParticleList.MoveParticleWithError(Actions.get(i));
-            //allSats = UtilsAlgorithms.GetUpdateSatList(NmeaList.get(i));
+//            allSats = UtilsAlgorithms.GetUpdateSatList(NmeaList.get(i));
 
             ParticleList.OutFfRegion(bs, pivot, pivot2);
 
@@ -624,7 +624,6 @@ public class ParticleSimulation {
 //        KML_Generator.Generate_kml_from_List(ans,"checkAns.kml");
 
 
-        // GUI.Generate_kml_from_List(ans, Particle_ans_path);
 
 
     }
@@ -654,7 +653,7 @@ public class ParticleSimulation {
         for (Point3D point : path) {
             // For each point, check LOS/NLOS with each satellite
             for (Sat sat : allSats) {
-                double isLOS = LosAlgorithm.ourComputeLos(point, bs, sat);
+                boolean isLOS = LosAlgorithm.ComputeLos(point, bs, sat);
                 System.out.println("Point: " + point + ", Satellite: " + sat.getSatID() + ", LOS: " + isLOS);
             }
         }

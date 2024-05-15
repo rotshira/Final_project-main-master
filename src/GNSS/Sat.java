@@ -22,6 +22,7 @@ public class Sat {
         this.satID = satID;
     }
 
+
     public int getSingleSNR() {
         return SingleSNR;
     }
