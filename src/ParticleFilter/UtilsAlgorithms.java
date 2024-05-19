@@ -107,20 +107,20 @@ public class UtilsAlgorithms {
         Sat tmp;
         tmp=new Sat(114,8,0);             //PRN 2
         sat_data2.add(tmp);
-//        tmp=new Sat( 130, 20,1);      //PRN 4
-//        sat_data2.add(tmp);
-//
-//        tmp=new Sat(163,9,2);//PRN 9
-//        sat_data2.add(tmp);
-//
-//        tmp=new Sat(118,9,3) ;  //PRN 12
-//        sat_data2.add(tmp);
-//
-//        tmp=new Sat(40,21,4); //PRN 14
-//        sat_data2.add(tmp);
-//
-//        tmp=new Sat(148,26,5);                //PRN 15
-//        sat_data2.add(tmp);
+        tmp=new Sat( 130, 20,1);      //PRN 4
+        sat_data2.add(tmp);
+
+        tmp=new Sat(163,9,2);//PRN 9
+        sat_data2.add(tmp);
+
+        tmp=new Sat(118,9,3) ;  //PRN 12
+        sat_data2.add(tmp);
+
+        tmp=new Sat(40,21,4); //PRN 14
+        sat_data2.add(tmp);
+
+        tmp=new Sat(148,26,5);                //PRN 15
+        sat_data2.add(tmp);
 
 //        tmp=new Sat(6,67,42); //PRN  17
 //        sat_data2.add(tmp);

@@ -62,8 +62,8 @@ public class BuildingsFactory {
         Double x, y, z;
         while(idx<size-2)
         {
-            y = Double.parseDouble(cords[idx]);
-            x = Double.parseDouble(cords[idx+1]);
+            x = Double.parseDouble(cords[idx]);
+            y = Double.parseDouble(cords[idx+1]);
             z= Double.parseDouble(cords[idx+2]);
             Point3D tmpPoint = new Point3D(x, y, z);
 //            tmpPoint = GeoUtils.convertLATLONtoUTM(tmpPoint);
@@ -80,7 +80,7 @@ public class BuildingsFactory {
             throw new Exception("Bad KML File");
         }
         return new Building(buildingVertices);
-}
+    }
     public static List<Point3D> parseKML(String filePath) {
         List<Point3D> points = new ArrayList<>();
 

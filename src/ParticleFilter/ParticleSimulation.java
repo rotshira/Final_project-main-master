@@ -654,7 +654,7 @@ public class ParticleSimulation {
         for (Point3D point : path) {
             // For each point, check LOS/NLOS with each satellite
             for (Sat sat : allSats) {
-                boolean isLOS = LosAlgorithm.ComputeLos(point, bs, sat);
+                double isLOS = LosAlgorithm.ourComputeLos(point, bs, sat);
                 System.out.println("Point: " + point + ", Satellite: " + sat.getSatID() + ", LOS: " + isLOS);
             }
         }
