@@ -8,6 +8,30 @@ import Geometry.Point3D;
 public class GeoUtils {
     public GeoUtils() {
     }
+    private static final double EARTH_RADIUS = 6378137; // in meters
+
+    public static Point3D geoToCartesian(double latitude, double longitude, double height) {
+        double latRad = Math.toRadians(latitude);
+        double lonRad = Math.toRadians(longitude);
+
+        double x = (EARTH_RADIUS + height) * Math.cos(latRad) * Math.cos(lonRad);
+        double y = (EARTH_RADIUS + height) * Math.cos(latRad) * Math.sin(lonRad);
+        double z = (EARTH_RADIUS + height) * Math.sin(latRad);
+
+        return new Point3D(x, y, z);
+    }
+    public static double[] OurCartesianToGeo(Point3D point) {
+        double x = point.getX();
+        double y = point.getY();
+        double z = point.getZ();
+
+        double lon = Math.atan2(y, x);
+        double hyp = Math.sqrt(x * x + y * y);
+        double lat = Math.atan2(z, hyp);
+        double height = hyp / Math.cos(lat) - EARTH_RADIUS;
+
+        return new double[]{Math.toDegrees(lat), Math.toDegrees(lon), height};
+    }
 
     public static Point3D convertECEFtoLATLON(Point3D p1) {
         double a = 6378137.0;

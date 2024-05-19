@@ -1,0 +1,54 @@
+<Document id="Example_KML">
+    <name>Example KML</name>
+    <open>1</open>
+    <Snippet maxLines="0"></Snippet>
+
+    <!-- Define the wall as a polygon -->
+    <Placemark id="Wall_00000">
+        <name>Wall</name>
+        <Snippet maxLines="0"></Snippet>
+        <Polygon>
+            <altitudeMode>relativeToGround</altitudeMode>
+            <outerBoundaryIs>
+                <LinearRing>
+                    <coordinates>
+                        -122.083,37.422,0
+                        -122.083,37.423,0
+                        -122.083,37.423,100
+                        -122.083,37.422,100
+                    </coordinates>
+                </LinearRing>
+            </outerBoundaryIs>
+        </Polygon>
+    </Placemark>
+
+    <!-- Define the point -->
+    <Placemark id="Point_00000">
+        <name>Point</name>
+        <Snippet maxLines="0"></Snippet>
+        <Point>
+            <altitudeMode>relativeToGround</altitudeMode> <!-- Altitude mode for the point -->
+            <coordinates>-122.085,37.4225,0</coordinates> <!-- Coordinates in the middle of the wall -->
+        </Point>
+    </Placemark>
+
+    <!-- Define the line that intersects the wall -->
+    <Placemark id="Line_00000">
+        <name>Line</name>
+        <Snippet maxLines="0"></Snippet>
+        <Style>
+            <LineStyle>
+                <color>ff0000ff</color> <!-- Red color -->
+                <width>5</width> <!-- Thickness of the line -->
+            </LineStyle>
+        </Style>
+        <LineString>
+            <altitudeMode>relativeToGround</altitudeMode> <!-- Altitude mode for the line -->
+            <coordinates>
+                -122.085,37.4225,0
+                -122.083,37.4225,50 <!-- Coordinates in the middle of the wall -->
+            </coordinates>
+        </LineString>
+    </Placemark>
+
+</Document>

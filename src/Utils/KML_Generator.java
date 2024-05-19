@@ -1,6 +1,9 @@
 package Utils;
 
+import GNSS.Sat;
+import Geometry.Building;
 import Geometry.Point3D;
+import Geometry.Wall;
 import ParticleFilter.Particle;
 import ParticleFilter.Particles;
 import Utils.GeoUtils;
@@ -14,8 +17,78 @@ import java.util.List;
 /**
  * Created by Roi on 5/23/2016.
  */
+
 public class KML_Generator
 {
+    private static final double EARTH_RADIUS = 6378137; // in meters
+
+    // Calculate the endpoint given a start point, azimuth, and elevation
+    public static Point3D OurCalculateEndpoint(Point3D start, double azimuth, double elevation, double distance) {
+        double azimuthRad = Math.toRadians(azimuth);
+        double elevationRad = Math.toRadians(elevation);
+
+        // Calculate changes in coordinates based on azimuth and elevation
+        double dx = distance * Math.cos(elevationRad) * Math.sin(azimuthRad);
+        double dy = distance * Math.cos(elevationRad) * Math.cos(azimuthRad);
+        double dz = distance * Math.sin(elevationRad);
+
+        // Normalize the changes to maintain the fixed distance
+        double magnitude = Math.sqrt(dx * dx + dy * dy + dz * dz);
+        double normalizedDx = dx / magnitude * distance;
+        double normalizedDy = dy / magnitude * distance;
+        double normalizedDz = dz / magnitude * distance;
+
+        // Calculate endpoint in Cartesian coordinates
+        double x = start.getX() + normalizedDx;
+        double y = start.getY() + normalizedDy;
+        double z = start.getZ() + normalizedDz;
+
+        return new Point3D(x, y, z);
+    }
+    public static String OurBuildKml(List<Point3D> points, List<Sat> satellites) {
+        StringBuilder kml = new StringBuilder();
+        kml.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n");
+        kml.append("<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n");
+        kml.append("<Document>\n");
+
+        // Define the style for the lines
+        kml.append("<Style id=\"blueLine\">\n");
+        kml.append("<LineStyle>\n");
+        kml.append("<color>ff0000ff</color> <!-- Blue color in aabbggrr format -->\n");
+        kml.append("<width>4</width> <!-- Thicker line -->\n");
+        kml.append("</LineStyle>\n");
+        kml.append("</Style>\n");
+
+
+
+        // Add points and satellite lines
+        for (Point3D point : points) {
+            for (Sat satellite : satellites) {
+                Point3D endpoint = OurCalculateEndpoint(point, satellite.getAzimuth(), satellite.getElevetion(), 1); // assuming 10km lines
+
+                kml.append("<Placemark>\n");
+                kml.append("<styleUrl>#blueLine</styleUrl>\n"); // Reference the blue line style
+                kml.append("<LineString>\n");
+                kml.append("<coordinates>\n");
+                kml.append(point.getX()).append(",").append(point.getY()).append(",").append(point.getZ()).append(" ");
+                kml.append(endpoint.getX()).append(",").append(endpoint.getY()).append(",").append(endpoint.getZ()).append("\n");
+                kml.append("</coordinates>\n");
+                kml.append("</LineString>\n");
+                kml.append("</Placemark>\n");
+            }
+        }
+
+        kml.append("</Document>\n");
+        kml.append("</kml>\n");
+
+        return kml.toString();
+    }
+
+    public static void OurWriteKmlToFile(String kml, String filePath) throws IOException {
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
+            writer.write(kml);
+        }
+    }
 
 
 

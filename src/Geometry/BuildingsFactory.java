@@ -72,7 +72,7 @@ public class BuildingsFactory {
 
         }
         int Size = buildingVertices.size();
-        System.out.println("size: "+Size);
+        //System.out.println("size: "+Size);
         if(buildingVertices.get(Size-1).equals(buildingVertices.get(0))){
             buildingVertices.remove(Size-1); //remove the last point since it similar to the first point
         }

@@ -107,146 +107,146 @@ public class UtilsAlgorithms {
         Sat tmp;
         tmp=new Sat(114,8,0);             //PRN 2
         sat_data2.add(tmp);
-        tmp=new Sat( 130, 20,1);      //PRN 4
-        sat_data2.add(tmp);
+//        tmp=new Sat( 130, 20,1);      //PRN 4
+//        sat_data2.add(tmp);
+//
+//        tmp=new Sat(163,9,2);//PRN 9
+//        sat_data2.add(tmp);
+//
+//        tmp=new Sat(118,9,3) ;  //PRN 12
+//        sat_data2.add(tmp);
+//
+//        tmp=new Sat(40,21,4); //PRN 14
+//        sat_data2.add(tmp);
+//
+//        tmp=new Sat(148,26,5);                //PRN 15
+//        sat_data2.add(tmp);
 
-        tmp=new Sat(163,9,2);//PRN 9
-        sat_data2.add(tmp);
+//        tmp=new Sat(6,67,42); //PRN  17
+//        sat_data2.add(tmp);
+//        tmp=new Sat(7,325,56);//PRN 25
+//        sat_data2.add(tmp);
+//
+//        tmp=new Sat(8,304,40);//PRN 26         was 180
+//        sat_data2.add(tmp);
+//
+//        tmp=new Sat(9,340,59);         //PRN 27
+//        sat_data2.add(tmp);
+//
+//        tmp=new Sat(10,232,32); //PRN 28
+//        sat_data2.add(tmp);
+//        ////////////////////////////////////\
+//        ////////////GLONASS sats  /////////////
+//        //////////////////////////////////
+//
+//        tmp=new Sat(11,125,81);         //   PRN 73
+//        sat_data2.add(tmp);
+//        tmp=new Sat(12,96,55);          //PRN 74
+//        sat_data2.add(tmp);
+//        tmp=new Sat(13,348,51);                       //PRN 75
+//        sat_data2.add(tmp);
+//        tmp=new Sat(14,30,43);                   //PRN 84
+//        sat_data2.add(tmp);
+//
+//        tmp=new Sat(15,209,82);                //PRN  85
+//        sat_data2.add(tmp);
+//        tmp=new Sat(16,210,26);                                //PRN 86
+//        sat_data2.add(tmp);
+//
+//        ////////////////////////////////////\
+//        ////////////IMAGINARY sats  /////////////
+//        //////////////////////////////////
+//        tmp=new Sat(17,271,72);
+//        sat_data2.add(tmp);
+//        tmp=new Sat(18,281,71);
+//        sat_data2.add(tmp);
+//             tmp=new Sat(19,291,81);
+//sat_data2.add(tmp);
+//
+//
+//tmp=new Sat(20,301,72);
+//sat_data2.add(tmp);
+//tmp=new Sat(21,311,71);
+//sat_data2.add(tmp);
+//tmp=new Sat(22,321,81);
+//sat_data2.add(tmp);
+//tmp=new Sat(23,331,12);
+//sat_data2.add(tmp);
+//tmp=new Sat(24,341,61);
+//sat_data2.add(tmp);
+//tmp=new Sat(25,351,21);
+//sat_data2.add(tmp);
+//tmp=new Sat(26,351,71);
+//sat_data2.add(tmp);
+//tmp=new Sat(27,341,61);
+//sat_data2.add(tmp);
+//tmp=new Sat(28,331,51);
+//sat_data2.add(tmp);
+//tmp=new Sat(29,321,41);
+//sat_data2.add(tmp);
+//tmp=new Sat(30,311,31);
+//sat_data2.add(tmp);
+//tmp=new Sat(31,301,21);
+//sat_data2.add(tmp);
+//tmp=new Sat(32,291,11);
+//sat_data2.add(tmp);
+//tmp=new Sat(33,281,21);
+//sat_data2.add(tmp);
+//tmp=new Sat(34,271,31);
+//sat_data2.add(tmp);
+//tmp=new Sat(35,261,41);
+//sat_data2.add(tmp);
+//tmp=new Sat(36,251,51);
+//sat_data2.add(tmp);
+//tmp=new Sat(37,241,61);
+//sat_data2.add(tmp);
+//tmp=new Sat(38,231,71);
+//sat_data2.add(tmp);
+//tmp=new Sat(39,221,81);
+//sat_data2.add(tmp);
+//tmp=new Sat(40,211,71);
+//sat_data2.add(tmp);
+//tmp=new Sat(41,201,61);
+//sat_data2.add(tmp);
+//
+//
+//tmp=new Sat(42,11,12);
+//sat_data2.add(tmp);
+//tmp=new Sat(43,21,20);
+//sat_data2.add(tmp);
+//tmp=new Sat(44,31,31);
+//sat_data2.add(tmp);
+//tmp=new Sat(45,41,51);
+//sat_data2.add(tmp);
+//tmp=new Sat(46,51,61);
+//sat_data2.add(tmp);
+//tmp=new Sat(47,61,71);
+//sat_data2.add(tmp);
+//tmp=new Sat(48,71,81);
+//sat_data2.add(tmp);
+//tmp=new Sat(49,81,71);
+//sat_data2.add(tmp);
+//tmp=new Sat(50,90,61);
+//sat_data2.add(tmp);
+//tmp=new Sat(51,101,51);
+//sat_data2.add(tmp);
+//tmp=new Sat(52,121,41);
+//sat_data2.add(tmp);
+//tmp=new Sat(53,131,31);
+//sat_data2.add(tmp);
+//tmp=new Sat(54,141,21);
+//sat_data2.add(tmp);
+//tmp=new Sat(55,151,11);
+//sat_data2.add(tmp);
+//tmp=new Sat(56,161,21);
+//sat_data2.add(tmp);
+//tmp=new Sat(57,171,31);
+//sat_data2.add(tmp);
+//tmp=new Sat(58,181,41);
+//sat_data2.add(tmp);
+//tmp=new Sat(59,191,51);
+//sat_data2.add(tmp);
 
-        tmp=new Sat(118,9,3) ;  //PRN 12
-        sat_data2.add(tmp);
-
-        tmp=new Sat(40,21,4); //PRN 14
-        sat_data2.add(tmp);
-
-        tmp=new Sat(148,26,5);                //PRN 15
-        sat_data2.add(tmp);
-
-     /*   tmp=new Sat(6,67,42); //PRN  17
-        sat_data2.add(tmp);
-        tmp=new Sat(7,325,56);//PRN 25
-        sat_data2.add(tmp);
-
-        tmp=new Sat(8,304,40);//PRN 26         was 180
-        sat_data2.add(tmp);
-
-        tmp=new Sat(9,340,59);         //PRN 27
-        sat_data2.add(tmp);
-
-        tmp=new Sat(10,232,32); //PRN 28
-        sat_data2.add(tmp);
-        ////////////////////////////////////\
-        ////////////GLONASS sats  /////////////
-        //////////////////////////////////
-
-        tmp=new Sat(11,125,81);         //   PRN 73
-        sat_data2.add(tmp);
-        tmp=new Sat(12,96,55);          //PRN 74
-        sat_data2.add(tmp);
-        tmp=new Sat(13,348,51);                       //PRN 75
-        sat_data2.add(tmp);
-        tmp=new Sat(14,30,43);                   //PRN 84
-        sat_data2.add(tmp);
-
-        tmp=new Sat(15,209,82);                //PRN  85
-        sat_data2.add(tmp);
-        tmp=new Sat(16,210,26);                                //PRN 86
-        sat_data2.add(tmp);
-
-        ////////////////////////////////////\
-        ////////////IMAGINARY sats  /////////////
-        //////////////////////////////////
-      /*  tmp=new Sat(17,271,72);
-        sat_data2.add(tmp);
-        tmp=new Sat(18,281,71);
-        sat_data2.add(tmp);
-             tmp=new Sat(19,291,81);
-sat_data2.add(tmp);
-
-
-tmp=new Sat(20,301,72);
-sat_data2.add(tmp);
-tmp=new Sat(21,311,71);
-sat_data2.add(tmp);
-tmp=new Sat(22,321,81);
-sat_data2.add(tmp);
-tmp=new Sat(23,331,12);
-sat_data2.add(tmp);
-tmp=new Sat(24,341,61);
-sat_data2.add(tmp);
-tmp=new Sat(25,351,21);
-sat_data2.add(tmp);
-tmp=new Sat(26,351,71);
-sat_data2.add(tmp);
-tmp=new Sat(27,341,61);
-sat_data2.add(tmp);
-tmp=new Sat(28,331,51);
-sat_data2.add(tmp);
-tmp=new Sat(29,321,41);
-sat_data2.add(tmp);
-tmp=new Sat(30,311,31);
-sat_data2.add(tmp);
-tmp=new Sat(31,301,21);
-sat_data2.add(tmp);
-tmp=new Sat(32,291,11);
-sat_data2.add(tmp);
-tmp=new Sat(33,281,21);
-sat_data2.add(tmp);
-tmp=new Sat(34,271,31);
-sat_data2.add(tmp);
-tmp=new Sat(35,261,41);
-sat_data2.add(tmp);
-tmp=new Sat(36,251,51);
-sat_data2.add(tmp);
-tmp=new Sat(37,241,61);
-sat_data2.add(tmp);
-tmp=new Sat(38,231,71);
-sat_data2.add(tmp);
-tmp=new Sat(39,221,81);
-sat_data2.add(tmp);
-tmp=new Sat(40,211,71);
-sat_data2.add(tmp);
-tmp=new Sat(41,201,61);
-sat_data2.add(tmp);
-
-
-tmp=new Sat(42,11,12);
-sat_data2.add(tmp);
-tmp=new Sat(43,21,20);
-sat_data2.add(tmp);
-tmp=new Sat(44,31,31);
-sat_data2.add(tmp);
-tmp=new Sat(45,41,51);
-sat_data2.add(tmp);
-tmp=new Sat(46,51,61);
-sat_data2.add(tmp);
-tmp=new Sat(47,61,71);
-sat_data2.add(tmp);
-tmp=new Sat(48,71,81);
-sat_data2.add(tmp);
-tmp=new Sat(49,81,71);
-sat_data2.add(tmp);
-tmp=new Sat(50,90,61);
-sat_data2.add(tmp);
-tmp=new Sat(51,101,51);
-sat_data2.add(tmp);
-tmp=new Sat(52,121,41);
-sat_data2.add(tmp);
-tmp=new Sat(53,131,31);
-sat_data2.add(tmp);
-tmp=new Sat(54,141,21);
-sat_data2.add(tmp);
-tmp=new Sat(55,151,11);
-sat_data2.add(tmp);
-tmp=new Sat(56,161,21);
-sat_data2.add(tmp);
-tmp=new Sat(57,171,31);
-sat_data2.add(tmp);
-tmp=new Sat(58,181,41);
-sat_data2.add(tmp);
-tmp=new Sat(59,191,51);
-sat_data2.add(tmp);
-                    */
         return sat_data2;
     }
 

@@ -635,6 +635,7 @@ public class ParticleSimulation {
 
         // Create a list of satellites
         List<Sat> allSats = UtilsAlgorithms.createSatDataList();
+        System.out.println("the number of sats is: "+allSats.size());
 
         List<Point3D> path;
         path = BuildingsFactory.parseKML(routeFilePath);
@@ -646,7 +647,7 @@ public class ParticleSimulation {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        System.out.println("bs: "+bs.get(1).getBuildindVertices());
+        System.out.println("the number of Building is: "+bs.size());
 
 
         System.out.println("start...");
