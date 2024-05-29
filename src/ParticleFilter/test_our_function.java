@@ -89,6 +89,9 @@ public class test_our_function {
         // Parse path points and convert to Cartesian coordinates
         List<Point3D> path = BuildingsFactory.parseKML(routeFilePath);
         System.out.println("the number of points in path: " + path.size());
+        for (Point3D p :path){
+            System.out.println("the main point is: "+ p);
+        }
 
         String kml = KML_Generator.OurBuildKml(path, allSats);
         String filePath = "output.kml";

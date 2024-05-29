@@ -25,7 +25,7 @@ public class ParticleSimulation {
 
 
     public static void main(String[] args) {
-//         simulationMain2();
+        //simulationMain2();
         //testParse();
 
         //NMEAParser();
@@ -524,9 +524,6 @@ public class ParticleSimulation {
         System.out.println("End of program");
     }
 
-
-
-
     public  static void simulationMain2() {
 
         // String walls_file = "EsriBuildingsBursaNoindentWithBoazBuilding.kml"; //todo Roi : Sparse this file to contain only 10 buildings!
@@ -609,7 +606,7 @@ public class ParticleSimulation {
             ParticleList.Resample();
 
 
-             Point3D tmp = ParticleList.GetParticleWithMaxWeight();
+            Point3D tmp = ParticleList.GetParticleWithMaxWeight();
             ans.add(tmp);
             String Particle_path2=Particle_path+i+".kml";
 
@@ -621,7 +618,7 @@ public class ParticleSimulation {
         }
 //        System.out.println(ans.size());
 //        System.out.println(ans.size());
-//        KML_Generator.Generate_kml_from_List(ans,"checkAns.kml");
+        KML_Generator.Generate_kml_from_List(ans,"checkAns.kml");
 
 
 
@@ -654,8 +651,9 @@ public class ParticleSimulation {
         for (Point3D point : path) {
             // For each point, check LOS/NLOS with each satellite
             for (Sat sat : allSats) {
-                double isLOS = LosAlgorithm.ourComputeLos(point, bs, sat);
-                System.out.println("Point: " + point + ", Satellite: " + sat.getSatID() + ", LOS: " + isLOS);
+                boolean isLOS = LosAlgorithm.ComputeLos(point, bs, sat);
+                System.out.println("Point: " + point + ", Satellite: " + sat.getElevetion() + ", LOS: " + isLOS);
+
             }
         }
         System.out.println("end");

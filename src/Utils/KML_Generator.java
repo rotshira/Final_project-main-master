@@ -28,20 +28,14 @@ public class KML_Generator
         double elevationRad = Math.toRadians(elevation);
 
         // Calculate changes in coordinates based on azimuth and elevation
-        double dx = distance * Math.cos(elevationRad) * Math.sin(azimuthRad);
-        double dy = distance * Math.cos(elevationRad) * Math.cos(azimuthRad);
+        double dx = distance * Math.cos(elevationRad) * Math.cos(azimuthRad);
+        double dy = distance * Math.cos(elevationRad) * Math.sin(azimuthRad);
         double dz = distance * Math.sin(elevationRad);
 
-        // Normalize the changes to maintain the fixed distance
-        double magnitude = Math.sqrt(dx * dx + dy * dy + dz * dz);
-        double normalizedDx = dx / magnitude * distance;
-        double normalizedDy = dy / magnitude * distance;
-        double normalizedDz = dz / magnitude * distance;
-
         // Calculate endpoint in Cartesian coordinates
-        double x = start.getX() + normalizedDx;
-        double y = start.getY() + normalizedDy;
-        double z = start.getZ() + normalizedDz;
+        double x = start.getX() + dx;
+        double y = start.getY() + dy;
+        double z = start.getZ() + dz;
 
         return new Point3D(x, y, z);
     }
@@ -64,11 +58,13 @@ public class KML_Generator
         // Add points and satellite lines
         for (Point3D point : points) {
             for (Sat satellite : satellites) {
-                Point3D endpoint = OurCalculateEndpoint(point, satellite.getAzimuth(), satellite.getElevetion(), 1); // assuming 10km lines
+                Point3D endpoint = OurCalculateEndpoint(point, satellite.getAzimuth(), satellite.getElevetion(), 10); // assuming 10km lines
+                System.out.println("the endpoint is: "+endpoint);
 
                 kml.append("<Placemark>\n");
                 kml.append("<styleUrl>#blueLine</styleUrl>\n"); // Reference the blue line style
                 kml.append("<LineString>\n");
+                kml.append("<altitudeMode>relativeToGround</altitudeMode>\n");
                 kml.append("<coordinates>\n");
                 kml.append(point.getX()).append(",").append(point.getY()).append(",").append(point.getZ()).append(" ");
                 kml.append(endpoint.getX()).append(",").append(endpoint.getY()).append(",").append(endpoint.getZ()).append("\n");
