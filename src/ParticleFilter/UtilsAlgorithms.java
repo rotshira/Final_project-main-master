@@ -41,7 +41,6 @@ public class UtilsAlgorithms {
     }
 
 
-
     static double convertKnots2m_s(double speed)
     {
         return speed*Knots2m_s;
@@ -149,11 +148,6 @@ public class UtilsAlgorithms {
         sat_data2.add(tmp);
         tmp=new Sat(226, 50, 10); // PRN 34
         sat_data2.add(tmp);
-
-
-
-
-
 
 
 
