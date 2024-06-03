@@ -17,7 +17,10 @@ public class test_our_function {
     public static void main(String[] args) {
         //manual1();
         //manual2();
-        test_make_kml_from_point_to_sat();
+        //test_make_kml_from_point_to_sat();
+        // ourChckForOutOfRegion();
+        ourChckForisPoint2D_inBuilding();
+
 
     }
     public  static void manual1() {
@@ -107,4 +110,46 @@ public class test_our_function {
         System.out.println("end");
 
     }
-}
+    public static void ourChckForOutOfRegion(){
+        Particle p1 = new Particle(669952,3550882,1);
+        List<Building> bs = null;
+        String walls_file = "Esri_v0.4.kml";
+        try {
+            bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        Point3D pivot1 = new Point3D(670053, 3551100, 1);
+        Point3D pivot2 = new Point3D(670153, 3551200, 1);
+        boolean ans = p1.OutOfRegion(bs,pivot1,pivot2);
+        System.out.println(ans);
+
+    }
+    public static void ourChckForisPoint2D_inBuilding(){
+        Particle p1 = new Particle(670175,3551130,1);
+        List<Building> bs = null;
+        boolean contain;
+        String walls_file = "yahlom.kml";
+        try {
+            bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        for (Building tmp : bs)
+        {
+            contain=tmp.isPoint2D_inBuilding(p1.pos);
+            if(contain==true)
+            {
+                p1.OutOfRegion=true;
+                System.out.println("building "+ tmp.getBuildingName() +"is contain ");
+            }
+            else {
+                System.out.println("building "+ tmp.getBuildingName() +"is not contain ");
+
+            }
+        }
+    }
+
+
+
+    }

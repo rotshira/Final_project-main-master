@@ -162,7 +162,7 @@ public class KML_Generator
                 else if(NumberOfMatchingSats==(MaxiSat-2))
                     out.write(" <styleUrl>#yellow</styleUrl>\n");
 
-                else if(NumberOfMatchingSats<(MaxiSat-2))
+                else if(NumberOfMatchingSats<(MaxiSat-3))
                     out.write(" <styleUrl>#red</styleUrl>\n");
 
 
@@ -244,7 +244,7 @@ public class KML_Generator
                 //	out.write(" <styleUrl>#green</styleUrl>\n");
                 //	else
                 out.write(" <styleUrl>#green</styleUrl>\n");
-                out.write("<Style>\n<BalloonStyle>\n<text>This point was taken at time "+ i +"</text>\n</BalloonStyle>\n</Style>\n ");
+                out.write("<Style>\n<BalloonStyle>\n<text>This point was taken at time " + i + " with coordinates (x: " + PointList.get(i).getX() + ", y: " + PointList.get(i).getY() + ", z: " + PointList.get(i).getZ() + ")</text>\n</BalloonStyle>\n</Style>\n");
                 out.write("<TimeStamp>\n");
                 out.write("<when>"+i+"</when>\n");
                 out.write(" </TimeStamp>\n");

@@ -1,0 +1,19 @@
+<Placemark>
+		<name>םיהלו</name>
+		<styleUrl>#m_ylw-pushpin0</styleUrl>
+		<MultiGeometry>
+			<extrude>1</extrude>
+			<altitudeMode>relativeToGround</altitudeMode>
+			<Polygon>
+				<extrude>1</extrude>
+				<altitudeMode>relativeToGround</altitudeMode>
+				<outerBoundaryIs>
+					<LinearRing>
+<coordinates>
+34.80187769840057,32.08377378836762,120.22 34.80239977928923,32.08379970398912,120.22 34.80238378146468,32.08404250468939,120.22 34.80186074591652,32.08401658596311,120.22 34.80187769840057,32.08377378836762,120.22
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
