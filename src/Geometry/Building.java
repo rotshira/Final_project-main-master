@@ -56,12 +56,15 @@ public class Building {
 
         boolean ans = true;
         int a = pos.pointLineTest(this.getBuildindVertices().get(0), this.getBuildindVertices().get(1));
+//        System.out.println("a-"+a);
         for(int i=1;i<this.getBuildindVertices().size()-1;i++) {
             int b = pos.pointLineTest(this.getBuildindVertices().get(i), this.getBuildindVertices().get(i+1));
+//            System.out.println("b-"+b);
             if(a!=b) {
                 ans = false;
             }
         }
+//        System.out.println(ans);
         return ans;
     }
 

@@ -18,8 +18,8 @@ public class test_our_function {
         //manual1();
         //manual2();
         //test_make_kml_from_point_to_sat();
-        // ourChckForOutOfRegion();
-        ourChckForisPoint2D_inBuilding();
+         ourChckForOutOfRegion();
+        //ourChckForisPoint2D_inBuilding();
 
 
     }
@@ -111,7 +111,7 @@ public class test_our_function {
 
     }
     public static void ourChckForOutOfRegion(){
-        Particle p1 = new Particle(669952,3550882,1);
+        Particle p1 = new Particle( 34.802110,  32.083923,0);
         List<Building> bs = null;
         String walls_file = "Esri_v0.4.kml";
         try {
@@ -119,15 +119,16 @@ public class test_our_function {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        Point3D pivot1 = new Point3D(670053, 3551100, 1);
-        Point3D pivot2 = new Point3D(670153, 3551200, 1);
+        Point3D pivot1 = new Point3D( 34.801856,  32.083395, 1);
+        Point3D pivot2 = new Point3D( 34.802890,  32.084246, 1);
         boolean ans = p1.OutOfRegion(bs,pivot1,pivot2);
         System.out.println(ans);
 
     }
     public static void ourChckForisPoint2D_inBuilding(){
-        Particle p1 = new Particle(670175,3551130,1);
+        Particle p1 = new Particle( 34.802110,  32.083923,0);
         List<Building> bs = null;
+        int i = 0;
         boolean contain;
         String walls_file = "yahlom.kml";
         try {
@@ -137,14 +138,15 @@ public class test_our_function {
         }
         for (Building tmp : bs)
         {
+            i++;
             contain=tmp.isPoint2D_inBuilding(p1.pos);
             if(contain==true)
             {
                 p1.OutOfRegion=true;
-                System.out.println("building "+ tmp.getBuildingName() +"is contain ");
+                System.out.println("building "+ i +" is contain ");
             }
             else {
-                System.out.println("building "+ tmp.getBuildingName() +"is not contain ");
+                System.out.println("building "+ i +" is not contain ");
 
             }
         }
@@ -152,4 +154,4 @@ public class test_our_function {
 
 
 
-    }
+}
