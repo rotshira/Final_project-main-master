@@ -138,4 +138,46 @@ public class Point3D  extends Point2D{
 
         super.offset(pivot.getX(), pivot.getY());
     }
+    public static Point3D convertUTMToLatLon(Point3D utmPoint, String utmZone) {
+        int zoneNumber = Integer.parseInt(utmZone.substring(0, utmZone.length() - 1));
+        char zoneLetter = utmZone.charAt(utmZone.length() - 1);
+
+        boolean northernHemisphere = (zoneLetter >= 'N');
+
+        double x = utmPoint.getX() - 500000.0; // remove 500,000 meter offset for longitude
+        double y = utmPoint.getY();
+        if (!northernHemisphere) {
+            y -= 10000000.0; // remove 10,000,000 meter offset for southern hemisphere
+        }
+
+        double a = 6378137.0; // WGS84 major axis
+        double e = 0.081819191; // WGS84 eccentricity
+        double e1sq = 0.006739497; // e^2 / (1-e^2)
+        double k0 = 0.9996; // UTM scale factor
+
+        double m = y / k0;
+        double mu = m / (a * (1 - Math.pow(e, 2) / 4 - 3 * Math.pow(e, 4) / 64 - 5 * Math.pow(e, 6) / 256));
+
+        double phi1Rad = mu + (3 * e1sq / 2 - 27 * Math.pow(e1sq, 3) / 32) * Math.sin(2 * mu)
+                + (21 * e1sq / 16 - 55 * Math.pow(e1sq, 4) / 32) * Math.sin(4 * mu)
+                + (151 * Math.pow(e1sq, 3) / 96) * Math.sin(6 * mu);
+
+        double n1 = a / Math.sqrt(1 - Math.pow(e * Math.sin(phi1Rad), 2));
+        double t1 = Math.pow(Math.tan(phi1Rad), 2);
+        double c1 = e1sq * Math.pow(Math.cos(phi1Rad), 2);
+        double r1 = a * (1 - Math.pow(e, 2)) / Math.pow(1 - Math.pow(e * Math.sin(phi1Rad), 2), 1.5);
+        double d = x / (n1 * k0);
+
+        double latitude = phi1Rad - (n1 * Math.tan(phi1Rad) / r1)
+                * (Math.pow(d, 2) / 2 - (5 + 3 * t1 + 10 * c1 - 4 * Math.pow(c1, 2) - 9 * e1sq) * Math.pow(d, 4) / 24
+                + (61 + 90 * t1 + 298 * c1 + 45 * Math.pow(t1, 2) - 252 * e1sq - 3 * Math.pow(c1, 2)) * Math.pow(d, 6) / 720);
+        latitude = Math.toDegrees(latitude);
+
+        double longitude = (d - (1 + 2 * t1 + c1) * Math.pow(d, 3) / 6
+                + (5 - 2 * c1 + 28 * t1 - 3 * Math.pow(c1, 2) + 8 * e1sq + 24 * Math.pow(t1, 2)) * Math.pow(d, 5) / 120)
+                / Math.cos(phi1Rad);
+        longitude = zoneNumber > 0 ? zoneNumber * 6 - 183.0 + Math.toDegrees(longitude) : Math.toDegrees(longitude);
+
+        return new Point3D(longitude, latitude, utmPoint.getZ());
+    }
 }
