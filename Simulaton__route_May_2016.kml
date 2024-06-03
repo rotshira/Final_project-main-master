@@ -37,10 +37,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 0</text>
+<text>This point was taken at time 0 with coordinates (x: 670103.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>0</when>
  </TimeStamp>
 <Point>
@@ -53,10 +53,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 1</text>
+<text>This point was taken at time 1 with coordinates (x: 670104.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>1</when>
  </TimeStamp>
 <Point>
@@ -69,10 +69,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 2</text>
+<text>This point was taken at time 2 with coordinates (x: 670105.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>2</when>
  </TimeStamp>
 <Point>
@@ -85,10 +85,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 3</text>
+<text>This point was taken at time 3 with coordinates (x: 670106.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>3</when>
  </TimeStamp>
 <Point>
@@ -101,10 +101,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 4</text>
+<text>This point was taken at time 4 with coordinates (x: 670107.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>4</when>
  </TimeStamp>
 <Point>
@@ -117,10 +117,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 5</text>
+<text>This point was taken at time 5 with coordinates (x: 670108.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>5</when>
  </TimeStamp>
 <Point>
@@ -133,10 +133,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 6</text>
+<text>This point was taken at time 6 with coordinates (x: 670109.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>6</when>
  </TimeStamp>
 <Point>
@@ -149,10 +149,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 7</text>
+<text>This point was taken at time 7 with coordinates (x: 670110.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>7</when>
  </TimeStamp>
 <Point>
@@ -165,10 +165,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 8</text>
+<text>This point was taken at time 8 with coordinates (x: 670111.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>8</when>
  </TimeStamp>
 <Point>
@@ -181,10 +181,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 9</text>
+<text>This point was taken at time 9 with coordinates (x: 670112.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>9</when>
  </TimeStamp>
 <Point>
@@ -197,10 +197,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 10</text>
+<text>This point was taken at time 10 with coordinates (x: 670113.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>10</when>
  </TimeStamp>
 <Point>
@@ -213,10 +213,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 11</text>
+<text>This point was taken at time 11 with coordinates (x: 670114.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>11</when>
  </TimeStamp>
 <Point>
@@ -229,10 +229,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 12</text>
+<text>This point was taken at time 12 with coordinates (x: 670115.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>12</when>
  </TimeStamp>
 <Point>
@@ -245,10 +245,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 13</text>
+<text>This point was taken at time 13 with coordinates (x: 670116.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>13</when>
  </TimeStamp>
 <Point>
@@ -261,10 +261,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 14</text>
+<text>This point was taken at time 14 with coordinates (x: 670117.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>14</when>
  </TimeStamp>
 <Point>
@@ -277,10 +277,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 15</text>
+<text>This point was taken at time 15 with coordinates (x: 670118.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>15</when>
  </TimeStamp>
 <Point>
@@ -293,10 +293,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 16</text>
+<text>This point was taken at time 16 with coordinates (x: 670119.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>16</when>
  </TimeStamp>
 <Point>
@@ -309,10 +309,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 17</text>
+<text>This point was taken at time 17 with coordinates (x: 670120.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>17</when>
  </TimeStamp>
 <Point>
@@ -325,10 +325,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 18</text>
+<text>This point was taken at time 18 with coordinates (x: 670121.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>18</when>
  </TimeStamp>
 <Point>
@@ -341,10 +341,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 19</text>
+<text>This point was taken at time 19 with coordinates (x: 670122.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>19</when>
  </TimeStamp>
 <Point>
@@ -357,10 +357,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 20</text>
+<text>This point was taken at time 20 with coordinates (x: 670123.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>20</when>
  </TimeStamp>
 <Point>
@@ -373,10 +373,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 21</text>
+<text>This point was taken at time 21 with coordinates (x: 670124.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>21</when>
  </TimeStamp>
 <Point>
@@ -389,10 +389,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 22</text>
+<text>This point was taken at time 22 with coordinates (x: 670125.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>22</when>
  </TimeStamp>
 <Point>
@@ -405,10 +405,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 23</text>
+<text>This point was taken at time 23 with coordinates (x: 670126.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>23</when>
  </TimeStamp>
 <Point>
@@ -421,10 +421,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 24</text>
+<text>This point was taken at time 24 with coordinates (x: 670127.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>24</when>
  </TimeStamp>
 <Point>
@@ -437,10 +437,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 25</text>
+<text>This point was taken at time 25 with coordinates (x: 670128.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>25</when>
  </TimeStamp>
 <Point>
@@ -453,10 +453,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 26</text>
+<text>This point was taken at time 26 with coordinates (x: 670128.5, y: 3551178.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>26</when>
  </TimeStamp>
 <Point>
@@ -469,10 +469,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 27</text>
+<text>This point was taken at time 27 with coordinates (x: 670128.5, y: 3551177.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>27</when>
  </TimeStamp>
 <Point>
@@ -485,10 +485,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 28</text>
+<text>This point was taken at time 28 with coordinates (x: 670128.5, y: 3551176.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>28</when>
  </TimeStamp>
 <Point>
@@ -501,10 +501,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 29</text>
+<text>This point was taken at time 29 with coordinates (x: 670128.5, y: 3551175.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>29</when>
  </TimeStamp>
 <Point>
@@ -517,10 +517,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 30</text>
+<text>This point was taken at time 30 with coordinates (x: 670128.5, y: 3551174.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>30</when>
  </TimeStamp>
 <Point>
@@ -533,10 +533,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 31</text>
+<text>This point was taken at time 31 with coordinates (x: 670128.5, y: 3551173.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>31</when>
  </TimeStamp>
 <Point>
@@ -549,10 +549,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 32</text>
+<text>This point was taken at time 32 with coordinates (x: 670128.5, y: 3551172.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>32</when>
  </TimeStamp>
 <Point>
@@ -565,10 +565,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 33</text>
+<text>This point was taken at time 33 with coordinates (x: 670128.5, y: 3551171.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>33</when>
  </TimeStamp>
 <Point>
@@ -581,10 +581,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 34</text>
+<text>This point was taken at time 34 with coordinates (x: 670128.5, y: 3551170.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>34</when>
  </TimeStamp>
 <Point>
@@ -597,10 +597,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 35</text>
+<text>This point was taken at time 35 with coordinates (x: 670128.5, y: 3551169.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>35</when>
  </TimeStamp>
 <Point>
@@ -613,10 +613,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 36</text>
+<text>This point was taken at time 36 with coordinates (x: 670128.5, y: 3551168.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>36</when>
  </TimeStamp>
 <Point>
@@ -629,10 +629,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 37</text>
+<text>This point was taken at time 37 with coordinates (x: 670128.5, y: 3551167.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>37</when>
  </TimeStamp>
 <Point>
@@ -645,10 +645,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 38</text>
+<text>This point was taken at time 38 with coordinates (x: 670128.5, y: 3551166.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>38</when>
  </TimeStamp>
 <Point>
@@ -661,10 +661,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 39</text>
+<text>This point was taken at time 39 with coordinates (x: 670128.5, y: 3551165.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>39</when>
  </TimeStamp>
 <Point>
@@ -677,10 +677,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 40</text>
+<text>This point was taken at time 40 with coordinates (x: 670128.5, y: 3551164.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>40</when>
  </TimeStamp>
 <Point>
@@ -693,10 +693,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 41</text>
+<text>This point was taken at time 41 with coordinates (x: 670128.5, y: 3551163.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>41</when>
  </TimeStamp>
 <Point>
@@ -709,10 +709,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 42</text>
+<text>This point was taken at time 42 with coordinates (x: 670128.5, y: 3551162.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>42</when>
  </TimeStamp>
 <Point>
@@ -725,10 +725,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 43</text>
+<text>This point was taken at time 43 with coordinates (x: 670128.5, y: 3551161.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>43</when>
  </TimeStamp>
 <Point>
@@ -741,10 +741,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 44</text>
+<text>This point was taken at time 44 with coordinates (x: 670128.5, y: 3551160.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>44</when>
  </TimeStamp>
 <Point>
@@ -757,10 +757,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 45</text>
+<text>This point was taken at time 45 with coordinates (x: 670128.5, y: 3551159.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>45</when>
  </TimeStamp>
 <Point>
@@ -773,10 +773,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 46</text>
+<text>This point was taken at time 46 with coordinates (x: 670128.5, y: 3551158.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>46</when>
  </TimeStamp>
 <Point>
@@ -789,10 +789,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 47</text>
+<text>This point was taken at time 47 with coordinates (x: 670128.5, y: 3551157.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>47</when>
  </TimeStamp>
 <Point>
@@ -805,10 +805,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 48</text>
+<text>This point was taken at time 48 with coordinates (x: 670128.5, y: 3551156.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>48</when>
  </TimeStamp>
 <Point>
@@ -821,10 +821,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 49</text>
+<text>This point was taken at time 49 with coordinates (x: 670128.5, y: 3551155.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>49</when>
  </TimeStamp>
 <Point>
@@ -837,10 +837,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 50</text>
+<text>This point was taken at time 50 with coordinates (x: 670128.5, y: 3551154.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>50</when>
  </TimeStamp>
 <Point>
@@ -853,10 +853,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 51</text>
+<text>This point was taken at time 51 with coordinates (x: 670128.5, y: 3551153.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>51</when>
  </TimeStamp>
 <Point>
@@ -869,10 +869,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 52</text>
+<text>This point was taken at time 52 with coordinates (x: 670128.5, y: 3551152.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>52</when>
  </TimeStamp>
 <Point>
@@ -885,10 +885,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 53</text>
+<text>This point was taken at time 53 with coordinates (x: 670128.5, y: 3551151.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>53</when>
  </TimeStamp>
 <Point>
@@ -901,10 +901,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 54</text>
+<text>This point was taken at time 54 with coordinates (x: 670128.5, y: 3551150.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>54</when>
  </TimeStamp>
 <Point>
@@ -917,10 +917,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 55</text>
+<text>This point was taken at time 55 with coordinates (x: 670128.5, y: 3551149.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>55</when>
  </TimeStamp>
 <Point>
@@ -933,10 +933,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 56</text>
+<text>This point was taken at time 56 with coordinates (x: 670128.5, y: 3551148.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>56</when>
  </TimeStamp>
 <Point>
@@ -949,10 +949,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 57</text>
+<text>This point was taken at time 57 with coordinates (x: 670128.5, y: 3551147.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>57</when>
  </TimeStamp>
 <Point>
@@ -965,10 +965,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 58</text>
+<text>This point was taken at time 58 with coordinates (x: 670128.5, y: 3551146.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>58</when>
  </TimeStamp>
 <Point>
@@ -981,10 +981,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 59</text>
+<text>This point was taken at time 59 with coordinates (x: 670128.5, y: 3551145.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>59</when>
  </TimeStamp>
 <Point>
@@ -997,10 +997,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 60</text>
+<text>This point was taken at time 60 with coordinates (x: 670128.5, y: 3551144.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>60</when>
  </TimeStamp>
 <Point>
@@ -1013,10 +1013,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 61</text>
+<text>This point was taken at time 61 with coordinates (x: 670128.5, y: 3551143.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>61</when>
  </TimeStamp>
 <Point>
@@ -1029,10 +1029,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 62</text>
+<text>This point was taken at time 62 with coordinates (x: 670128.5, y: 3551142.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>62</when>
  </TimeStamp>
 <Point>
@@ -1045,10 +1045,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 63</text>
+<text>This point was taken at time 63 with coordinates (x: 670128.5, y: 3551141.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>63</when>
  </TimeStamp>
 <Point>
@@ -1061,10 +1061,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 64</text>
+<text>This point was taken at time 64 with coordinates (x: 670128.5, y: 3551140.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>64</when>
  </TimeStamp>
 <Point>
@@ -1077,10 +1077,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 65</text>
+<text>This point was taken at time 65 with coordinates (x: 670128.5, y: 3551139.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>65</when>
  </TimeStamp>
 <Point>
@@ -1093,10 +1093,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 66</text>
+<text>This point was taken at time 66 with coordinates (x: 670128.5, y: 3551138.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>66</when>
  </TimeStamp>
 <Point>
@@ -1109,10 +1109,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 67</text>
+<text>This point was taken at time 67 with coordinates (x: 670128.5, y: 3551137.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>67</when>
  </TimeStamp>
 <Point>
@@ -1125,10 +1125,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 68</text>
+<text>This point was taken at time 68 with coordinates (x: 670128.5, y: 3551136.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>68</when>
  </TimeStamp>
 <Point>
@@ -1141,10 +1141,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 69</text>
+<text>This point was taken at time 69 with coordinates (x: 670128.5, y: 3551135.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>69</when>
  </TimeStamp>
 <Point>
@@ -1157,10 +1157,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 70</text>
+<text>This point was taken at time 70 with coordinates (x: 670128.5, y: 3551134.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>70</when>
  </TimeStamp>
 <Point>
@@ -1173,10 +1173,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 71</text>
+<text>This point was taken at time 71 with coordinates (x: 670128.5, y: 3551133.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>71</when>
  </TimeStamp>
 <Point>
@@ -1189,10 +1189,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 72</text>
+<text>This point was taken at time 72 with coordinates (x: 670128.5, y: 3551132.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>72</when>
  </TimeStamp>
 <Point>
@@ -1205,10 +1205,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 73</text>
+<text>This point was taken at time 73 with coordinates (x: 670128.5, y: 3551131.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>73</when>
  </TimeStamp>
 <Point>
@@ -1221,10 +1221,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 74</text>
+<text>This point was taken at time 74 with coordinates (x: 670128.5, y: 3551130.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>74</when>
  </TimeStamp>
 <Point>
@@ -1237,10 +1237,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 75</text>
+<text>This point was taken at time 75 with coordinates (x: 670128.5, y: 3551129.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>75</when>
  </TimeStamp>
 <Point>
@@ -1253,10 +1253,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 76</text>
+<text>This point was taken at time 76 with coordinates (x: 670128.5, y: 3551128.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>76</when>
  </TimeStamp>
 <Point>
@@ -1269,10 +1269,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 77</text>
+<text>This point was taken at time 77 with coordinates (x: 670128.5, y: 3551127.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>77</when>
  </TimeStamp>
 <Point>
@@ -1285,10 +1285,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 78</text>
+<text>This point was taken at time 78 with coordinates (x: 670128.5, y: 3551126.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>78</when>
  </TimeStamp>
 <Point>
@@ -1301,10 +1301,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 79</text>
+<text>This point was taken at time 79 with coordinates (x: 670128.5, y: 3551125.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>79</when>
  </TimeStamp>
 <Point>
@@ -1317,10 +1317,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 80</text>
+<text>This point was taken at time 80 with coordinates (x: 670128.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>80</when>
  </TimeStamp>
 <Point>
@@ -1333,10 +1333,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 81</text>
+<text>This point was taken at time 81 with coordinates (x: 670127.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>81</when>
  </TimeStamp>
 <Point>
@@ -1349,10 +1349,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 82</text>
+<text>This point was taken at time 82 with coordinates (x: 670126.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>82</when>
  </TimeStamp>
 <Point>
@@ -1365,10 +1365,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 83</text>
+<text>This point was taken at time 83 with coordinates (x: 670125.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>83</when>
  </TimeStamp>
 <Point>
@@ -1381,10 +1381,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 84</text>
+<text>This point was taken at time 84 with coordinates (x: 670124.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>84</when>
  </TimeStamp>
 <Point>
@@ -1397,10 +1397,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 85</text>
+<text>This point was taken at time 85 with coordinates (x: 670123.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>85</when>
  </TimeStamp>
 <Point>
@@ -1413,10 +1413,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 86</text>
+<text>This point was taken at time 86 with coordinates (x: 670122.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>86</when>
  </TimeStamp>
 <Point>
@@ -1429,10 +1429,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 87</text>
+<text>This point was taken at time 87 with coordinates (x: 670121.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>87</when>
  </TimeStamp>
 <Point>
@@ -1445,10 +1445,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 88</text>
+<text>This point was taken at time 88 with coordinates (x: 670120.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>88</when>
  </TimeStamp>
 <Point>
@@ -1461,10 +1461,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 89</text>
+<text>This point was taken at time 89 with coordinates (x: 670119.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>89</when>
  </TimeStamp>
 <Point>
@@ -1477,10 +1477,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 90</text>
+<text>This point was taken at time 90 with coordinates (x: 670118.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>90</when>
  </TimeStamp>
 <Point>
@@ -1493,10 +1493,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 91</text>
+<text>This point was taken at time 91 with coordinates (x: 670117.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>91</when>
  </TimeStamp>
 <Point>
@@ -1509,10 +1509,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 92</text>
+<text>This point was taken at time 92 with coordinates (x: 670116.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>92</when>
  </TimeStamp>
 <Point>
@@ -1525,10 +1525,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 93</text>
+<text>This point was taken at time 93 with coordinates (x: 670115.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>93</when>
  </TimeStamp>
 <Point>
@@ -1541,10 +1541,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 94</text>
+<text>This point was taken at time 94 with coordinates (x: 670114.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>94</when>
  </TimeStamp>
 <Point>
@@ -1557,10 +1557,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 95</text>
+<text>This point was taken at time 95 with coordinates (x: 670113.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>95</when>
  </TimeStamp>
 <Point>
@@ -1573,10 +1573,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 96</text>
+<text>This point was taken at time 96 with coordinates (x: 670112.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>96</when>
  </TimeStamp>
 <Point>
@@ -1589,10 +1589,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 97</text>
+<text>This point was taken at time 97 with coordinates (x: 670111.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>97</when>
  </TimeStamp>
 <Point>
@@ -1605,10 +1605,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 98</text>
+<text>This point was taken at time 98 with coordinates (x: 670110.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>98</when>
  </TimeStamp>
 <Point>
@@ -1621,10 +1621,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 99</text>
+<text>This point was taken at time 99 with coordinates (x: 670109.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>99</when>
  </TimeStamp>
 <Point>
@@ -1637,10 +1637,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 100</text>
+<text>This point was taken at time 100 with coordinates (x: 670108.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>100</when>
  </TimeStamp>
 <Point>
@@ -1653,10 +1653,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 101</text>
+<text>This point was taken at time 101 with coordinates (x: 670107.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>101</when>
  </TimeStamp>
 <Point>
@@ -1669,10 +1669,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 102</text>
+<text>This point was taken at time 102 with coordinates (x: 670106.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>102</when>
  </TimeStamp>
 <Point>
@@ -1685,10 +1685,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 103</text>
+<text>This point was taken at time 103 with coordinates (x: 670105.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>103</when>
  </TimeStamp>
 <Point>
@@ -1701,10 +1701,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 104</text>
+<text>This point was taken at time 104 with coordinates (x: 670104.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>104</when>
  </TimeStamp>
 <Point>
@@ -1717,10 +1717,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 105</text>
+<text>This point was taken at time 105 with coordinates (x: 670103.5, y: 3551124.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>105</when>
  </TimeStamp>
 <Point>
@@ -1733,10 +1733,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 106</text>
+<text>This point was taken at time 106 with coordinates (x: 670103.5, y: 3551125.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>106</when>
  </TimeStamp>
 <Point>
@@ -1749,10 +1749,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 107</text>
+<text>This point was taken at time 107 with coordinates (x: 670103.5, y: 3551126.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>107</when>
  </TimeStamp>
 <Point>
@@ -1765,10 +1765,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 108</text>
+<text>This point was taken at time 108 with coordinates (x: 670103.5, y: 3551127.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>108</when>
  </TimeStamp>
 <Point>
@@ -1781,10 +1781,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 109</text>
+<text>This point was taken at time 109 with coordinates (x: 670103.5, y: 3551128.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>109</when>
  </TimeStamp>
 <Point>
@@ -1797,10 +1797,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 110</text>
+<text>This point was taken at time 110 with coordinates (x: 670103.5, y: 3551129.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>110</when>
  </TimeStamp>
 <Point>
@@ -1813,10 +1813,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 111</text>
+<text>This point was taken at time 111 with coordinates (x: 670103.5, y: 3551130.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>111</when>
  </TimeStamp>
 <Point>
@@ -1829,10 +1829,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 112</text>
+<text>This point was taken at time 112 with coordinates (x: 670103.5, y: 3551131.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>112</when>
  </TimeStamp>
 <Point>
@@ -1845,10 +1845,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 113</text>
+<text>This point was taken at time 113 with coordinates (x: 670103.5, y: 3551132.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>113</when>
  </TimeStamp>
 <Point>
@@ -1861,10 +1861,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 114</text>
+<text>This point was taken at time 114 with coordinates (x: 670103.5, y: 3551133.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>114</when>
  </TimeStamp>
 <Point>
@@ -1877,10 +1877,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 115</text>
+<text>This point was taken at time 115 with coordinates (x: 670103.5, y: 3551134.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>115</when>
  </TimeStamp>
 <Point>
@@ -1893,10 +1893,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 116</text>
+<text>This point was taken at time 116 with coordinates (x: 670103.5, y: 3551135.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>116</when>
  </TimeStamp>
 <Point>
@@ -1909,10 +1909,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 117</text>
+<text>This point was taken at time 117 with coordinates (x: 670103.5, y: 3551136.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>117</when>
  </TimeStamp>
 <Point>
@@ -1925,10 +1925,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 118</text>
+<text>This point was taken at time 118 with coordinates (x: 670103.5, y: 3551137.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>118</when>
  </TimeStamp>
 <Point>
@@ -1941,10 +1941,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 119</text>
+<text>This point was taken at time 119 with coordinates (x: 670103.5, y: 3551138.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>119</when>
  </TimeStamp>
 <Point>
@@ -1957,10 +1957,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 120</text>
+<text>This point was taken at time 120 with coordinates (x: 670103.5, y: 3551139.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>120</when>
  </TimeStamp>
 <Point>
@@ -1973,10 +1973,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 121</text>
+<text>This point was taken at time 121 with coordinates (x: 670103.5, y: 3551140.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>121</when>
  </TimeStamp>
 <Point>
@@ -1989,10 +1989,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 122</text>
+<text>This point was taken at time 122 with coordinates (x: 670103.5, y: 3551141.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>122</when>
  </TimeStamp>
 <Point>
@@ -2005,10 +2005,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 123</text>
+<text>This point was taken at time 123 with coordinates (x: 670103.5, y: 3551142.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>123</when>
  </TimeStamp>
 <Point>
@@ -2021,10 +2021,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 124</text>
+<text>This point was taken at time 124 with coordinates (x: 670103.5, y: 3551143.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>124</when>
  </TimeStamp>
 <Point>
@@ -2037,10 +2037,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 125</text>
+<text>This point was taken at time 125 with coordinates (x: 670103.5, y: 3551144.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>125</when>
  </TimeStamp>
 <Point>
@@ -2053,10 +2053,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 126</text>
+<text>This point was taken at time 126 with coordinates (x: 670103.5, y: 3551145.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>126</when>
  </TimeStamp>
 <Point>
@@ -2069,10 +2069,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 127</text>
+<text>This point was taken at time 127 with coordinates (x: 670103.5, y: 3551146.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>127</when>
  </TimeStamp>
 <Point>
@@ -2085,10 +2085,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 128</text>
+<text>This point was taken at time 128 with coordinates (x: 670103.5, y: 3551147.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>128</when>
  </TimeStamp>
 <Point>
@@ -2101,10 +2101,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 129</text>
+<text>This point was taken at time 129 with coordinates (x: 670103.5, y: 3551148.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>129</when>
  </TimeStamp>
 <Point>
@@ -2117,10 +2117,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 130</text>
+<text>This point was taken at time 130 with coordinates (x: 670103.5, y: 3551149.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>130</when>
  </TimeStamp>
 <Point>
@@ -2133,10 +2133,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 131</text>
+<text>This point was taken at time 131 with coordinates (x: 670103.5, y: 3551150.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>131</when>
  </TimeStamp>
 <Point>
@@ -2149,10 +2149,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 132</text>
+<text>This point was taken at time 132 with coordinates (x: 670103.5, y: 3551151.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>132</when>
  </TimeStamp>
 <Point>
@@ -2165,10 +2165,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 133</text>
+<text>This point was taken at time 133 with coordinates (x: 670103.5, y: 3551152.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>133</when>
  </TimeStamp>
 <Point>
@@ -2181,10 +2181,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 134</text>
+<text>This point was taken at time 134 with coordinates (x: 670103.5, y: 3551153.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>134</when>
  </TimeStamp>
 <Point>
@@ -2197,10 +2197,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 135</text>
+<text>This point was taken at time 135 with coordinates (x: 670103.5, y: 3551154.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>135</when>
  </TimeStamp>
 <Point>
@@ -2213,10 +2213,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 136</text>
+<text>This point was taken at time 136 with coordinates (x: 670103.5, y: 3551155.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>136</when>
  </TimeStamp>
 <Point>
@@ -2229,10 +2229,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 137</text>
+<text>This point was taken at time 137 with coordinates (x: 670103.5, y: 3551156.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>137</when>
  </TimeStamp>
 <Point>
@@ -2245,10 +2245,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 138</text>
+<text>This point was taken at time 138 with coordinates (x: 670103.5, y: 3551157.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>138</when>
  </TimeStamp>
 <Point>
@@ -2261,10 +2261,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 139</text>
+<text>This point was taken at time 139 with coordinates (x: 670103.5, y: 3551158.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>139</when>
  </TimeStamp>
 <Point>
@@ -2277,10 +2277,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 140</text>
+<text>This point was taken at time 140 with coordinates (x: 670103.5, y: 3551159.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>140</when>
  </TimeStamp>
 <Point>
@@ -2293,10 +2293,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 141</text>
+<text>This point was taken at time 141 with coordinates (x: 670103.5, y: 3551160.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>141</when>
  </TimeStamp>
 <Point>
@@ -2309,10 +2309,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 142</text>
+<text>This point was taken at time 142 with coordinates (x: 670103.5, y: 3551161.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>142</when>
  </TimeStamp>
 <Point>
@@ -2325,10 +2325,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 143</text>
+<text>This point was taken at time 143 with coordinates (x: 670103.5, y: 3551162.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>143</when>
  </TimeStamp>
 <Point>
@@ -2341,10 +2341,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 144</text>
+<text>This point was taken at time 144 with coordinates (x: 670103.5, y: 3551163.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>144</when>
  </TimeStamp>
 <Point>
@@ -2357,10 +2357,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 145</text>
+<text>This point was taken at time 145 with coordinates (x: 670103.5, y: 3551164.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>145</when>
  </TimeStamp>
 <Point>
@@ -2373,10 +2373,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 146</text>
+<text>This point was taken at time 146 with coordinates (x: 670103.5, y: 3551165.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>146</when>
  </TimeStamp>
 <Point>
@@ -2389,10 +2389,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 147</text>
+<text>This point was taken at time 147 with coordinates (x: 670103.5, y: 3551166.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>147</when>
  </TimeStamp>
 <Point>
@@ -2405,10 +2405,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 148</text>
+<text>This point was taken at time 148 with coordinates (x: 670103.5, y: 3551167.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>148</when>
  </TimeStamp>
 <Point>
@@ -2421,10 +2421,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 149</text>
+<text>This point was taken at time 149 with coordinates (x: 670103.5, y: 3551168.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>149</when>
  </TimeStamp>
 <Point>
@@ -2437,10 +2437,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 150</text>
+<text>This point was taken at time 150 with coordinates (x: 670103.5, y: 3551169.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>150</when>
  </TimeStamp>
 <Point>
@@ -2453,10 +2453,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 151</text>
+<text>This point was taken at time 151 with coordinates (x: 670103.5, y: 3551170.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>151</when>
  </TimeStamp>
 <Point>
@@ -2469,10 +2469,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 152</text>
+<text>This point was taken at time 152 with coordinates (x: 670103.5, y: 3551171.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>152</when>
  </TimeStamp>
 <Point>
@@ -2485,10 +2485,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 153</text>
+<text>This point was taken at time 153 with coordinates (x: 670103.5, y: 3551172.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>153</when>
  </TimeStamp>
 <Point>
@@ -2501,10 +2501,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 154</text>
+<text>This point was taken at time 154 with coordinates (x: 670103.5, y: 3551173.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>154</when>
  </TimeStamp>
 <Point>
@@ -2517,10 +2517,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 155</text>
+<text>This point was taken at time 155 with coordinates (x: 670103.5, y: 3551174.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>155</when>
  </TimeStamp>
 <Point>
@@ -2533,10 +2533,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 156</text>
+<text>This point was taken at time 156 with coordinates (x: 670103.5, y: 3551175.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>156</when>
  </TimeStamp>
 <Point>
@@ -2549,10 +2549,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 157</text>
+<text>This point was taken at time 157 with coordinates (x: 670103.5, y: 3551176.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>157</when>
  </TimeStamp>
 <Point>
@@ -2565,10 +2565,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 158</text>
+<text>This point was taken at time 158 with coordinates (x: 670103.5, y: 3551177.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>158</when>
  </TimeStamp>
 <Point>
@@ -2581,10 +2581,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 159</text>
+<text>This point was taken at time 159 with coordinates (x: 670103.5, y: 3551178.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>159</when>
  </TimeStamp>
 <Point>
@@ -2597,10 +2597,10 @@
  <styleUrl>#green</styleUrl>
 <Style>
 <BalloonStyle>
-<text>This point was taken at time 160</text>
+<text>This point was taken at time 160 with coordinates (x: 670103.5, y: 3551179.5, z: 1.0)</text>
 </BalloonStyle>
 </Style>
- <TimeStamp>
+<TimeStamp>
 <when>160</when>
  </TimeStamp>
 <Point>

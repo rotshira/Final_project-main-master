@@ -25,7 +25,7 @@ public class ParticleSimulation {
 
 
     public static void main(String[] args) {
-        //simulationMain2();
+        simulationMain2();
         //testParse();
 
         //NMEAParser();
@@ -35,8 +35,7 @@ public class ParticleSimulation {
 
 
            //test3();
-
-        oursimulationMain();
+        //oursimulationMain();
 
 
 
@@ -568,7 +567,7 @@ public class ParticleSimulation {
 
 
         ParticleList.initParticles(pivot, pivot2);
-        KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path3,5);
+        KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path3,10);
 
         NMEAProtocolParser parser = new NMEAProtocolParser();
 
@@ -597,11 +596,11 @@ public class ParticleSimulation {
             ParticleList.OutFfRegion(bs, pivot, pivot2);
 
             ParticleList.MessureSignalFromSats( bs,  allSats);
-            ParticleList.MessureSignalFromSats( bs,  allSats);
+            //ParticleList.MessureSignalFromSats( bs,  allSats);
 
-              ParticleList.MoveParticleWithError(Actions.get(i));
+            ParticleList.MoveParticleWithError(Actions.get(i));
 
-            ParticleList.ComputeWeightsNoHistory(losData.getSatData(i));
+            //articleList.ComputeWeightsNoHistory(losData.getSatData(i));
             ParticleList.ComputeWeights(losData.getSatData(i)); // compute weights with hisotry
             ParticleList.Resample();
 
@@ -610,7 +609,7 @@ public class ParticleSimulation {
             ans.add(tmp);
             String Particle_path2=Particle_path+i+".kml";
 
-            KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path2,5);
+            KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path2,10);
 
             //KML_Point3D_List_Generator.Generate_kml_from_List(PointList,Particle_path2);
             ParticleList.ComputeAndPrintErrors(path.get(i));

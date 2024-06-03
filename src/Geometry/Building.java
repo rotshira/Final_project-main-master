@@ -58,7 +58,9 @@ public class Building {
         int a = pos.pointLineTest(this.getBuildindVertices().get(0), this.getBuildindVertices().get(1));
         for(int i=1;i<this.getBuildindVertices().size()-1;i++) {
             int b = pos.pointLineTest(this.getBuildindVertices().get(i), this.getBuildindVertices().get(i+1));
-            if(a!=b) {ans = false;}
+            if(a!=b) {
+                ans = false;
+            }
         }
         return ans;
     }
