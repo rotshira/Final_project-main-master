@@ -596,7 +596,6 @@ public class ParticleSimulation {
             ParticleList.OutFfRegion(bs, pivot, pivot2);
 
             ParticleList.MessureSignalFromSats( bs,  allSats);
-            //ParticleList.MessureSignalFromSats( bs,  allSats);
 
             ParticleList.MoveParticleWithError(Actions.get(i));
 

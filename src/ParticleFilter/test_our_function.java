@@ -20,8 +20,9 @@ public class test_our_function {
         //test_make_kml_from_point_to_sat();
          //ourChckForOutOfRegion();
         //ourChckForisPoint2D_inBuilding();
-        Point3D pivot = new Point3D(670053, 3551100, 1);
-        System.out.println(Point3D.convertUTMToLatLon(pivot,"37T"));
+//        Point3D pivot = new Point3D(670053, 3551100, 1);
+//        System.out.println(Point3D.convertUTMToLatLon(pivot,"36N"));
+        ourChckFor_LosData_los();
 
 
 
@@ -153,6 +154,32 @@ public class test_our_function {
 
             }
         }
+    }
+    public static void ourChckFor_LosData_los(){
+        List<Building> bs = null;
+        String walls_file = "Esri_v0.4.kml";
+        try {
+            bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        Sat s = new Sat(180,45,0);
+        List<Sat> all_sat = new ArrayList<>();
+        all_sat.add(s);
+
+
+        Particle p_inside_the_building = new Particle(670081,3551156,1);
+        Particle p_outside_the_building = new Particle(670053,3551100,1);
+        Point3D pivot = new Point3D(670053, 3551100, 1);
+        Point3D pivot2 =  new Point3D(pivot);
+        pivot2.offset(100, 100, 0);
+
+//        System.out.println(p_inside_the_building.OutOfRegion(bs, pivot, pivot2));
+
+
+        Particle.PrintArr(p_inside_the_building.LOS);
+        p_inside_the_building.MessureSesnor(bs,all_sat);
+        Particle.PrintArr(p_inside_the_building.LOS);
     }
 
 

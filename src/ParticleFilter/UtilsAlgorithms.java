@@ -104,27 +104,27 @@ public class UtilsAlgorithms {
         List<Sat> sat_data2;
         sat_data2=new ArrayList<Sat>();
         Sat tmp;
-        tmp=new Sat(31, 10, 1); // PRN 30
+        tmp=new Sat(31, 10, 0); // PRN 30
         sat_data2.add(tmp);
-        tmp=new Sat(85, 37, 2); // PRN 31
+        tmp=new Sat(85, 37, 1); // PRN 31
         sat_data2.add(tmp);
-        tmp=new Sat(42, 6, 3); // PRN 32
+        tmp=new Sat(42, 6, 2); // PRN 32
         sat_data2.add(tmp);
-        tmp=new Sat(127, 35, 4); // PRN 33
+        tmp=new Sat(127, 35, 3); // PRN 33
         sat_data2.add(tmp);
-        tmp=new Sat(226, 50, 5); // PRN 34
+        tmp=new Sat(226, 50, 4); // PRN 34
         sat_data2.add(tmp);
-        tmp=new Sat(53, 25, 6); // PRN 35
+        tmp=new Sat(53, 25, 5); // PRN 35
         sat_data2.add(tmp);
-        tmp=new Sat(32, 2, 7); // PRN 36
+        tmp=new Sat(32, 2, 6); // PRN 36
         sat_data2.add(tmp);
-        tmp=new Sat(40, 30, 8); // PRN 37
+        tmp=new Sat(40, 30, 7); // PRN 37
         sat_data2.add(tmp);
-        tmp=new Sat(38, 13, 9); // PRN 38
+        tmp=new Sat(38, 13, 8); // PRN 38
         sat_data2.add(tmp);
-        tmp=new Sat(38, 34, 10); // PRN 39
+        tmp=new Sat(38, 34, 9); // PRN 39
         sat_data2.add(tmp);
-        tmp=new Sat(148,26,5);                //PRN 15
+        tmp=new Sat(148,26,10);                //PRN 15
         sat_data2.add(tmp);
 //
 //        tmp=new Sat(6,67,6); //PRN  17

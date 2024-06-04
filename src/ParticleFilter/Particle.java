@@ -86,6 +86,17 @@ public class Particle implements Comparable<Particle> {
     }
 
     public Boolean[] LOS;
+    public static void PrintArr(Boolean[] LOS){
+        if(LOS==null){
+            System.out.println("null");
+            return;
+        }
+        System.out.print("{,");
+        for (Boolean b: LOS){
+            System.out.print(b + ",");
+        }
+        System.out.println("}");
+    }
 
 
     public void MessureSesnor(List<Building> bs,  List<Sat> allSats)
@@ -94,8 +105,7 @@ public class Particle implements Comparable<Particle> {
         Boolean[] los = new Boolean[allSats.size()];
         for (int i=0; i<allSats.size(); i++)
         {
-            los[i] = LosData.los(allSats.get(i), this.pos, bs);
-            // System.out.print(los[sat.id()]+" ");
+            los[i] = LosData.los(allSats.get(i), Point3D.convertUTMToLatLon(this.pos,"36N"), bs);
         }
         this.LOS = los;
         //  System.out.println();
@@ -316,7 +326,7 @@ public class Particle implements Comparable<Particle> {
 
         for (Building tmp : bs)
         {
-               contain=tmp.isPoint2D_inBuilding(this.pos);
+               contain=tmp.isPoint2D_inBuilding(Point3D.convertUTMToLatLon(this.pos,"36N"));
                if(contain==true)
                {
                    this.OutOfRegion=true;

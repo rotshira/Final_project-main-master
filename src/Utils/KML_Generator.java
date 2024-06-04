@@ -164,10 +164,18 @@ public class KML_Generator
 
                 else if(NumberOfMatchingSats<(MaxiSat-3))
                     out.write(" <styleUrl>#red</styleUrl>\n");
+                String los = "";
+                if (Particles.getParticleList().get(i).LOS != null) {
+                    for (int j = 0; j < MaxiSat; j++) {
+                        los += Particles.getParticleList().get(i).LOS[j]+", ";
+                    }
+                }
 
 
 
                 out.write("<Style>\n<BalloonStyle>\n<text>This point was taken at time "+ i +"</text>\n</BalloonStyle>\n</Style>\n ");
+                out.write("<Style>\n<BalloonStyle>\n<text>His OutOfRegion is: "+Particles.getParticleList().get(i).OutOfRegion  +"</text>\n</BalloonStyle>\n</Style>\n ");
+                out.write("<Style>\n<BalloonStyle>\n<text>Los:  "+ los +"</text>\n</BalloonStyle>\n</Style>\n ");
                 out.write("<TimeStamp>\n");
                 out.write("<when>"+i+"</when>\n");
                 out.write(" </TimeStamp>\n");
