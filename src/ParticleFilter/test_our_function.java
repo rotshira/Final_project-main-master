@@ -20,8 +20,8 @@ public class test_our_function {
         //test_make_kml_from_point_to_sat();
          //ourChckForOutOfRegion();
         //ourChckForisPoint2D_inBuilding();
-        Point3D pivot = new Point3D(670053, 3551100, 1);
-        System.out.println(Point3D.convertUTMToLatLon(pivot,"37T"));
+//        Point3D pivot = new Point3D(670053, 3551100, 1);
+//        System.out.println(Point3D.convertUTMToLatLon(pivot,"36N"));
 
 
 

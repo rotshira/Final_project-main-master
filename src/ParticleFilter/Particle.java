@@ -316,7 +316,7 @@ public class Particle implements Comparable<Particle> {
 
         for (Building tmp : bs)
         {
-               contain=tmp.isPoint2D_inBuilding(this.pos);
+               contain=tmp.isPoint2D_inBuilding(Point3D.convertUTMToLatLon(this.pos,"36N"));
                if(contain==true)
                {
                    this.OutOfRegion=true;

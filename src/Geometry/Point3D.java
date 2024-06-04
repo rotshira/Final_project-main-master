@@ -158,26 +158,35 @@ public class Point3D  extends Point2D{
         double m = y / k0;
         double mu = m / (a * (1 - Math.pow(e, 2) / 4 - 3 * Math.pow(e, 4) / 64 - 5 * Math.pow(e, 6) / 256));
 
-        double phi1Rad = mu + (3 * e1sq / 2 - 27 * Math.pow(e1sq, 3) / 32) * Math.sin(2 * mu)
-                + (21 * e1sq / 16 - 55 * Math.pow(e1sq, 4) / 32) * Math.sin(4 * mu)
-                + (151 * Math.pow(e1sq, 3) / 96) * Math.sin(6 * mu);
+        double e1 = (1 - Math.sqrt(1 - e * e)) / (1 + Math.sqrt(1 - e * e));
 
-        double n1 = a / Math.sqrt(1 - Math.pow(e * Math.sin(phi1Rad), 2));
-        double t1 = Math.pow(Math.tan(phi1Rad), 2);
-        double c1 = e1sq * Math.pow(Math.cos(phi1Rad), 2);
-        double r1 = a * (1 - Math.pow(e, 2)) / Math.pow(1 - Math.pow(e * Math.sin(phi1Rad), 2), 1.5);
+        double j1 = (3 * e1 / 2 - 27 * Math.pow(e1, 3) / 32) * Math.sin(2 * mu);
+        double j2 = (21 * Math.pow(e1, 2) / 16 - 55 * Math.pow(e1, 4) / 32) * Math.sin(4 * mu);
+        double j3 = (151 * Math.pow(e1, 3) / 96) * Math.sin(6 * mu);
+        double j4 = (1097 * Math.pow(e1, 4) / 512) * Math.sin(8 * mu);
+        double fp = mu + j1 + j2 + j3 + j4;
+
+        double e2 = e * e / (1 - e * e);
+        double c1 = e2 * Math.pow(Math.cos(fp), 2);
+        double t1 = Math.pow(Math.tan(fp), 2);
+        double r1 = a * (1 - e * e) / Math.pow(1 - e * e * Math.pow(Math.sin(fp), 2), 1.5);
+        double n1 = a / Math.sqrt(1 - e * e * Math.pow(Math.sin(fp), 2));
+
         double d = x / (n1 * k0);
+        double q1 = n1 * Math.tan(fp) / r1;
+        double q2 = (d * d / 2.0);
+        double q3 = (5 + 3 * t1 + 10 * c1 - 4 * c1 * c1 - 9 * e2) * Math.pow(d, 4) / 24.0;
+        double q4 = (61 + 90 * t1 + 298 * c1 + 45 * t1 * t1 - 252 * e2 - 3 * c1 * c1) * Math.pow(d, 6) / 720.0;
+        double lat = fp - q1 * (q2 - q3 + q4);
 
-        double latitude = phi1Rad - (n1 * Math.tan(phi1Rad) / r1)
-                * (Math.pow(d, 2) / 2 - (5 + 3 * t1 + 10 * c1 - 4 * Math.pow(c1, 2) - 9 * e1sq) * Math.pow(d, 4) / 24
-                + (61 + 90 * t1 + 298 * c1 + 45 * Math.pow(t1, 2) - 252 * e1sq - 3 * Math.pow(c1, 2)) * Math.pow(d, 6) / 720);
-        latitude = Math.toDegrees(latitude);
+        double q5 = d;
+        double q6 = (1 + 2 * t1 + c1) * Math.pow(d, 3) / 6;
+        double q7 = (5 - 2 * c1 + 28 * t1 - 3 * c1 * c1 + 8 * e2 + 24 * t1 * t1) * Math.pow(d, 5) / 120.0;
+        double lon = (q5 - q6 + q7) / Math.cos(fp);
 
-        double longitude = (d - (1 + 2 * t1 + c1) * Math.pow(d, 3) / 6
-                + (5 - 2 * c1 + 28 * t1 - 3 * Math.pow(c1, 2) + 8 * e1sq + 24 * Math.pow(t1, 2)) * Math.pow(d, 5) / 120)
-                / Math.cos(phi1Rad);
-        longitude = zoneNumber > 0 ? zoneNumber * 6 - 183.0 + Math.toDegrees(longitude) : Math.toDegrees(longitude);
+        lat = Math.toDegrees(lat);
+        lon = zoneNumber > 0 ? zoneNumber * 6 - 183.0 + Math.toDegrees(lon) : Math.toDegrees(lon);
 
-        return new Point3D(longitude, latitude, utmPoint.getZ());
+        return new Point3D(lon, lat, utmPoint.getZ());
     }
 }
