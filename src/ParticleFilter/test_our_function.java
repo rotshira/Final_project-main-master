@@ -221,7 +221,6 @@ public static void ourChckForOutOfRegion(){
 
         System.out.println("Before moveWithError : ");
         ParticleList.ourPrint3DPoints();
-
         // Now move particles with the action
         ParticleList.MoveParticleWithError(Actions.get(0));
         System.out.println("\n");
