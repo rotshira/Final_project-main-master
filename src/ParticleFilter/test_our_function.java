@@ -22,7 +22,13 @@ public class test_our_function {
         //ourChckForisPoint2D_inBuilding();
 //        Point3D pivot = new Point3D(670053, 3551100, 1);
 //        System.out.println(Point3D.convertUTMToLatLon(pivot,"36N"));
-        ourChckFor_LosData_los();
+//        ourChckFor_LosData_los();
+        OurtestMoveParticleWithError();
+//        for (int i = 0; i < 5; i++) {
+//            System.out.println("Test run: " + (i + 1));
+//            OurtestMoveParticleWithError();
+//            System.out.println("----------------------------");
+//        }
 
 
 
@@ -84,23 +90,38 @@ public class test_our_function {
     }
 
 
-    public static void test_make_kml_from_point_to_sat(){
+    public static void test_make_kml_from_point_to_sat() {
         System.out.println("start...");
-       // Path to the KML file containing route points
+        // Path to the KML file containing route points
         String routeFilePath = "routeABCDFabricated.kml";
-
-        // Create a list of satellites
-        List<Sat> allSats = UtilsAlgorithms.createSatDataList();
-        System.out.println("the number of sats is: " + allSats.size());
 
         // Parse path points and convert to Cartesian coordinates
         List<Point3D> path = BuildingsFactory.parseKML(routeFilePath);
-        System.out.println("the number of points in path: " + path.size());
-        for (Point3D p :path){
-            System.out.println("the main point is: "+ p);
+        System.out.println("The number of points in path: " + path.size());
+
+        // Extract four points of the rectangle
+        List<Point3D> rectanglePoints = new ArrayList<>();
+        if (path.size() >= 4) {
+            rectanglePoints.add(path.get(0));
+            rectanglePoints.add(path.get(path.size() / 4));
+            rectanglePoints.add(path.get(path.size() / 2));
+            rectanglePoints.add(path.get(3 * path.size() / 4));
+        } else {
+            System.out.println("Not enough points in the path to form a rectangle.");
+            return;
         }
 
-        String kml = KML_Generator.OurBuildKml(path, allSats);
+        // Create a list of 2 satellites
+        List<Sat> allSats = UtilsAlgorithms.createSatDataList();
+        List<Sat> Sats = new ArrayList<>();
+        for (int i = 0; i < 2 && i < allSats.size(); i++)
+        {
+            Sats.add(allSats.get(i));
+        }
+        System.out.println("Using 2 satellites for calculations.");
+
+        // Generate KML for the four points and 2 satellites
+        String kml = KML_Generator.OurBuildKml(rectanglePoints, Sats);
         String filePath = "output.kml";
 
         try {
@@ -110,11 +131,10 @@ public class test_our_function {
             e.printStackTrace();
         }
 
-
         System.out.println("end");
+}
 
-    }
-    public static void ourChckForOutOfRegion(){
+public static void ourChckForOutOfRegion(){
         Particle p1 = new Particle( 34.802110,  32.083923,0);
         List<Building> bs = null;
         String walls_file = "Esri_v0.4.kml";
@@ -182,6 +202,32 @@ public class test_our_function {
         Particle.PrintArr(p_inside_the_building.LOS);
     }
 
+    public static void OurtestMoveParticleWithError() {
+        Particles ParticleList;
+        List<ActionFunction> Actions;
+        Point3D p1, p2;
+        ParticleList = new Particles();
+        p1 = new Point3D(670053, 3551100, 0);
+        p2 = new Point3D(670053, 3551100, 0);
 
+        // Initialize particles in the ParticleList
+        Point3D pivot1 = new Point3D(670053, 3551100, 0);
+        Point3D pivot2 = new Point3D(pivot1);
+        ParticleList.initParticles(pivot1, pivot2);
 
+        Actions = new ArrayList<ActionFunction>();
+        ActionFunction tmp = new ActionFunction(p1, p2, 0, 0, 0);
+        Actions.add(tmp);
+
+        System.out.println("Before moveWithError : ");
+        ParticleList.ourPrint3DPoints();
+
+        // Now move particles with the action
+        ParticleList.MoveParticleWithError(Actions.get(0));
+
+        System.out.println("\n");
+        System.out.println("After moveWithError : ");
+        ParticleList.ourPrint3DPoints();
+        System.out.println("\n");
+    }
 }
