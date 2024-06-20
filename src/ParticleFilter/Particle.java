@@ -253,14 +253,15 @@ public class Particle implements Comparable<Particle> {
         double newWeight;
         for(int i=0; i<recordedLos.length; i++)
         {
-            if(recordedLos[i]==this.LOS[i])
-                tmp_Weight+=1;
+            if(recordedLos[i]==this.LOS[i]){
+                tmp_Weight++;
+            }
         }
 
         this.setNumberOfMatchedSats(tmp_Weight);
 
-            newWeight = this.getNumberOfMatchedSats();
-            newWeight = newWeight/recordedLos.length;
+        newWeight = this.getNumberOfMatchedSats();
+        newWeight = newWeight/recordedLos.length;
 
         this.setOldMatchingSats(this.getNumberOfMatchedSats());
         this.setWeight(newWeight);

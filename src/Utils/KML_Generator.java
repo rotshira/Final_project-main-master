@@ -2,10 +2,13 @@ package Utils;
 
 import GNSS.Sat;
 import Geometry.Building;
+import Geometry.BuildingsFactory;
 import Geometry.Point3D;
 import Geometry.Wall;
 import ParticleFilter.Particle;
 import ParticleFilter.Particles;
+import ParticleFilter.UtilsAlgorithms;
+import ParticleFilter.test_our_function;
 import Utils.GeoUtils;
 
 import java.io.BufferedWriter;
@@ -157,10 +160,10 @@ public class KML_Generator
                     out.write(" <styleUrl>#green</styleUrl>\n");
 
                 else if(NumberOfMatchingSats==(MaxiSat-1))
-                    out.write(" <styleUrl>#blue</styleUrl>\n");
+                    out.write(" <styleUrl>#yellow</styleUrl>\n");
 
                 else if(NumberOfMatchingSats==(MaxiSat-2))
-                    out.write(" <styleUrl>#yellow</styleUrl>\n");
+                    out.write(" <styleUrl>#blue</styleUrl>\n");
 
                 else if(NumberOfMatchingSats<(MaxiSat-3))
                     out.write(" <styleUrl>#red</styleUrl>\n");
@@ -173,9 +176,10 @@ public class KML_Generator
 
 
 
-                out.write("<Style>\n<BalloonStyle>\n<text>This point was taken at time "+ i +"</text>\n</BalloonStyle>\n</Style>\n ");
-                out.write("<Style>\n<BalloonStyle>\n<text>His OutOfRegion is: "+Particles.getParticleList().get(i).OutOfRegion  +"</text>\n</BalloonStyle>\n</Style>\n ");
-                out.write("<Style>\n<BalloonStyle>\n<text>Los:  "+ los +"</text>\n</BalloonStyle>\n</Style>\n ");
+                //out.write("<Style>\n<BalloonStyle>\n<text>This point was taken at time "+ i +"</text>\n</BalloonStyle>\n</Style>\n ");
+                //out.write("<Style>\n<BalloonStyle>\n<text>His OutOfRegion is: "+Particles.getParticleList().get(i).OutOfRegion  +"</text>\n</BalloonStyle>\n</Style>\n ");
+                //out.write("<Style>\n<BalloonStyle>\n<text>Los:  "+ los +"</text>\n</BalloonStyle>\n</Style>\n ");
+                out.write("<Style>\n<BalloonStyle>\n<text>NumberOfMatchingSats:  "+ NumberOfMatchingSats +"</text>\n</BalloonStyle>\n</Style>\n ");
                 out.write("<TimeStamp>\n");
                 out.write("<when>"+i+"</when>\n");
                 out.write(" </TimeStamp>\n");

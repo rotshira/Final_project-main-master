@@ -599,8 +599,8 @@ public class ParticleSimulation {
 
             ParticleList.MoveParticleWithError(Actions.get(i));
 
-            //articleList.ComputeWeightsNoHistory(losData.getSatData(i));
-            ParticleList.ComputeWeights(losData.getSatData(i)); // compute weights with hisotry
+            ParticleList.ComputeWeightsNoHistory(losData.getSatData(i));
+            //ParticleList.ComputeWeights(losData.getSatData(i)); // compute weights with hisotry
             ParticleList.Resample();
 
 

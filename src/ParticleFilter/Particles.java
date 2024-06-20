@@ -429,7 +429,7 @@ public class Particles {
         }
         x=x/p;y=y/p;z=z/p;
         Point3D ans = new Point3D(x,y,z);
-     //  Point3D ans2 = new Point3D(ParticleList.get(index).pos);
+        //Point3D ans2 = new Point3D(ParticleList.get(index).pos);
         return ans;
     }
 
@@ -599,7 +599,7 @@ public class Particles {
         {
             ParticleList.get(i).SetLocation(NewList.get(i));
             ParticleList.get(i).setWeight(1);
-            ParticleList.get(i).setNumberOfMatchedSats(12);
+            //ParticleList.get(i).setNumberOfMatchedSats(0);
         }
 
     }
@@ -638,7 +638,7 @@ public class Particles {
             Point3D tmp = new Point3D(ParticleList.get(index).pos);
            // tmp.OldWeight = ParticleList.get(index).OldWeight;
             // System.out.print(tmp.pos + " ");
-            // tmp.setWeight(ParticleList.get(index).getWeight());
+             //tmp.setWeight(ParticleList.get(index).getWeight());
             NewWeightedList.add(tmp);
         }
         SetAfterResample(NewWeightedList);
