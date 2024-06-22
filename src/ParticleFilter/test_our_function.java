@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+
 public class test_our_function {
     public static void main(String[] args) {
         //manual1();
@@ -26,7 +27,8 @@ public class test_our_function {
 //        System.out.println(Point3D.convertUTMToLatLon(pivot,"36N"));
         //ourChckFor_LosData_los();
 //        ourtestforEvaluateWeightsNoHistory();
-        ourtestforComputeWeightsNoHistory();
+//        ourtestforComputeWeightsNoHistory();
+          OurTest_SetAfterResample();
 
 
 
@@ -365,19 +367,40 @@ public class test_our_function {
         ParticleList.MessureSignalFromSats( bs,  allSats);
         ParticleList.ComputeWeightsNoHistory(b);
         i=0;
-        for (Particle p : ParticleList.getParticleList()){
-            System.out.println("Point "+i +" ,NumberOfMatchedSats: " + p.getNumberOfMatchedSats());
+        for (Particle p : ParticleList.getParticleList()) {
+            System.out.println("Point " + i + " ,NumberOfMatchedSats: " + p.getNumberOfMatchedSats());
             i++;
         }
-
-
-
-
-
-
     }
 
 
+    public static void OurTest_SetAfterResample() {
+        // Initialize ParticleList with dummy particles
+        Particles ParticleList = new Particles();
+        Point3D pivot = new Point3D(670053, 3551100, 1);
+        Point3D pivot2 = new Point3D(pivot);
+        pivot2.offset(3, 3, 0);
+        ParticleList.initParticles(pivot, pivot2);
+
+        // Create a NewList with new positions
+        List<Point3D> NewList = new ArrayList<>();
+        for (int i = 0; i < ParticleList.getParticleList().size(); i++) {
+            NewList.add(new Point3D(i + 10, i + 10, i + 10));
+        }
+
+        // Perform SetAfterResample
+        ParticleList.SetAfterResample(NewList);
+
+        // Verify the results
+        System.out.println("Particles after resampling:");
+        for (int i = 0; i < ParticleList.getParticleList().size(); i++) {
+            Point3D pos = ParticleList.getParticleList().get(i).getLocation();
+            double weight = ParticleList.getParticleList().get(i).getWeight();
+
+            // Print the results for manual inspection
+            System.out.println("Particle " + i + ": Position = " + pos + ", Weight = " + weight);
+        }
+    }
 
 
 
