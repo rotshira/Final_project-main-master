@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+
 public class test_our_function {
     public static void main(String[] args) {
         //manual1();
@@ -25,8 +26,11 @@ public class test_our_function {
 //        Point3D pivot = new Point3D(670053, 3551100, 1);
 //        System.out.println(Point3D.convertUTMToLatLon(pivot,"36N"));
         //ourChckFor_LosData_los();
+//        OurtestMoveParticleWithError();
 //        ourtestforEvaluateWeightsNoHistory();
-        ourtestforComputeWeightsNoHistory();
+//        ourtestforComputeWeightsNoHistory();
+//          OurTest_SetAfterResample();
+        Test_for_Resample();
 
 
 
@@ -198,6 +202,37 @@ public class test_our_function {
         p_inside_the_building.MessureSesnor(bs,all_sat);
         Particle.PrintArr(p_inside_the_building.LOS);
     }
+
+    public static void OurtestMoveParticleWithError() {
+        Particles ParticleList;
+        List<ActionFunction> Actions;
+        Point3D p1, p2;
+        ParticleList = new Particles();
+        p1 = new Point3D(670053, 3551100, 0);
+        p2 = new Point3D(670053, 3551100, 0);
+
+        // Initialize particles in the ParticleList
+        Point3D pivot1 = new Point3D(670053, 3551100, 0);
+        Point3D pivot2 = new Point3D(pivot1);
+        ParticleList.initParticles(pivot1, pivot2);
+
+        Actions = new ArrayList<ActionFunction>();
+        ActionFunction tmp = new ActionFunction(p1, p2, 0, 0, 0);
+        Actions.add(tmp);
+
+        System.out.println("Before moveWithError : ");
+        ParticleList.Print3DPoints();
+
+        // Now move particles with the action
+        ParticleList.MoveParticleWithError(Actions.get(0));
+
+        System.out.println("\n");
+        System.out.println("After moveWithError : ");
+        ParticleList.Print3DPoints();
+        System.out.println("\n");
+    }
+
+
     public static void ourTestforShift(){//לא סיימנו צריל לבדוק קודם את EvaluateWeightsNoHistory
         String walls_file = "Esri_v0.4.kml";
 
@@ -365,21 +400,95 @@ public class test_our_function {
         ParticleList.MessureSignalFromSats( bs,  allSats);
         ParticleList.ComputeWeightsNoHistory(b);
         i=0;
-        for (Particle p : ParticleList.getParticleList()){
-            System.out.println("Point "+i +" ,NumberOfMatchedSats: " + p.getNumberOfMatchedSats());
+        for (Particle p : ParticleList.getParticleList()) {
+            System.out.println("Point " + i + " ,NumberOfMatchedSats: " + p.getNumberOfMatchedSats());
             i++;
         }
-
-
-
-
-
-
     }
 
 
+    public static void OurTest_SetAfterResample() {
+        // Initialize ParticleList with dummy particles
+        Particles ParticleList = new Particles();
+        Point3D pivot = new Point3D(670053, 3551100, 1);
+        Point3D pivot2 = new Point3D(pivot);
+        pivot2.offset(3, 3, 0);
+        ParticleList.initParticles(pivot, pivot2);
+
+        // Create a NewList with new positions
+        List<Point3D> NewList = new ArrayList<>();
+        for (int i = 0; i < ParticleList.getParticleList().size(); i++) {
+            NewList.add(new Point3D(i + 10, i + 10, i + 10));
+        }
+
+        // Perform SetAfterResample
+        ParticleList.SetAfterResample(NewList);
+
+        // Verify the results
+        System.out.println("Particles after resampling:");
+        for (int i = 0; i < ParticleList.getParticleList().size(); i++) {
+            Point3D pos = ParticleList.getParticleList().get(i).getLocation();
+            double weight = ParticleList.getParticleList().get(i).getWeight();
+
+            // Print the results for manual inspection
+            System.out.println("Particle " + i + ": Position = " + pos + ", Weight = " + weight);
+        }
+    }
 
 
+    public static void Test_for_Resample()
+    { //הגבלתי ל10 חלקיקים שיהיה סדר
+        // Initialize ParticleList with particles
+        Particles ParticleList = new Particles();
+        Point3D pivot = new Point3D(670053, 3551100, 1);
+        Point3D pivot2 = new Point3D(pivot);
+        pivot2.offset(100, 100, 0);
+        ParticleList.initParticles(pivot, pivot2);
 
+        // Introduce variation in the initial weights
+        List<Particle> particles = ParticleList.getParticleList();
+        for (int i = 0; i < 10; i++) {
+            Particle p = particles.get(i);
+            p.setWeight((i + 1) * 0.1); // Set varying weights for the first 10 particles
+        }
+
+        // Print initial weights and total weight (limited to the first 10 particles)
+        System.out.println("Initial Particles:");
+        for (int i = 0; i < 10; i++) {
+            Particle p = particles.get(i);
+            System.out.printf("Particle %d: Position = %s, Initial Weight = %.10f\n", i + 1, p.getLocation().toString(), p.getWeight());
+        }
+
+        // Normalize weights and print normalized weights (limited to the first 10 particles)
+        double[] normalizedWeights = ParticleList.Normal_Weights();
+        System.out.println("Normalized Weights:");
+        for (int i = 0; i < 10; i++) {
+            System.out.printf("Particle %d: Normalized Weight = %.10f\n", i + 1, normalizedWeights[i]);
+        }
+
+        // Print sum of normalized weights for verification
+        double sumOfWeights = 0;
+        for (double weight : normalizedWeights) {
+            sumOfWeights += weight;
+        }
+        System.out.printf("Sum of Normalized Weights: %.10f\n", sumOfWeights);
+
+        // Perform resampling
+        ParticleList.Resample();
+
+        // Print particles after resampling and their weights (limited to the first 10 particles)
+        System.out.println("Particles After Resample:");
+        for (int i = 0; i < 10; i++) {
+            Particle p = particles.get(i);
+            System.out.printf("Particle %d: Position = %s, Weight = %.10f\n", i + 1, p.getLocation().toString(), p.getWeight());
+        }
+    }
 
 }
+
+
+
+
+
+
+

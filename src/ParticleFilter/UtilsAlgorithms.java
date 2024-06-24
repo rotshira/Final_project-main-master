@@ -104,6 +104,47 @@ public class UtilsAlgorithms {
         List<Sat> sat_data2;
         sat_data2=new ArrayList<Sat>();
         Sat tmp;
+//        tmp=new Sat(31, 10, 0); // PRN 30
+//        sat_data2.add(tmp);
+//        tmp=new Sat(85, 37, 1); // PRN 31
+//        sat_data2.add(tmp);
+//        tmp=new Sat(42, 6, 2); // PRN 32
+//        sat_data2.add(tmp);
+//        tmp=new Sat(127, 35, 3); // PRN 33
+//        sat_data2.add(tmp);
+//        tmp=new Sat(226, 50, 4); // PRN 34
+//        sat_data2.add(tmp);
+//        tmp=new Sat(53, 25, 5); // PRN 35
+//        sat_data2.add(tmp);
+//        tmp=new Sat(32, 2, 6); // PRN 36
+//        sat_data2.add(tmp);
+//        tmp=new Sat(40, 30, 7); // PRN 37
+//        sat_data2.add(tmp);
+//        tmp=new Sat(38, 13, 8); // PRN 38
+//        sat_data2.add(tmp);
+//        tmp=new Sat(38, 34, 9); // PRN 39
+//        sat_data2.add(tmp);
+//        tmp=new Sat(148,26,10);                //PRN 15
+//        sat_data2.add(tmp);
+//
+//        tmp=new Sat(6,67,6); //PRN  17
+//        sat_data2.add(tmp);
+//        tmp=new Sat(7,325,7);//PRN 25
+//        sat_data2.add(tmp);
+//
+//        tmp=new Sat(8,304,8);//PRN 26         was 180
+//        sat_data2.add(tmp);
+//
+//        tmp=new Sat(9,340,9);         //PRN 27
+//        sat_data2.add(tmp);
+//
+//        tmp=new Sat(10,232,10); //PRN 28
+//
+//       sat_data2.add(tmp);
+//
+
+///// Measurements from the city of Ariel//
+        // Measurements from the city of Ariel//
         tmp=new Sat(31, 10, 0); // PRN 30
         sat_data2.add(tmp);
         tmp=new Sat(85, 37, 1); // PRN 31
@@ -123,36 +164,6 @@ public class UtilsAlgorithms {
         tmp=new Sat(38, 13, 8); // PRN 38
         sat_data2.add(tmp);
         tmp=new Sat(38, 34, 9); // PRN 39
-        sat_data2.add(tmp);
-        tmp=new Sat(148,26,10);                //PRN 15
-        sat_data2.add(tmp);
-//
-//        tmp=new Sat(6,67,6); //PRN  17
-//        sat_data2.add(tmp);
-//        tmp=new Sat(7,325,7);//PRN 25
-//        sat_data2.add(tmp);
-//
-//        tmp=new Sat(8,304,8);//PRN 26         was 180
-//        sat_data2.add(tmp);
-//
-//        tmp=new Sat(9,340,9);         //PRN 27
-//        sat_data2.add(tmp);
-//
-//        tmp=new Sat(10,232,10); //PRN 28
-//
-//       sat_data2.add(tmp);
-//
-
-///// Measurements from the city of Ariel//
-        tmp=new Sat(31, 10, 6); // PRN 30
-        sat_data2.add(tmp);
-        tmp=new Sat(85, 37, 7); // PRN 31
-        sat_data2.add(tmp);
-        tmp=new Sat(42, 6, 8); // PRN 32
-        sat_data2.add(tmp);
-        tmp=new Sat(127, 35, 9); // PRN 33
-        sat_data2.add(tmp);
-        tmp=new Sat(226, 50, 10); // PRN 34
         sat_data2.add(tmp);
 
 
