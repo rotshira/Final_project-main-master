@@ -590,7 +590,7 @@ public class ParticleSimulation {
 
             System.out.println("compute for timestamp "+i);
 //            ActionFunction currentAction = UtilsAlgorithms.getActionFromNMEA(NmeaList.get(i));
-            ParticleList.MoveParticleWithError(Actions.get(i));
+            //ParticleList.MoveParticleWithError(Actions.get(i));
 //            allSats = UtilsAlgorithms.GetUpdateSatList(NmeaList.get(i));
 
             ParticleList.OutFfRegion(bs, pivot, pivot2);

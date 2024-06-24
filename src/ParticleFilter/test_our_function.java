@@ -29,8 +29,9 @@ public class test_our_function {
 //        OurtestMoveParticleWithError();
 //        ourtestforEvaluateWeightsNoHistory();
 //        ourtestforComputeWeightsNoHistory();
-          OurTest_SetAfterResample();
+//          OurTest_SetAfterResample();
 //        Test_for_Resample();
+        OurTest_GetParticleWithMaxWeight();
 
 
 
@@ -492,6 +493,43 @@ public class test_our_function {
 
         }
     }
+    public static void OurTest_GetParticleWithMaxWeight() {
+        // Initialize ParticleList with particles
+        Particles ParticleList = new Particles();
+        Point3D pivot = new Point3D(670053, 3551100, 1);
+        Point3D pivot2 = new Point3D(pivot);
+        pivot2.offset(100, 100, 0);
+        ParticleList.initParticles(pivot, pivot2);
+        int i=0;
+
+        // Introduce variation in the initial weights
+        List<Particle> particles = ParticleList.getParticleList();
+        for (Particle p: ParticleList.getParticleList()) {
+            p.setWeight((i + 1) * 0.1); // Set varying weights for the first 10 particles
+            i++;
+        }
+        //ParticleList.getParticleList().get(0).setWeight(100000);
+        Point3D tmp = ParticleList.GetParticleWithMaxWeight();
+        // Print initial weights and total weight (limited to the first 10 particles)
+        i=0;
+        System.out.println("Initial Particles:");
+        for (Particle p: ParticleList.getParticleList()) {
+            System.out.printf("Particle %d: Position = %s, Initial Weight = %.10f\n", i + 1, p.getLocation().toString(), p.getWeight());
+            i++;
+
+        }
+        System.out.println("the partical With the Max Weigh is: "+tmp);
+        //KML_Generator.Generate_kml_from_ParticleList(ParticleList, "fattest_point_or_weighted_point.kml",10);
+//        tmp=GeoUtils.convertUTMtoLATLON(tmp, 36);
+//        double lat=tmp.getX();
+//        double lon=tmp.getY();
+//        String line=Double.toString(lon)+" "+Double.toString(lat)+" "+tmp.getZ();
+//        System.out.println(line);
+
+
+
+    }
+
 
 }
 

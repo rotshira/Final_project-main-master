@@ -429,7 +429,7 @@ public class Particles {
         }
         x=x/p;y=y/p;z=z/p;
         Point3D ans = new Point3D(x,y,z);
-        //Point3D ans2 = new Point3D(ParticleList.get(index).pos);
+        Point3D ans2 = new Point3D(ParticleList.get(index).pos);
         return ans;
     }
 
