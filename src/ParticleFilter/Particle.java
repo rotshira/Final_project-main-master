@@ -358,4 +358,8 @@ public class Particle implements Comparable<Particle> {
             return 1;
         return 0;
     }
+    public Point3D getLocation()
+    {
+        return  pos;
+    }
 }

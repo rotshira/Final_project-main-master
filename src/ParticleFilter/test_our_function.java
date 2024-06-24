@@ -29,8 +29,8 @@ public class test_our_function {
 //        OurtestMoveParticleWithError();
 //        ourtestforEvaluateWeightsNoHistory();
 //        ourtestforComputeWeightsNoHistory();
-//          OurTest_SetAfterResample();
-        Test_for_Resample();
+          OurTest_SetAfterResample();
+//        Test_for_Resample();
 
 
 
@@ -412,7 +412,7 @@ public class test_our_function {
         Particles ParticleList = new Particles();
         Point3D pivot = new Point3D(670053, 3551100, 1);
         Point3D pivot2 = new Point3D(pivot);
-        pivot2.offset(3, 3, 0);
+        pivot2.offset(100, 100, 0);
         ParticleList.initParticles(pivot, pivot2);
 
         // Create a NewList with new positions
@@ -437,33 +437,40 @@ public class test_our_function {
 
 
     public static void Test_for_Resample()
-    { //הגבלתי ל10 חלקיקים שיהיה סדר
+    {
+        //עובד טוב לוקח רק חלקיקים עם משקלים גבוהים
         // Initialize ParticleList with particles
         Particles ParticleList = new Particles();
         Point3D pivot = new Point3D(670053, 3551100, 1);
         Point3D pivot2 = new Point3D(pivot);
         pivot2.offset(100, 100, 0);
         ParticleList.initParticles(pivot, pivot2);
+        int i=0;
 
         // Introduce variation in the initial weights
         List<Particle> particles = ParticleList.getParticleList();
-        for (int i = 0; i < 10; i++) {
-            Particle p = particles.get(i);
+        for (Particle p: ParticleList.getParticleList()) {
             p.setWeight((i + 1) * 0.1); // Set varying weights for the first 10 particles
+            i++;
         }
 
         // Print initial weights and total weight (limited to the first 10 particles)
+        i=0;
         System.out.println("Initial Particles:");
-        for (int i = 0; i < 10; i++) {
-            Particle p = particles.get(i);
+        for (Particle p: ParticleList.getParticleList()) {
             System.out.printf("Particle %d: Position = %s, Initial Weight = %.10f\n", i + 1, p.getLocation().toString(), p.getWeight());
+            i++;
+
         }
 
         // Normalize weights and print normalized weights (limited to the first 10 particles)
         double[] normalizedWeights = ParticleList.Normal_Weights();
         System.out.println("Normalized Weights:");
-        for (int i = 0; i < 10; i++) {
-            System.out.printf("Particle %d: Normalized Weight = %.10f\n", i + 1, normalizedWeights[i]);
+        i=0;
+        for (Particle p: ParticleList.getParticleList()) {
+            System.out.printf("Particle %d: Position = %s, Initial Weight = %.10f\n", i + 1, p.getLocation().toString(), p.getWeight());
+            i++;
+
         }
 
         // Print sum of normalized weights for verification
@@ -477,10 +484,12 @@ public class test_our_function {
         ParticleList.Resample();
 
         // Print particles after resampling and their weights (limited to the first 10 particles)
+        i=0;
         System.out.println("Particles After Resample:");
-        for (int i = 0; i < 10; i++) {
-            Particle p = particles.get(i);
-            System.out.printf("Particle %d: Position = %s, Weight = %.10f\n", i + 1, p.getLocation().toString(), p.getWeight());
+        for (Particle p: ParticleList.getParticleList()) {
+            System.out.printf("Particle %d: Position = %s.\n", i + 1, p.getLocation().toString());
+            i++;
+
         }
     }
 

@@ -479,7 +479,7 @@ public class Particles {
       //  System.out.println("number for OOR is "+ numberOutOfrefion);
     }
 
-    private double[] Normal_Weights()
+    public double[] Normal_Weights()
     {
        double MaxWeight=0;
        List<Double> doubleWeight = new ArrayList<Double>();
