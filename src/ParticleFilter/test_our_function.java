@@ -31,8 +31,8 @@ public class test_our_function {
 //        ourtestforComputeWeightsNoHistory();
 //          OurTest_SetAfterResample();
 //        Test_for_Resample();
-        OurTest_GetParticleWithMaxWeight();
-
+//        OurTest_GetParticleWithMaxWeight();
+        OurTest_Actions();
 
 
     }
@@ -529,6 +529,58 @@ public class test_our_function {
 
 
     }
+    public static void OurTest_Actions() {
+        //הרשימה של הActions הם נכונים ועובדים טוב
+        Point3D p0 = new Point3D(670103.5,3551179.5, 1.0);
+        List<Point3D> path;
+        path = UtilsAlgorithms.createPath();
+        List<ActionFunction>  Actions = new ArrayList<ActionFunction>();
+
+        for(int i=0;i<path.size()-1; i++)
+        {
+            ActionFunction tmp = new ActionFunction(path.get(i), path.get(i+1), 0 , 0,0);
+
+            Actions.add(tmp);
+        }
+        //משווה בין נקודה במקום 0 אחרי Actions מספר 0 לבין נקודה במקום 1
+//        System.out.println("p0 is: "+p0.toString());
+//        System.out.println("the first point of path: "+path.get(0).toString());
+//        System.out.println("the second point of path: "+path.get(1).toString());
+//        p0.offset(Actions.get(0).PivotX,Actions.get(0).PivotY);
+//        System.out.println("p0 after actions 0: "+p0.toString());
+//
+//
+//
+        //משווה בין הנקודה במקום i אחרי Actions מספר i לבין נקודה במקום i+1
+//        boolean its_work = true;
+//        for (int i = 0;i<path.size()-1;i++){
+//            path.get(i).offset(Actions.get(i).PivotX,Actions.get(i).PivotY);
+//            double RX = path.get(i).getX();
+//            double RY = path.get(i).getY();
+//            double NRX = path.get(i+1).getX();
+//            double NRY = path.get(i+1).getY();
+//            if (RX!=NRX || RY != NRY){
+//                its_work = false;
+//            }
+//        }
+//        System.out.println("its_work = " + its_work );
+//
+//
+//
+        //Actionsיוצר את המסלול מהנקודה הראשונה בעזרת ה
+//        List<Point3D> my_path = new ArrayList<>();
+//        Point3D temp_point = p0;
+//        my_path.add(temp_point);
+//        for (int i = 0; i < Actions.size(); i++) {
+//            temp_point.offset(Actions.get(0).PivotX,Actions.get(0).PivotY);
+//            my_path.add(temp_point);
+//        }
+//        System.out.println(my_path.size());
+//        KML_Generator.Generate_kml_from_List(path, "my_list.kml");
+
+    }
+
+
 
 
 }
