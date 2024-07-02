@@ -32,8 +32,8 @@ public class test_our_function {
 //          OurTest_SetAfterResample();
 //        Test_for_Resample();
 //        OurTest_GetParticleWithMaxWeight();
-        OurTest_Actions();
-
+//        OurTest_Actions();
+        OurTest_move();
 
     }
 
@@ -576,8 +576,56 @@ public class test_our_function {
 //            my_path.add(temp_point);
 //        }
 //        System.out.println(my_path.size());
-//        KML_Generator.Generate_kml_from_List(path, "my_list.kml");
+//        KML_Generator.Generate_kml_from_List(path, "my_path.kml");
 
+    }
+    public static void OurTest_move() {
+        String walls_file = "Esri_v0.4.kml";
+        List<Sat> allSats;
+        List<Point3D> path;
+        path = UtilsAlgorithms.createPath();
+        Particles ParticleList = new Particles();
+        Point3D pivot, pivot2;
+        String Simulation_route_3D_kml_path = "Simulation_route_May_2016.kml";
+        String Particle_path3 = "KaminData/Simulation_routeTest_initial.kml";
+        allSats = UtilsAlgorithms.createSatDataList();
+        KML_Generator.Generate_kml_from_List(path, Simulation_route_3D_kml_path);
+        List<Building> bs = null;
+        try {
+            bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        LosData losData = new LosData( bs, path, allSats);
+        pivot = new Point3D(670053, 3551100, 1);
+        pivot2 = new Point3D(pivot);
+        pivot2.offset(100, 100, 0);
+
+        ParticleList.initParticles(pivot, pivot2);
+        KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path3, 10);
+        Particle real_Point_0 = new Particle( 670103.5,  3551179.5,  1.0);
+        Point3D closest_Particle = new Point3D(670105.0,3551180.0,1.0);
+
+
+        for(int i = 0; i< ParticleList.getParticleList().size(); i++)
+        {
+            ParticleList.getParticleList().get(i).pos.offset(real_Point_0.pos.getX() -closest_Particle.getX(),real_Point_0.pos.getY() -closest_Particle.getY(),0);
+        }
+        for(int i = 0; i< ParticleList.getParticleList().size(); i++)
+        {
+            if(ParticleList.getParticleList().get(i).pos.equals(real_Point_0.pos))
+                System.out.println("equal");
+        }
+        ParticleList.OutFfRegion(bs, pivot, pivot2);
+        ParticleList.MessureSignalFromSats( bs,  allSats);
+        real_Point_0.MessureSesnor(bs, allSats);
+        Boolean[] b = real_Point_0.getLOS();
+        ParticleList.ComputeWeightsNoHistory(b);
+
+        String updatedParticlePath = "KaminData/Simulation_routeTest_updated.kml";
+        KML_Generator.Generate_kml_from_ParticleList(ParticleList, updatedParticlePath, 10);
+//        Point3D p = ParticleList.GetParticleWithMaxWeight();
+//        System.out.println(p);
     }
 
 

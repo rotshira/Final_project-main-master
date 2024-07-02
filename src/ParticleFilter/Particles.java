@@ -765,7 +765,7 @@ public class Particles {
         double sqrtPar = Math.sqrt(NumberOfParticles);
 
         double tmp = 100/sqrtPar;
-        double height=2;
+        double height=1;
         for(int i=0;i<sqrtPar;i++)
             for(int  j =0; j<sqrtPar ; j++ )
             {
