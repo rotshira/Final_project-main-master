@@ -580,6 +580,7 @@ public class test_our_function {
 
     }
     public static void OurTest_move() {
+        //A test to check whether a green nail is obtained
         String walls_file = "Esri_v0.4.kml";
         List<Sat> allSats;
         List<Point3D> path;
@@ -623,7 +624,7 @@ public class test_our_function {
         ParticleList.ComputeWeightsNoHistory(b);
 
         String updatedParticlePath = "KaminData/Simulation_routeTest_updated.kml";
-        KML_Generator.Generate_kml_from_ParticleList(ParticleList, updatedParticlePath, 10);
+        KML_Generator.Generate_kml_from_ParticleList(ParticleList, updatedParticlePath, allSats.size());
 //        Point3D p = ParticleList.GetParticleWithMaxWeight();
 //        System.out.println(p);
     }

@@ -177,8 +177,8 @@ public class KML_Generator
 
 
                 //out.write("<Style>\n<BalloonStyle>\n<text>This point was taken at time "+ i +"</text>\n</BalloonStyle>\n</Style>\n ");
-                out.write("<Style>\n<BalloonStyle>\n<text>His OutOfRegion is: "+Particles.getParticleList().get(i).OutOfRegion  +"</text>\n</BalloonStyle>\n</Style>\n ");
-                //out.write("<Style>\n<BalloonStyle>\n<text>Los:  "+ los +"</text>\n</BalloonStyle>\n</Style>\n ");
+                //out.write("<Style>\n<BalloonStyle>\n<text>His OutOfRegion is: "+Particles.getParticleList().get(i).OutOfRegion  +"</text>\n</BalloonStyle>\n</Style>\n ");
+                out.write("<Style>\n<BalloonStyle>\n<text>Los:  "+ los +"</text>\n</BalloonStyle>\n</Style>\n ");
                 //out.write("<Style>\n<BalloonStyle>\n<text>NumberOfMatchingSats:  "+ NumberOfMatchingSats +"</text>\n</BalloonStyle>\n</Style>\n ");
                 //out.write("<Style>\n<BalloonStyle>\n<text>Point is:  "+  Particles.getParticleList().get(i).pos.toString()+"</text>\n</BalloonStyle>\n</Style>\n ");
                 out.write("<TimeStamp>\n");

@@ -567,7 +567,7 @@ public class ParticleSimulation {
 
 
         ParticleList.initParticles(pivot, pivot2);
-        KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path3,10);
+        KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path3,allSats.size());
 
         NMEAProtocolParser parser = new NMEAProtocolParser();
 
@@ -608,7 +608,7 @@ public class ParticleSimulation {
             ans.add(tmp);
             String Particle_path2=Particle_path+i+".kml";
 
-            KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path2,10);
+            KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path2,allSats.size());
 
             //KML_Point3D_List_Generator.Generate_kml_from_List(PointList,Particle_path2);
             ParticleList.ComputeAndPrintErrors(path.get(i));
