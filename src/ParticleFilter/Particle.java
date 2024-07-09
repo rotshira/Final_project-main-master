@@ -3,6 +3,7 @@ package ParticleFilter;
 import GNSS.Sat;
 import Geometry.Building;
 import Geometry.Point3D;
+import Utils.GeoUtils;
 
 import java.util.List;
 
@@ -105,7 +106,7 @@ public class Particle implements Comparable<Particle> {
         Boolean[] los = new Boolean[allSats.size()];
         for (int i=0; i<allSats.size(); i++)
         {
-            los[i] = LosData.los(allSats.get(i), Point3D.convertUTMToLatLon(this.pos,"36N"), bs);
+            los[i] = LosData.los(allSats.get(i), GeoUtils.convertUTMtoLATLON(this.pos, 36), bs);
         }
         this.LOS = los;
         //  System.out.println();

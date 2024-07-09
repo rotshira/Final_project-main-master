@@ -1004,6 +1004,8 @@ public class Particles {
             Heading_error = R1.nextGaussian()*UtilsAlgorithms.getVelocityHeadingError();
 
             ParticleList.get(i).MoveParticle(action, Velocity_error, Heading_error);
+//            ParticleList.get(i).MoveParticle(action);
+
         }
 
     }

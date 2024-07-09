@@ -147,23 +147,23 @@ public class UtilsAlgorithms {
         // Measurements from the city of Ariel//
         tmp=new Sat(31, 10, 0); // PRN 30
         sat_data2.add(tmp);
-        tmp=new Sat(85, 37, 1); // PRN 31
+        tmp=new Sat(85, 20, 1); // PRN 31
         sat_data2.add(tmp);
-        tmp=new Sat(42, 6, 2); // PRN 32
+        tmp=new Sat(42, 30, 2); // PRN 32
         sat_data2.add(tmp);
-        tmp=new Sat(127, 35, 3); // PRN 33
+        tmp=new Sat(127, 40, 3); // PRN 33
         sat_data2.add(tmp);
         tmp=new Sat(226, 50, 4); // PRN 34
         sat_data2.add(tmp);
-        tmp=new Sat(53, 25, 5); // PRN 35
+        tmp=new Sat(53, 60, 5); // PRN 35
         sat_data2.add(tmp);
-        tmp=new Sat(32, 2, 6); // PRN 36
+        tmp=new Sat(32, 70, 6); // PRN 36
         sat_data2.add(tmp);
-        tmp=new Sat(40, 30, 7); // PRN 37
+        tmp=new Sat(40, 80, 7); // PRN 37
         sat_data2.add(tmp);
-        tmp=new Sat(38, 13, 8); // PRN 38
+        tmp=new Sat(38, 90, 8); // PRN 38
         sat_data2.add(tmp);
-        tmp=new Sat(38, 34, 9); // PRN 39
+        tmp=new Sat(38, 72, 9); // PRN 39
         sat_data2.add(tmp);
 
 
@@ -174,96 +174,98 @@ public class UtilsAlgorithms {
 // ////////////////////\
 //        ////////////GLONASS sats  /////////////
 //        //////////////////////////////////
-//
-//        tmp=new Sat(11,125,11);         //   PRN 73
-//        sat_data2.add(tmp);
-//        tmp=new Sat(12,96,12);          //PRN 74
-//        sat_data2.add(tmp);
-//        tmp=new Sat(13,348,13);                       //PRN 75
-//        sat_data2.add(tmp);
-//        tmp=new Sat(14,30,14);                   //PRN 84
-//        sat_data2.add(tmp);
-//
-//        tmp=new Sat(15,209,15);                //PRN  85
-//        sat_data2.add(tmp);
-//        tmp=new Sat(16,210,16);                                //PRN 86
-//        sat_data2.add(tmp);
-//
-//        ////////////////////////////////////\
-//        ////////////IMAGINARY sats  /////////////
-//        //////////////////////////////////
-//        tmp=new Sat(17,271,17);
-//        sat_data2.add(tmp);
-//        tmp=new Sat(18,281,18);
-//        sat_data2.add(tmp);
-//             tmp=new Sat(19,291,19);
-//sat_data2.add(tmp);
-//
-//
-//tmp=new Sat(20,301,20);
-//sat_data2.add(tmp);
-//tmp=new Sat(21,311,21);
-//sat_data2.add(tmp);
-//tmp=new Sat(22,321,22);
-//sat_data2.add(tmp);
-//tmp=new Sat(23,331,23);
-//sat_data2.add(tmp);
-//tmp=new Sat(24,341,24);
-//sat_data2.add(tmp);
-//tmp=new Sat(25,351,25);
-//sat_data2.add(tmp);
-//tmp=new Sat(26,351,26);
-//sat_data2.add(tmp);
-//tmp=new Sat(27,341,27);
-//sat_data2.add(tmp);
-//tmp=new Sat(28,331,28);
-//sat_data2.add(tmp);
-//tmp=new Sat(29,321,29);
-//sat_data2.add(tmp);
-//tmp=new Sat(30,311,30);
-//sat_data2.add(tmp);
-//tmp=new Sat(31,301,31);
-//sat_data2.add(tmp);
-//tmp=new Sat(32,291,32);
-//sat_data2.add(tmp);
-//tmp=new Sat(33,281,33);
-//sat_data2.add(tmp);
-//tmp=new Sat(34,271,34);
-//sat_data2.add(tmp);
-//tmp=new Sat(35,261,35);
-//sat_data2.add(tmp);
-//tmp=new Sat(36,251,36);
-//sat_data2.add(tmp);
-//tmp=new Sat(37,241,37);
-//sat_data2.add(tmp);
-//tmp=new Sat(38,231,38);
-//sat_data2.add(tmp);
-//tmp=new Sat(39,221,39);
-//sat_data2.add(tmp);
-//tmp=new Sat(40,211,40);
-//sat_data2.add(tmp);
-//tmp=new Sat(41,201,41);
-//sat_data2.add(tmp);
-//
-//
-//tmp=new Sat(42,11,42);
-//sat_data2.add(tmp);
-//tmp=new Sat(43,21,43);
-//sat_data2.add(tmp);
-//tmp=new Sat(44,31,44);
-//sat_data2.add(tmp);
-//tmp=new Sat(45,41,45);
-//sat_data2.add(tmp);
-//tmp=new Sat(46,51,46);
-//sat_data2.add(tmp);
-//tmp=new Sat(47,61,47);
-//sat_data2.add(tmp);
-//tmp=new Sat(48,71,48);
-//sat_data2.add(tmp);
-//tmp=new Sat(49,81,49);
-//sat_data2.add(tmp);
-//tmp=new Sat(50,90,50);
-//sat_data2.add(tmp);
+        tmp=new Sat(38, 74, 10); // PRN 39
+        sat_data2.add(tmp);
+
+        tmp=new Sat(11,76,11);         //   PRN 73
+        sat_data2.add(tmp);
+        tmp=new Sat(12,78,12);          //PRN 74
+        sat_data2.add(tmp);
+        tmp=new Sat(13,80,13);                       //PRN 75
+        sat_data2.add(tmp);
+        tmp=new Sat(14,82,14);                   //PRN 84
+        sat_data2.add(tmp);
+
+        tmp=new Sat(15,84,15);                //PRN  85
+        sat_data2.add(tmp);
+        tmp=new Sat(16,86,16);                                //PRN 86
+        sat_data2.add(tmp);
+
+        ////////////////////////////////////\
+        ////////////IMAGINARY sats  /////////////
+        //////////////////////////////////
+        tmp=new Sat(17,88,17);
+        sat_data2.add(tmp);
+        tmp=new Sat(18,90,18);
+        sat_data2.add(tmp);
+             tmp=new Sat(19,85,19);
+sat_data2.add(tmp);
+
+
+tmp=new Sat(20,50,20);
+sat_data2.add(tmp);
+tmp=new Sat(21,60,21);
+sat_data2.add(tmp);
+tmp=new Sat(22,70,22);
+sat_data2.add(tmp);
+tmp=new Sat(23,80,23);
+sat_data2.add(tmp);
+tmp=new Sat(24,90,24);
+sat_data2.add(tmp);
+tmp=new Sat(25,44,25);
+sat_data2.add(tmp);
+tmp=new Sat(26,46,26);
+sat_data2.add(tmp);
+tmp=new Sat(27,48,27);
+sat_data2.add(tmp);
+tmp=new Sat(28,50,28);
+sat_data2.add(tmp);
+tmp=new Sat(29,52,29);
+sat_data2.add(tmp);
+tmp=new Sat(30,54,30);
+sat_data2.add(tmp);
+tmp=new Sat(31,56,31);
+sat_data2.add(tmp);
+tmp=new Sat(32,58,32);
+sat_data2.add(tmp);
+tmp=new Sat(33,60,33);
+sat_data2.add(tmp);
+tmp=new Sat(34,62,34);
+sat_data2.add(tmp);
+tmp=new Sat(35,64,35);
+sat_data2.add(tmp);
+tmp=new Sat(36,66,36);
+sat_data2.add(tmp);
+tmp=new Sat(37,68,37);
+sat_data2.add(tmp);
+tmp=new Sat(38,70,38);
+sat_data2.add(tmp);
+tmp=new Sat(39,72,39);
+sat_data2.add(tmp);
+tmp=new Sat(40,74,40);
+sat_data2.add(tmp);
+tmp=new Sat(41,76,41);
+sat_data2.add(tmp);
+
+
+tmp=new Sat(42,78,42);
+sat_data2.add(tmp);
+tmp=new Sat(43,80,43);
+sat_data2.add(tmp);
+tmp=new Sat(44,82,44);
+sat_data2.add(tmp);
+tmp=new Sat(45,84,45);
+sat_data2.add(tmp);
+tmp=new Sat(46,86,46);
+sat_data2.add(tmp);
+tmp=new Sat(47,88,47);
+sat_data2.add(tmp);
+tmp=new Sat(48,90,48);
+sat_data2.add(tmp);
+tmp=new Sat(49,81,49);
+sat_data2.add(tmp);
+tmp=new Sat(50,90,50);
+sat_data2.add(tmp);
 //tmp=new Sat(51,101,51);
 //sat_data2.add(tmp);
 //tmp=new Sat(52,121,52);
