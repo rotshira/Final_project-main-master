@@ -5,7 +5,6 @@ import GNSS.Sat;
 import Geometry.Building;
 import Geometry.BuildingsFactory;
 import Geometry.Point3D;
-import Geometry.Wall;
 import Parsing.nmea.NMEAProtocolParser;
 import Utils.GeoUtils;
 import Utils.KML_Generator;
@@ -21,8 +20,8 @@ public class test_our_function {
         //manual1();
         //manual2();
         //test_make_kml_from_point_to_sat();
-         //ourChckForOutOfRegion();
-        //ourChckForisPoint2D_inBuilding();
+         ourChckForOutOfRegion();
+//        ourChckForisPoint2D_inBuilding();
 //        Point3D pivot = new Point3D(670053, 3551100, 1);
 //        System.out.println(Point3D.convertUTMToLatLon(pivot,"36N"));
         //ourChckFor_LosData_los();
@@ -33,7 +32,8 @@ public class test_our_function {
 //        Test_for_Resample();
 //        OurTest_GetParticleWithMaxWeight();
 //        OurTest_Actions();
-        OurTest_move();
+//        OurTest_move();
+//        testConvertToLAtAndLong();
 
     }
 
@@ -137,7 +137,10 @@ public class test_our_function {
 
     }
     public static void ourChckForOutOfRegion(){
-        Particle p1 = new Particle( 34.802110,  32.083923,0);
+        Particle p_in_bilding = new Particle(  670083,   3551156,0);
+        Particle p_out_from_urea = new Particle(  670208,   3551084,0);
+        Particle p_in_era_not_in_bilding = new Particle(  670103,   3551142,0);
+
         List<Building> bs = null;
         String walls_file = "Esri_v0.4.kml";
         try {
@@ -145,27 +148,36 @@ public class test_our_function {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        Point3D pivot1 = new Point3D( 34.801856,  32.083395, 1);
-        Point3D pivot2 = new Point3D( 34.802890,  32.084246, 1);
-        boolean ans = p1.OutOfRegion(bs,pivot1,pivot2);
-        System.out.println(ans);
+        Point3D pivot1 = new Point3D(670053, 3551100, 1);
+        Point3D pivot2 =  new Point3D(pivot1);
+        pivot2.offset(100, 100, 0);
+        boolean ans1 = p_in_bilding.OutOfRegion(bs,pivot1,pivot2);
+        boolean ans2 = p_out_from_urea.OutOfRegion(bs,pivot1,pivot2);
+        boolean ans3 = p_in_era_not_in_bilding.OutOfRegion(bs,pivot1,pivot2);
+
+        System.out.println("point in_bilding in utm: "+ p_in_bilding.pos.toString() +", in lat long: "+GeoUtils.convertUTMtoLATLON(p_in_bilding.pos,36)+", and the ans is: " +ans1);
+        System.out.println("point out_from_urea in utm: "+ p_out_from_urea.pos.toString() +", in lat long: "+GeoUtils.convertUTMtoLATLON(p_out_from_urea.pos,36)+", and the ans is: " +ans2);
+        System.out.println("point in_era_not_in_bilding in utm: "+ p_in_era_not_in_bilding.pos.toString() +", in lat long: "+GeoUtils.convertUTMtoLATLON(p_in_era_not_in_bilding.pos,36)+", and the ans is: " +ans3);
 
     }
     public static void ourChckForisPoint2D_inBuilding(){
-        Particle p1 = new Particle( 34.802110,  32.083923,0);
+        Particle p1 = new Particle( 670083.00,  3551156.00,0);
         List<Building> bs = null;
         int i = 0;
         boolean contain;
-        String walls_file = "yahlom.kml";
+        String walls_file = "Esri_v0.4.kml";
         try {
             bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
         } catch (Exception e) {
             e.printStackTrace();
         }
+//        System.out.println("roi convert: "+GeoUtils.convertUTMtoLATLON(p1.pos,36));
+//        System.out.println("my convert: "+Point3D.convertUTMToLatLon(p1.pos,"36N"));
         for (Building tmp : bs)
         {
             i++;
-            contain=tmp.isPoint2D_inBuilding(p1.pos);
+            contain=tmp.isPoint2D_inBuilding(GeoUtils.convertUTMtoLATLON(p1.pos,36));
+//            contain=tmp.isPoint2D_inBuilding(Point3D.convertUTMToLatLon(p1.pos,"36N"));
             if(contain==true)
             {
                 p1.OutOfRegion=true;
@@ -627,6 +639,15 @@ public class test_our_function {
         KML_Generator.Generate_kml_from_ParticleList(ParticleList, updatedParticlePath, allSats.size());
 //        Point3D p = ParticleList.GetParticleWithMaxWeight();
 //        System.out.println(p);
+    }
+    public static void testConvertToLAtAndLong(){
+        //החישוב של רוי נכון !!
+        Point3D pivot = new Point3D(670053, 3551100, 1);
+        System.out.println("GeoUtils:");
+        System.out.println(GeoUtils.convertUTMtoLATLON(pivot, 36));
+        System.out.println("Point3D");
+        System.out.println(Point3D.convertUTMToLatLon(pivot,"36N"));
+
     }
 
 

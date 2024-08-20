@@ -614,24 +614,10 @@ public class ParticleSimulation {
             ParticleList.ComputeAndPrintErrors(path.get(i));
 
         }
-//        System.out.println(ans.size());
-//        System.out.println(ans.size());
-        double dx = 0;
-        double dy = 0;
-//        for (int i=0;i< ans.size();i++){
-//            dx+=ans.get(i).getX()-path.get(i).getX();
-//            dy+=ans.get(i).getY()-path.get(i).getY();
-//        }
-//        dx = dx / ans.size();
-//        dy = dy / ans.size();
-//        for (Point3D P : ans){
-//            P.offset(-dx,-dy);
-//        }
+
         KML_Generator.Generate_kml_from_List(ans,"checkAns.kml");
 
 
-        System.out.println("dx = "+ dx);
-        System.out.println("dy = "+ dy);
 
 
 

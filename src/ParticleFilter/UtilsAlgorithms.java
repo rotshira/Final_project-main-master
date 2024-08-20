@@ -198,7 +198,7 @@ public class UtilsAlgorithms {
         sat_data2.add(tmp);
         tmp=new Sat(18,90,18);
         sat_data2.add(tmp);
-             tmp=new Sat(19,85,19);
+        tmp=new Sat(19,85,19);
 sat_data2.add(tmp);
 
 
@@ -316,7 +316,7 @@ sat_data2.add(tmp);
             satID = Allsat.get(i).getSatID();
             NMEASVMeasurement tmpSat = SatData.getSvMeasurement(satID);
             tmpSat.ComputeNaiveLOSWithTHreshold(SNRthreshold, 3);
-         //   LosVector[i] = tmpSat.getLOS();
+            //   LosVector[i] = tmpSat.getLOS();
 
 
         }

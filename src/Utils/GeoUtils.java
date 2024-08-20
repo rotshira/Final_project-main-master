@@ -68,6 +68,12 @@ public class GeoUtils {
         double y = utm.toWGS84().longitude() * 180.0 / Math.PI;
         return new Point3D(x, y, p.getZ());
     }
+    public static Point3D convertUTMtoLATLONForOutOfRegion(Point3D p, int zone) {
+        Coordinates utm = new UTM(zone, p.getX(), p.getY(), p.getZ(), true);
+        double y = utm.toWGS84().latitude() * 180.0 / Math.PI;
+        double x = utm.toWGS84().longitude() * 180.0 / Math.PI;
+        return new Point3D(x, y, p.getZ());
+    }
 
     public static Point3D convertLATLONtoUTM(Point3D p) {
         Geographic g = Geographic.createGeographic(p.getX(), p.getY(), p.getZ());

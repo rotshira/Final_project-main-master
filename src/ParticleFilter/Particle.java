@@ -319,6 +319,7 @@ public class Particle implements Comparable<Particle> {
         double conf=1;
         boolean contain;
         this.OutOfRegion=false;
+        Particle p;
         if(pos.getX()<p1.getX()|| pos.getX()>p2.getX()||pos.getY()<p1.getY()||pos.getY()>p2.getY())
         {
 //            System.out.println("out of range");
@@ -328,13 +329,15 @@ public class Particle implements Comparable<Particle> {
 
         for (Building tmp : bs)
         {
-               contain=tmp.isPoint2D_inBuilding(Point3D.convertUTMToLatLon(this.pos,"36N"));
-               if(contain==true)
-               {
-                   this.OutOfRegion=true;
-//                   System.out.println("building is contain ");
-                   return true;
-               }
+           contain=tmp.isPoint2D_inBuilding(GeoUtils.convertUTMtoLATLONForOutOfRegion(this.pos,36));
+//            contain=tmp.isPoint2D_inBuilding(Point3D.convertUTMToLatLon(this.pos,"36N"));
+
+            if(contain==true)
+           {
+               this.OutOfRegion=true;
+    //                   System.out.println("building is contain ");
+               return true;
+           }
         }
 
 //        System.out.println("stam folse");
