@@ -1,31 +1,41 @@
 package ParticleFilter;
-
 import Algorithm.LosAlgorithm;
 import GNSS.Sat;
-
 import Geometry.Building;
 import Geometry.BuildingsFactory;
 import Geometry.Point2D;
 import Geometry.Point3D;
+import ML_Los_Nlos_Classifier.ClassifierTrainer;
+import ML_Los_Nlos_Classifier.LOSPredictor;
 import Parsing.nmea.NMEAProtocolParser;
-import Utils.GeoUtils;
 import Utils.KML_Generator;
 import dataStructres.NMEAPeriodicMeasurement;
-
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.zip.Inflater;
+import weka.classifiers.Classifier;
+import weka.core.Instances;
+import weka.core.SerializationHelper;
 /**
  * Created by Roi on 5/23/2016.
  */
 public class ParticleSimulation {
 
 
-    public static void main(String[] args) {
-        simulationMain2();
+    Classifier classifier = (Classifier) SerializationHelper.read("los_nlos_model.model");
+    LOSPredictor predictor = new LOSPredictor(classifier);
+
+	public ParticleSimulation() throws Exception {
+	}
+
+	public static void main(String[] args) throws Exception {
+//        simulationMain2();
+        simulationMainWithML();
         //testParse();
 
         //NMEAParser();
@@ -525,11 +535,7 @@ public class ParticleSimulation {
 
     public  static void simulationMain2() {
 
-        // String walls_file = "EsriBuildingsBursaNoindentWithBoazBuilding.kml"; //todo Roi : Sparse this file to contain only 10 buildings!
         String walls_file = "Esri_v0.4.kml";
-
-
-        // Buildings bs;
         List<Sat> allSats;
 
         List<Point3D> path;
@@ -537,7 +543,6 @@ public class ParticleSimulation {
         Point3D pivot, pivot2;
         int CurrentGeneration;
         String Simulation_route_kml_path = "Simulaton__route_May_2016.kml";
-
 
 
         List<ActionFunction>  Actions;
@@ -557,7 +562,7 @@ public class ParticleSimulation {
         String Particle_path3 = "KaminData\\Simulaton_routeTest_initial.kml";
 
         KML_Generator.Generate_kml_from_List(path, Simulation_route_3D_kml_path);
-        //String Particle_ans_path = ".\\Data\\ans_Simulation_route_100_particles2.kml";
+
 
         ParticleList = new Particles();
         pivot = new Point3D(670053, 3551100, 1);
@@ -569,18 +574,14 @@ public class ParticleSimulation {
         ParticleList.initParticles(pivot, pivot2);
         KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path3,allSats.size());
 
-        NMEAProtocolParser parser = new NMEAProtocolParser();
+
 
 
         Actions = new ArrayList<ActionFunction>();
-        List<Point3D> PointList = null;
-        CurrentGeneration = 0;
-        Random R1= new Random();
         System.out.println(path.size());
         for(int i=0;i<path.size()-1; i++)
         {
             ActionFunction tmp = new ActionFunction(path.get(i), path.get(i+1), 0 , 0,0);
-
             Actions.add(tmp);
         }
 
@@ -589,9 +590,6 @@ public class ParticleSimulation {
         {
 
             System.out.println("compute for timestamp "+i);
-//            ActionFunction currentAction = UtilsAlgorithms.getActionFromNMEA(NmeaList.get(i));
-//            ParticleList.MoveParticleWithError(Actions.get(i));
-//            allSats = UtilsAlgorithms.GetUpdateSatList(NmeaList.get(i));
 
             ParticleList.OutFfRegion(bs, pivot, pivot2);
 
@@ -599,8 +597,7 @@ public class ParticleSimulation {
 
             ParticleList.MoveParticleWithError(Actions.get(i));
 
-            ParticleList.ComputeWeightsNoHistory(losData.getSatData(i));
-            //ParticleList.ComputeWeights(losData.getSatData(i)); // compute weights with hisotry
+          ParticleList.ComputeWeightsNoHistory(losData.getSatData(i));
             ParticleList.Resample();
 
 
@@ -610,18 +607,129 @@ public class ParticleSimulation {
 
             KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path2,allSats.size());
 
-            //KML_Point3D_List_Generator.Generate_kml_from_List(PointList,Particle_path2);
             ParticleList.ComputeAndPrintErrors(path.get(i));
 
         }
 
         KML_Generator.Generate_kml_from_List(ans,"checkAns.kml");
 
-
-
-
-
     }
+    public static void simulationMainWithML() throws Exception {
+        // Path to KML and other required files
+        String walls_file = "Esri_v0.4.kml";
+        List<Sat> allSats;
+        List<Point3D> path;
+        Particles ParticleList;
+        Point3D pivot, pivot2;
+
+        List<ActionFunction> Actions;
+        List<Building> bs = null;
+
+        try {
+            // Load buildings from KML file
+            bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        path = UtilsAlgorithms.createPath();
+        allSats = UtilsAlgorithms.createSatDataList();
+
+        String Simulation_route_3D_kml_path = "Simulaton__route_May_2016.kml";
+        String Particle_path = "KaminData\\Simulaton_routeTest_ML";
+        String Particle_path3 = "KaminData\\Simulaton_routeTest_initial_ML.kml";
+
+        // Generate initial KML file for route
+        KML_Generator.Generate_kml_from_List(path, Simulation_route_3D_kml_path);
+
+        ParticleList = new Particles();
+        pivot = new Point3D(670053, 3551100, 1);
+        pivot2 = new Point3D(pivot);
+        pivot2.offset(100, 100, 0);
+
+        LosData losData = new LosData(bs, path, allSats);
+        ParticleList.initParticles(pivot, pivot2);
+        KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path3, allSats.size());
+
+        Actions = new ArrayList<>();
+
+        for (int i = 0; i < path.size() - 1; i++) {
+            ActionFunction tmp = new ActionFunction(path.get(i), path.get(i + 1), 0, 0, 0);
+            Actions.add(tmp);
+        }
+
+        List<Point3D> ans = new ArrayList<>();
+        Classifier classifier = null;
+
+        try {
+            classifier = (Classifier) SerializationHelper.read("los_nlos_model.model");
+        } catch (Exception e) {
+            e.printStackTrace();
+            return; // Exit if the classifier couldn't be loaded
+        }
+
+        // Initialize the LOSPredictor with the classifier
+        LOSPredictor predictor = new LOSPredictor(classifier);
+
+        double overallErrorSum = 0;
+        int iterations = 0;
+
+        while (true) {
+            ans.clear();  // Clear previous results for new iteration
+            overallErrorSum = 0;
+            double currentErrorSum = 0;  // Sum of errors for this iteration
+            int errorCount = 0;  // Number of error computations
+
+            for (int i = 1; i < path.size() - 1; i++) {
+                System.out.println("Compute for timestamp " + i);
+
+                ParticleList.OutFfRegion(bs, pivot, pivot2);
+
+                // Load dataset
+                BufferedReader reader = new BufferedReader(new FileReader("C:/Users/shira/OneDrive/Desktop/Final_project-main-master/src/ML_Los_Nlos_Classifier/satellite_data.arff"));
+                Instances dataset = new Instances(reader);
+                reader.close();
+                dataset.setClassIndex(dataset.numAttributes() - 1);
+
+                boolean[] losResults = predictor.predictLOS(allSats);  // Predict LOS/NLOS
+                ParticleList.MessureSignalFromSatsWithML(bs, allSats, classifier, losResults, dataset);
+
+                ParticleList.MoveParticleWithError(Actions.get(i));
+                ParticleList.ComputeWeightsNoHistory(losData.getSatData(i));
+                ParticleList.Resample();
+
+                Point3D tmp = ParticleList.GetParticleWithMaxWeight();
+                ans.add(tmp);
+
+                // Compute error and accumulate
+                double error = ParticleList.ComputeAndPrintErrors(path.get(i));
+                overallErrorSum+=error;
+//                currentErrorSum += error;
+//                errorCount++;
+
+                // Do not generate intermediate KML files
+            }
+
+            // Calculate the average error for this iteration
+//            double averageError = currentErrorSum / errorCount;
+
+
+//            overallErrorSum += averageError;  // Add to overall error sum
+//            iterations++;  // Increment iteration count
+
+            // Break condition if overall average error is below threshold
+            double overallAverageError = overallErrorSum / (path.size() - 1);
+            System.out.println("Average Error for this iteration: " + overallAverageError);
+            if (overallAverageError <= 30) {
+                break;
+            }
+
+        }
+
+        // Generate final KML file after error condition is met
+        KML_Generator.Generate_kml_from_List(ans, "checkAns_ML.kml");
+    }
+
     public  static void oursimulationMain() {
 // Path to the KML file containing building data
         String walls_file = "src/ParticleFilterSimulation/EsriBuildingsBursaNoindentWithBoazBuilding.kml";
@@ -657,6 +765,13 @@ public class ParticleSimulation {
         System.out.println("end");
 
     }
+
+
+
+
+
+
+
 
 
 }
