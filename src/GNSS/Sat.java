@@ -47,10 +47,15 @@ public class Sat {
     }
 
     //Calculates the distance between the satellite and a given position.
-    public double distanceFromSatToPos(Point3D pos)
-    {
-        return this.satPosInECEF.distance(pos);
+    public double distanceFromSatToPos(Point3D pos) {
+        if (this.satPosInECEF != null) {
+            return this.satPosInECEF.distance(pos);
+        } else {
+            // Handle the case where satPosInECEF is null
+            return Double.MAX_VALUE;  // Or another value indicating an error
+        }
     }
+
     //Computes the azimuth and elevation angles from the satellite to a given position.
     //Not really Computes
     public void computeAnglesfromSatToPos(Point3D pos)
