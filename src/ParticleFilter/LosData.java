@@ -5,14 +5,17 @@ import GNSS.Sat;
 import Geometry.Building;
 import Geometry.Point3D;
 
+import ML_Los_Nlos_Classifier.LOSPredictor;
+import weka.classifiers.Classifier;
+import java.util.List;
+
 
 import java.util.*;
 
-/**
- * Created by Roi on 5/23/2016.
- */
+
 public class LosData {
 
+    private static LOSPredictor predictor;
     private Map<Integer, Point3D> timeToLoc;
     private  Map<Point3D, Boolean[]> locToLos;
 
@@ -20,6 +23,22 @@ public class LosData {
         timeToLoc = new HashMap<Integer, Point3D>();
         locToLos = new HashMap<Point3D, Boolean[]>();
         init(buildings, path, satellites);
+    }
+
+    public LosData(Classifier classifier) {
+        // Initialize LOS predictor with the trained classifier
+        predictor = new LOSPredictor(classifier);
+    }
+
+    // Modified LOS function with machine learning
+    public static boolean[] los(List<Sat> satellites) {
+        try {
+            System.out.println("Satellite count: " + satellites.size());
+            return predictor.predictLOS(satellites);
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new boolean[satellites.size()];
+        }
     }
 
 
@@ -56,6 +75,8 @@ public class LosData {
         }
         return tmp;
     }
+
+    // For each location in the `path`, it calculates the LOS to each satellite and stores the results.
     private void init(List<Building> buildings, List<Point3D> path, List<Sat> satellites) {
         for (int i = 0; i< path.size(); i++){
             Point3D loc = path.get(i);
