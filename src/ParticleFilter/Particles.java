@@ -5,26 +5,20 @@ import Geometry.Building;
 import Geometry.Point2D;
 import Geometry.Point3D;
 import dataStructres.NMEAPeriodicMeasurement;
+import weka.classifiers.Classifier;
+import weka.core.Instances;
 
-import java.awt.*;
 import java.util.ArrayList;
-import java.util.Hashtable;
 import java.util.List;
 import java.util.Random;
 
-/**
- * Created with IntelliJ IDEA.
- * User: Roi
- * Date: 08/05/14
- * Time: 12:37
- * To change this template use File | Settings | File Templates.
- */
 
 public class Particles {
 
 
 
     private List<Particle> ParticleList;
+
     static final int NumberOfParticles=625;
 
     public static final double VelocityGauusianError=0.1;
@@ -110,7 +104,7 @@ public class Particles {
         ParticleList = particleList;
     }
     public Particles() {
-      ParticleList = new ArrayList<Particle>();
+        ParticleList = new ArrayList<Particle>();
         R1 = new Random();
     }
 
@@ -144,7 +138,7 @@ public class Particles {
     	}
     	return ans;
     }*/
- 
+
     public void ComputeWeights(Boolean[] RecordedLos)
     {
 
@@ -476,8 +470,9 @@ public class Particles {
                 ParticleList.get(i).OutOfRegion=false;
             }
         }
-      //  System.out.println("number for OOR is "+ numberOutOfrefion);
+        //  System.out.println("number for OOR is "+ numberOutOfrefion);
     }
+
 
     public double[] Normal_Weights()
     {
@@ -636,9 +631,9 @@ public class Particles {
 
             }
             Point3D tmp = new Point3D(ParticleList.get(index).pos);
-           // tmp.OldWeight = ParticleList.get(index).OldWeight;
-            // System.out.print(tmp.pos + " ");
-             //tmp.setWeight(ParticleList.get(index).getWeight());
+//            tmp.OldWeight = ParticleList.get(index).OldWeight;
+//             System.out.print(tmp.pos + " ");
+//             tmp.setWeight(ParticleList.get(index).getWeight());
             NewWeightedList.add(tmp);
         }
         SetAfterResample(NewWeightedList);
@@ -738,7 +733,7 @@ public class Particles {
     }
 
 
-    public void ComputeAndPrintErrors(Point3D refPoint)
+    public double ComputeAndPrintErrors(Point3D refPoint)
     {
         double AverageError = 0;
         double P=0;
@@ -748,14 +743,15 @@ public class Particles {
             {
                 double weight = ParticleList.get(i).getWeight();
                 weight = Math.pow(ParticleList.get(i).getWeight(),UtilsAlgorithms.Weight_pow);
-            AverageError= AverageError+ ParticleList.get(i).ComputeError(refPoint)*weight;
-               // ParticleList.get(i).PrintError();
+                AverageError= AverageError+ ParticleList.get(i).ComputeError(refPoint)*weight;
+                // ParticleList.get(i).PrintError();
                 P+=weight;
 
             }
         }
         AverageError = AverageError/P;
         System.out.print(AverageError + ",");
+        return AverageError;
     }
 
 
@@ -763,7 +759,6 @@ public class Particles {
     {
 
         double sqrtPar = Math.sqrt(NumberOfParticles);
-
         double tmp = 100/sqrtPar;
         double height=1;
         for(int i=0;i<sqrtPar;i++)
@@ -772,7 +767,7 @@ public class Particles {
 
                 Particle tmpParticle = new Particle(p1.getX()+tmp*i,p1.getY()+tmp*j, height);
                 tmpParticle.setWeight(1);
-              //  Particle tmpParticle = new Particle(670103.5, 3551179.5, 1);
+//                Particle tmpParticle = new Particle(670103.5, 3551179.5, 1);
                 ParticleList.add(tmpParticle);
 
            }
@@ -780,13 +775,16 @@ public class Particles {
 
     }
 
+
+
+
     public void initParticlesWithHeading(Point3D p1, Point3D p2)
     {
 
         double sqrtPar = Math.sqrt(NumberOfParticles);
         Random R1 = new Random(88);
         double heading;
-       // heading = R1.nextDouble()*2*Math.PI;
+        heading = R1.nextDouble()*2*Math.PI;
         double tmp = 100/sqrtPar;
         double height=2; // The height of the reciver - over Roi's head.
         for(int i=0;i<sqrtPar;i++)
@@ -798,7 +796,7 @@ public class Particles {
                tmpParticle.setVelocity_heading(heading);
                 //todo Roi Fix it
                 tmpParticle.OldWeight = -1;
-                //  Particle tmpParticle = new Particle(670103.5, 3551179.5, 1);
+//                  Particle tmpParticle = new Particle(670103.5, 3551179.5, 1);
                 ParticleList.add(tmpParticle);
 
             }
@@ -856,6 +854,17 @@ public class Particles {
         double ry = r*Math.sin(ra);
         return new Point3D(rx,ry,rz);
     }
+
+    public Point3D ourrandomPoint(double x, double z){
+        // Reduced noise range
+        double r = UtilsAlgorithms.nextRnd(-x * 0.5, +x * 0.5);  // Half the original range
+        double rz = UtilsAlgorithms.nextRnd(-z * 0.5, +z * 0.5);  // Half the original range
+        double ra = UtilsAlgorithms.nextRnd(0, Math.PI * 2);
+        double rx = r * Math.cos(ra);
+        double ry = r * Math.sin(ra);
+        return new Point3D(rx, ry, rz);
+    }
+
     public Point3D randomPoint(double x){ return randomPoint(x,0);
     }
 
@@ -939,6 +948,20 @@ public class Particles {
         for(int i=0; i<NumberOfParticles; i++)
         {
             Point3D Noise = randomPoint(1.0,0);
+            PivotX = action.PivotX+Noise.getX();
+            PivotY = action.PivotY+Noise.getY();
+            ParticleList.get(i).pos.offset(PivotX, PivotY, action.PivotZ);
+        }
+
+    }
+
+    public void ourMoveParticleWithError(ActionFunction action)
+    {
+
+        double PivotX, PivotY;
+        for(int i=0; i<NumberOfParticles; i++)
+        {
+            Point3D Noise = ourrandomPoint(1.0,0);
             PivotX = action.PivotX+Noise.getX();
             PivotY = action.PivotY+Noise.getY();
             ParticleList.get(i).pos.offset(PivotX, PivotY, action.PivotZ);
@@ -1063,4 +1086,53 @@ public class Particles {
         for(int i=0; i<ParticleList.size(); i++)
             System.out.print(ParticleList.get(i).getWeight()+ " ");
     }
+
+//    public void printParticlePositions() {
+//        System.out.println("Particle Positions:");
+//        for (Particle p : ParticleList) {  // Corrected from particleList to ParticleList
+//            System.out.println(p.pos);
+//        }
+//    }
+
+    public void MessureSignalFromSatsWithML(List<Building> bs, List<Sat> allSats, Classifier classifier, boolean[] recordedLos, Instances dataset) throws Exception {
+        for (Particle particle : ParticleList) {
+            double[] featureVector = extractFeatures(particle, allSats, bs);
+
+            // Use the modified createInstance method
+            weka.core.Instance instance = createInstance(featureVector, dataset);
+
+            // Use the classifier to predict LOS/NLOS
+            double prediction = classifier.classifyInstance(instance);
+
+            Boolean[] los = new Boolean[allSats.size()];
+            for (int i = 0; i < los.length; i++) {
+                los[i] = (prediction == 1.0); // Assuming 1.0 represents LOS
+            }
+            particle.LOS = los;
+        }
+    }
+
+
+
+    // This function creates a feature vector based on particle and satellite information.
+    private double[] extractFeatures(Particle particle, List<Sat> allSats, List<Building> bs) {
+        // Example feature extraction (you can customize this based on your use case):
+        double[] features = new double[allSats.size()];
+        for (int i = 0; i < allSats.size(); i++) {
+            Sat sat = allSats.get(i);
+            features[i] = sat.distanceFromSatToPos(particle.pos);  // Feature could be distance, azimuth, etc.
+        }
+        return features;
+    }
+
+    // Create a Weka Instance from a feature vector.
+    // Modify this method to accept Instances dataset
+    private weka.core.Instance createInstance(double[] featureVector, Instances dataset) {
+        weka.core.DenseInstance instance = new weka.core.DenseInstance(1.0, featureVector);
+        instance.setDataset(dataset);  // This assigns the instance to the dataset
+        return instance;
+    }
+
+
+
 }
