@@ -2,9 +2,7 @@ package GNSS;
 
 import Geometry.Point3D;
 
-/**
- * Created by Roi on 1/7/2015.
- */
+
 public class Sat {
 
     Point3D satPosInECEF;//Represents the position of the satellite in Earth-Centered, Earth-Fixed (ECEF) coordinates.
