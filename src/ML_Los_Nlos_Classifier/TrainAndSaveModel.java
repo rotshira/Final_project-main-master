@@ -9,7 +9,7 @@ import java.io.FileReader;
 public class TrainAndSaveModel {
 	public static void main(String[] args) {
 		try {
-			BufferedReader reader = new BufferedReader(new FileReader("C:/Users/shira/OneDrive/Desktop/Final_project-main-master/src/ML_Los_Nlos_Classifier/satellite_data.arff"));
+			BufferedReader reader = new BufferedReader(new FileReader("src/ML_Los_Nlos_Classifier/satellite_data.arff"));
 			Instances dataset = new Instances(reader);
 			reader.close();
 
