@@ -5,7 +5,8 @@ import weka.classifiers.Classifier;
 import weka.core.Instances;
 
 import java.util.List;
-
+import ParticleFilter.Particle;
+import ParticleFilter.Particles;
 public class LOSPredictor {
 	private Classifier classifier;
 
@@ -13,13 +14,13 @@ public class LOSPredictor {
 		this.classifier = classifier;
 	}
 
-	public boolean[] predictLOS(List<Sat> satellites) throws Exception {
-		Instances features = FeatureExtractor.extractFeatures(satellites);
+	public boolean[] predictLOS(List<Sat> satellites,  Particles particles) throws Exception {
+		Instances features = FeatureExtractor.extractFeatures(satellites, particles);
 
 		// Set the class index for the LOS/NLOS classification
 		features.setClassIndex(features.numAttributes() - 1);
 
-		boolean[] losResults = new boolean[satellites.size()];
+		boolean[] losResults = new boolean[satellites.size() * particles.getParticleList().size()];
 
 		for (int i = 0; i < features.numInstances(); i++) {
 			features.instance(i).setDataset(features); // Set instance to the dataset
@@ -29,4 +30,5 @@ public class LOSPredictor {
 
 		return losResults;
 	}
+
 }
