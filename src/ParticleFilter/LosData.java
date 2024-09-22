@@ -12,7 +12,9 @@ import java.util.List;
 
 import java.util.*;
 
-
+/**
+ * Created by Roi on 5/23/2016.
+ */
 public class LosData {
 
     private static LOSPredictor predictor;
@@ -31,10 +33,10 @@ public class LosData {
     }
 
     // Modified LOS function with machine learning
-    public static boolean[] los(List<Sat> satellites) {
+    public static boolean[] los(List<Sat> satellites, Particles particles) {
         try {
             System.out.println("Satellite count: " + satellites.size());
-            return predictor.predictLOS(satellites);
+            return predictor.predictLOS(satellites, particles);
         } catch (Exception e) {
             e.printStackTrace();
             return new boolean[satellites.size()];
