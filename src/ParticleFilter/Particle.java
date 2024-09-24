@@ -106,7 +106,11 @@ public class Particle implements Comparable<Particle> {
         Boolean[] los = new Boolean[allSats.size()];
         for (int i=0; i<allSats.size(); i++)
         {
+//            los[i] = LosData.los(allSats.get(i), GeoUtils.convertUTMtoLATLONForOutOfRegion(this.pos, 36), bs);
             los[i] = LosData.los(allSats.get(i), GeoUtils.convertUTMtoLATLON(this.pos, 36), bs);
+//            los[i] = LosData.los(allSats.get(i), Point3D.convertUTMToLatLon(this.pos,"36N"),bs);
+//            los[i] = LosData.los(allSats.get(i), pos,bs);
+
         }
         this.LOS = los;
         //  System.out.println();
@@ -330,7 +334,10 @@ public class Particle implements Comparable<Particle> {
         for (Building tmp : bs)
         {
            contain=tmp.isPoint2D_inBuilding(GeoUtils.convertUTMtoLATLONForOutOfRegion(this.pos,36));
+//            contain=tmp.isPoint2D_inBuilding(GeoUtils.convertUTMtoLATLON(this.pos,36));
 //            contain=tmp.isPoint2D_inBuilding(Point3D.convertUTMToLatLon(this.pos,"36N"));
+//            contain=tmp.isPoint2D_inBuilding(this.pos);
+
 
             if(contain==true)
            {

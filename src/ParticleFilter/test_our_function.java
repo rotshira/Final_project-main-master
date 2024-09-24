@@ -20,7 +20,7 @@ public class test_our_function {
         //manual1();
         //manual2();
         //test_make_kml_from_point_to_sat();
-         ourChckForOutOfRegion();
+//         ourChckForOutOfRegion();
 //        ourChckForisPoint2D_inBuilding();
 //        Point3D pivot = new Point3D(670053, 3551100, 1);
 //        System.out.println(Point3D.convertUTMToLatLon(pivot,"36N"));
@@ -34,8 +34,13 @@ public class test_our_function {
 //        OurTest_Actions();
 //        OurTest_move();
 //        testConvertToLAtAndLong();
-
+//        convert();
+//        test_MessureSesnor();
+//        create_satellite_data();
+        test_compute_los();
     }
+
+
 
     public static String arrayToString(Boolean[] array) {
         StringBuilder sb = new StringBuilder();
@@ -649,11 +654,135 @@ public class test_our_function {
         System.out.println(Point3D.convertUTMToLatLon(pivot,"36N"));
 
     }
+    public static void convert() {
+        Point3D p = new Point3D(670053,3551100,1);
+        List<Point3D> ans = new ArrayList<Point3D>();
+        Point3D GeoUtils_p =GeoUtils.convertUTMtoLATLON(p,36);
+        Point3D Point3D_p =  Point3D.convertUTMToLatLon(p,"36N");
+        System.out.println(GeoUtils_p);
+        System.out.println(Point3D_p);
+        ans.add(GeoUtils_p);
+//        ans.add(Point3D_p);
+        KML_Generator.Generate_kml_from_List(ans,"Ans.kml",true);
 
 
 
 
-}
+    }
+    public static void create_satellite_data(){
+        String walls_file = "Esri_v0.4.kml";
+        List<Sat> allSats;
+
+//        List<Point3D> path;
+        Particles ParticleList;
+        Point3D pivot, pivot2;
+        int CurrentGeneration;
+        String Simulation_route_kml_path = "Simulaton__route_May_2016.kml";
+
+
+        List<ActionFunction>  Actions;
+        List<Building> bs = null;
+        try {
+            bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        System.out.println("Number of buildings is " + bs.size());
+//        path = UtilsAlgorithms.createPath();
+
+        allSats = UtilsAlgorithms.createSatDataList();
+        String Simulation_route_3D_kml_path = "Simulaton__route_May_2016.kml";
+
+        String Particle_path = "KaminData\\Simulaton_routeTest_FInal";
+        String Particle_path3 = "KaminData\\Simulaton_routeTest_initial.kml";
+
+//        KML_Generator.Generate_kml_from_List(path, Simulation_route_3D_kml_path);
+
+
+        ParticleList = new Particles();
+        pivot = new Point3D(670053, 3551100, 1);
+        pivot2 =  new Point3D(pivot);
+        pivot2.offset(100, 100, 0);
+//        LosData losData = new LosData( bs, path, allSats);
+
+
+        ParticleList.initParticles(pivot, pivot2);
+//        KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path3,allSats.size());
+
+
+
+
+        Actions = new ArrayList<ActionFunction>();
+//        System.out.println(path.size());
+        ParticleList.OutFfRegion(bs, pivot, pivot2);
+        ParticleList.MessureSignalFromSats( bs,  allSats);
+
+        for(int i=0;i<ParticleList.getParticleList().size()-1; i++)
+        {
+            System.out.print(ParticleList.getParticleList().get(i).pos+": ");
+            for (int j = 0; j < allSats.size(); j++) {
+                System.out.print(ParticleList.getParticleList().get(i).LOS[j]+", ");
+            }
+            System.out.println();
+        }
+        System.out.println(ParticleList.getParticleList().size()-1);
+
+    }
+    public static void test_MessureSesnor() {
+        Particle p = new Particle(670162,3551062,1);
+        String walls_file = "Esri_v0.4.kml";
+        List<Building> bs = null;
+        List<Sat> allSats;
+        try {
+            bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        allSats = UtilsAlgorithms.createSatDataList();
+        p.MessureSesnor(bs,allSats);
+        int cnt_T=0;
+        int cnt_F=0;
+        for (int i = 0; i < allSats.size()-1; i++) {
+//            System.out.println(p.LOS[i]);
+            if (p.LOS[i]==true){
+                cnt_T++;
+
+            }
+            else{
+                cnt_F++;
+            }
+
+        }
+        System.out.println(cnt_T);
+        System.out.println(cnt_F);
+
+
+    }
+    public static void test_compute_los()
+    {
+        String walls_file = "Esri_v0.4.kml";
+        List<Sat> allSats;
+        List<Building> bs = null;
+        try {
+            bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        allSats = UtilsAlgorithms.createSatDataList();
+        Particle p = new Particle( 670079.41,  3551156.63, 1.0);
+//        p.MessureSesnor(bs,allSats);
+//        for(int i=0 ; i<allSats.size()-1 ;i++){
+//            System.out.println(p.getLOS()[i]);
+//        }
+        System.out.println(bs.get(0).getWalls().get(1).toString());
+
+    }
+
+
+
+
+
+    }
 
 
 

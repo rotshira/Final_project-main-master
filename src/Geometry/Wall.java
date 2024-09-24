@@ -20,6 +20,28 @@ public class Wall {
     Line3D wallAsLine; //this Line3D represent a wall relative to ground.
     Point3D[] point3dArray;
 
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Wall {");
+        sb.append("typeOfwall=").append(typeOfwall);
+        sb.append(", maxHeight=").append(maxHeight);
+        sb.append(", wallAsLine=").append(wallAsLine != null ? wallAsLine.toString() : "null");
+
+        sb.append(", point3dArray=[");
+        if (point3dArray != null) {
+            for (int i = 0; i < point3dArray.length; i++) {
+                sb.append(point3dArray[i] != null ? point3dArray[i].toString() : "null");
+                if (i < point3dArray.length - 1) {
+                    sb.append(", ");
+                }
+            }
+        }
+        sb.append("]");
+        sb.append(" }");
+        return sb.toString();
+    }
     public Line3D getWallAsLine() {
         return wallAsLine;
     }
@@ -33,6 +55,9 @@ public class Wall {
         wallAsLine = new Line3D(a, b);
         typeOfwall= WallType.SQUARE;
         this.maxHeight = Math.max(a.getZ(), b.getZ());
+        point3dArray = new Point3D[2];
+        point3dArray[0] = a;
+        point3dArray[1] = b;
 
 
     }

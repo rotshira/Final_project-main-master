@@ -93,7 +93,7 @@ public class LosAlgorithm {
     {
         for(Wall wall : building.getWalls())
         {
-            if(!ComputeLos(pos, wall, sat))
+            if(ComputeLos(pos, wall, sat)==false)
                 return false;
         }
         return true;
@@ -128,7 +128,7 @@ public class LosAlgorithm {
     {
         for(Building building : buildings)
         {
-            if(!ComputeLos(pos, building, sat))
+            if(ComputeLos(pos, building, sat)==false)
                 return false;
         }
         return true;
