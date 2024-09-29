@@ -16,6 +16,7 @@ import java.util.List;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
+import Utils.GeoUtils;
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
@@ -62,11 +63,11 @@ public class BuildingsFactory {
         Double x, y, z;
         while(idx<size-2)
         {
-            x = Double.parseDouble(cords[idx]);
-            y = Double.parseDouble(cords[idx+1]);
+            y = Double.parseDouble(cords[idx]);
+            x = Double.parseDouble(cords[idx+1]);
             z= Double.parseDouble(cords[idx+2]);
             Point3D tmpPoint = new Point3D(x, y, z);
-//            tmpPoint = GeoUtils.convertLATLONtoUTM(tmpPoint);
+            tmpPoint = GeoUtils.convertLATLONtoUTM(tmpPoint);
             buildingVertices.add(tmpPoint);
             idx+=3;
 

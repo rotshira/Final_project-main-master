@@ -190,4 +190,33 @@ public class Point3D  extends Point2D{
         return new Point3D(lon, lat, utmPoint.getZ());
     }
 
+    public double distance3D(Point3D other) {
+            return Math.sqrt(
+                    Math.pow(other.getX() - this.getX(), 2) +
+                            Math.pow(other.getY() - this.getY(), 2) +
+                            Math.pow(other.getZ() - this.getZ(), 2)
+            );
+
+    }
+    public double azimuthBetweenPoints(Point3D other) {
+        double deltaEasting = other.getX() - this.getX();
+        double deltaNorthing = other.getY() - this.getY();
+        // Calculate the azimuth using atan2
+        double azimuthRad = Math.atan2(deltaEasting, deltaNorthing);
+        // Convert from radians to degrees
+        double azimuthDeg = Math.toDegrees(azimuthRad);
+        // Normalize the azimuth to be within 0-360 degrees
+        azimuthDeg = (azimuthDeg + 360) % 360;
+
+        return azimuthDeg;
+    }
+
+    public double elevationBetweenPoints(Point3D other) {
+        double deltaX = other.getX() - this.getX();
+        double deltaY = other.getY() - this.getY();
+        double deltaZ = other.getZ() - this.getZ();
+        double horizontalDistance = Math.sqrt(Math.pow(deltaX, 2) + Math.pow(deltaY, 2));
+        double elevation = Math.atan2(deltaZ, horizontalDistance); // Calculate elevation in radians
+        return Math.toDegrees(elevation); // Convert radians to degrees
+    }
 }

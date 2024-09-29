@@ -2,9 +2,7 @@ package ParticleFilter;
 
 import Algorithm.LosAlgorithm;
 import GNSS.Sat;
-import Geometry.Building;
-import Geometry.BuildingsFactory;
-import Geometry.Point3D;
+import Geometry.*;
 import Parsing.nmea.NMEAProtocolParser;
 import Utils.GeoUtils;
 import Utils.KML_Generator;
@@ -37,7 +35,11 @@ public class test_our_function {
 //        convert();
 //        test_MessureSesnor();
 //        create_satellite_data();
-        test_compute_los();
+//        test_compute_los();
+//        test_lineIntersect();
+//        testLine3D();
+//        test_intersectionPoint();
+        testIntersectionPoint3D();
     }
 
 
@@ -777,12 +779,151 @@ public class test_our_function {
         System.out.println(bs.get(0).getWalls().get(1).toString());
 
     }
+    public static void test_lineIntersect()
+    {
+        // משוואה 1
+        double x1 = 1.0, y1 = 1.0;
+        double x2 = 4.0, y2 = 4.0;
+        // 2 משוואה
+        double x3 = 1.0, y3 = 4.0;
+        double x4 = 4.0, y4 = 1.0;
+
+        Point2D intersection = Line3D.lineIntersect(x1, y1, x2, y2, x3, y3, x4, y4);
+        System.out.println(intersection);
+
+        if (intersection != null) {
+            System.out.println("passed");
+        } else {
+            System.out.println(" failed " + intersection);
+        }
+
+        double a1 = 1.0, b1 = 1.0;
+        double a2 = 4.0, b2 = 4.0;
+
+        // Line 2: Parallel to Line 1, shifted vertically
+        double a3 = 1.0, b3 = 2.0;
+        double a4 = 4.0, b4 = 5.0;
+
+        Point2D noIntersection = Line3D.lineIntersect(a1, b1, a2, b2, a3, b3, a4, b4);
+
+        if (noIntersection == null) {
+            System.out.println(" Passed");
+        } else {
+            System.out.println(" Failed " + noIntersection);
+        }
+
+    }
+    public static void testLine3D() {
+        // Test parameters
+        Point3D start = new Point3D(670053, 3551100, 1);
+        double azimuth = 114.5;      // Azimuth in degrees
+        double elevation = 3;    // Elevation in degrees
+        int distance = 300;       // Distance between points
+
+        // Create a new Line3D object using the constructor with azimuth, elevation, and distance
+        Line3D test = new Line3D(start, azimuth, elevation, distance);
+        System.out.println(test.getP1());
+        System.out.println(test.getP2());
+
+        // Calculate distance between the two points and check if it matches the expected value
+        double calculatedDistance = test.getP1().distance3D(test.getP2());
+        if (Math.abs(calculatedDistance - distance) > 1e-6) {
+            System.out.println("Error on distance: expected " + distance + ", but got " + calculatedDistance);
+        } else {
+            System.out.println("Distance is correct: " + calculatedDistance);
+        }
+
+//         Calculate azimuth between the two points and check if it matches the expected value
+        double calculatedAzimuth = test.getP1().azimuthBetweenPoints( test.getP2());
+        if (Math.abs(calculatedAzimuth - azimuth) > 1e-6) {
+            System.out.println("Error on azimuth: expected " + azimuth + ", but got " + calculatedAzimuth);
+        } else {
+            System.out.println("Azimuth is correct: " + calculatedAzimuth);
+        }
+
+        // Calculate elevation between the two points and check if it matches the expected value
+        double calculatedElevation = test.getP1().elevationBetweenPoints( test.getP2());
+        if (Math.abs(calculatedElevation - elevation) > 1e-6) {
+            System.out.println("Error on elevation: expected " + elevation + ", but got " + calculatedElevation);
+        } else {
+            System.out.println("Elevation is correct: " + calculatedElevation);
+        }
+
+
+    }
+    public static void test_intersectionPoint() {
+        Point3D p1 = new Point3D(1,2,3);
+        Point3D p2 = new Point3D(4,5,6);
+        Point3D p3 = new Point3D(1,5,3);
+        Point3D p4 = new Point3D(4,2,6);
+        //Supposed to meet at (2.5,3.5,4.5) and indeed meet there
+        Line3D l1 = new Line3D(p1,p2);
+        Line3D l2 = new Line3D(p3,p4);
+
+        Point2D ans1 = l1.intersectionPoint(l2);
+        System.out.println(ans1);
+        Point3D p5 = new Point3D(1,1,1);
+        Point3D p6 = new Point3D(4,2,3);
+        Point3D p7 = new Point3D(0,3,2);
+        Point3D p8 = new Point3D(2,4,5);
+
+        ////Shouldn't meet and indeed they don't
+        Line3D l3 = new Line3D(p5,p6);
+        Line3D l4 = new Line3D(p7,p8);
+
+        Point2D ans2 = l3.intersectionPoint(l4);
+        System.out.println(ans2);
+
+
+
+
+    }
+    public static void testIntersectionPoint3D() {
+        String walls_file = "Esri_v0.4.kml";
+        List<Building> bs = null;
+        try {
+            bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        double azimut = 50;
+        double elovation = 40;
+
+        Point3D point = new Point3D(670113  ,3551167,1);
+        point= GeoUtils.convertUTMtoLATLON(point,36);
+        System.out.println(point);
+
+
+        Line3D line = new Line3D(point,azimut,elovation,300);
+
+        for(int j=0;j<bs.size();j++){
+            for(int i=0; i<4;i++){
+                Point3D ans = bs.get(j).getWalls().get(i).intersectionPoint3D(line);
+                System.out.println(ans);
+                // System.out.println(bs.get(j).getWalls().get(i).getWallAsLine());
+            }
+        }
+
 
 
 
 
 
     }
+
+
+
+
+}
+
+
+
+
+
+
+
+
 
 
 

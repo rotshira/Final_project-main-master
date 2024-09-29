@@ -34,6 +34,7 @@ public class Line3D {
         //note that elevetion is messures from xy plane , hence the diffrence between those equations and wikipedia equations
         //http://en.wikipedia.org/wiki/Spherical_coordinate_system
         double newAzimut = GeomUtils.ConvertSatAzimutInDegreesTOfitUnitCircle(azimuth);
+        //newAzimut = azimuth;
         double newX = pos.getX() + dist*Math.cos(Math.toRadians(elevetion))*Math.cos(Math.toRadians(newAzimut));
         double newY = pos.getY() + dist*Math.cos(Math.toRadians(elevetion))*Math.sin(Math.toRadians(newAzimut));
         double newZ = pos.getZ() + dist*Math.sin(Math.toRadians(elevetion));

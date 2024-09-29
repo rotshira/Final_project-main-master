@@ -13,9 +13,6 @@ import dataStructres.NMEAPeriodicMeasurement;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.nio.charset.StandardCharsets;
-import java.nio.file.Files;
-import java.nio.file.Paths;
 import java.text.ParseException;
 import java.util.ArrayList;
 import java.util.List;
@@ -24,9 +21,6 @@ import java.util.zip.Inflater;
 import weka.classifiers.Classifier;
 import weka.core.Instances;
 import weka.core.SerializationHelper;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
-
 /**
  * Created by Roi on 5/23/2016.
  */
@@ -40,8 +34,8 @@ public class ParticleSimulation {
 	}
 
 	public static void main(String[] args) throws Exception {
-//        simulationMain2();
-        simulationMainWithML();
+        simulationMain2();
+//        simulationMainWithML();
         //testParse();
 
         //NMEAParser();
@@ -683,13 +677,15 @@ public class ParticleSimulation {
         while (true) {
             ans.clear();  // Clear previous results for new iteration
             overallErrorSum = 0;
+            double currentErrorSum = 0;  // Sum of errors for this iteration
+            int errorCount = 0;  // Number of error computations
 
             for (int i = 1; i < path.size() - 1; i++) {
                 System.out.println("Compute for timestamp " + i);
                 ParticleList.OutFfRegion(bs, pivot, pivot2);
                 // Load dataset
                 // Generate dynamic dataset for each point in the path
-                BufferedReader reader = new BufferedReader(new FileReader("C:/Users/shira/OneDrive/Desktop/Final_project-main-master/src/ML_Los_Nlos_Classifier/satellite_data.arff"));
+                BufferedReader reader = new BufferedReader(new FileReader("src/ML_Los_Nlos_Classifier/satellite_data.arff"));
 
                 Instances dataset = new Instances(reader);
                 reader.close();
@@ -758,28 +754,7 @@ public class ParticleSimulation {
 
     }
 
-//    public static void generateSatelliteData(List<Sat> satellites, List<Building> buildings, Point3D point, String filePath) {
-//        try (BufferedWriter writer = new BufferedWriter(new FileWriter(filePath))) {
-//            writer.write("@RELATION satellite_data\n\n");
-//            writer.write("@ATTRIBUTE SNR NUMERIC\n");
-//            writer.write("@ATTRIBUTE Azimuth NUMERIC\n");
-//            writer.write("@ATTRIBUTE Elevation NUMERIC\n");
-//            writer.write("@ATTRIBUTE class {LOS, NLOS}\n\n");
-//            writer.write("@DATA\n");
-//
-//            for (Sat sat : satellites) {
-//                boolean isLOS = LosAlgorithm.ComputeLos(point, buildings, sat);
-//                String losClass = isLOS ? "LOS" : "NLOS";
-//                System.out.println("Satellite Azimuth: " + sat.getAzimuth() + ", Elevation: " + sat.getElevetion() + ", LOS: " + losClass);
-//                writer.write(sat.getSingleSNR() + "," + sat.getAzimuth() + "," + sat.getElevetion() + "," + losClass + "\n");
-//            }
-//
-//
-//            System.out.println("Satellite data written to: " + filePath);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//    }
+
 
 
 

@@ -6,6 +6,7 @@
       <root url="jar://$PROJECT_DIR$/src/lib/javafx-ui-controls.jar!/" />
       <root url="jar://$PROJECT_DIR$/src/lib/sellcom-java-1.6.0.jar!/" />
       <root url="jar://$PROJECT_DIR$/src/lib/sellcom-javafx-1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/src/lib/weka-3-9-0-monolithic.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
