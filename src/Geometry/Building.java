@@ -16,20 +16,25 @@ public class Building {
     double maxHeigth;
     List<Point3D> BuildindVertices;
 
+    //A constructor that receives a list of points representing the vertices of the building
     public Building(List<Point3D> buildingVertecies)
     {
         this.walls = new ArrayList<Wall>();
         this.maxHeigth = 0;
         this.buildingName = "";
         this.BuildindVertices = buildingVertecies;
+        //Initialize the building from its list of vertices
         init(buildingVertecies);
     }
-
+    //A private function of a specific building that receives a list of vertices and creates the walls for the building
     private void generateBuildingFromPoint3dList(List<Point3D> buildingVertecies)
     {
         int i;
+        //Over all the vertices of the building
         for(i=0; i<buildingVertecies.size()-1; i++) {
+            //Creating a wall from vertex i and vertex i+1
             Wall tmp = new Wall(buildingVertecies.get(i), buildingVertecies.get(i + 1));
+            //Adding the new wall to the building's list of walls
             walls.add(tmp);
         }
         Wall tmp2 = new Wall(buildingVertecies.get(i), buildingVertecies.get(0));
@@ -45,7 +50,9 @@ public class Building {
     {
         return false;
     }
+    //A private function of a specific building that receives a list of vertices and initializes the building
     private void init(List<Point3D> buildingVertecies){
+
         generateBuildingFromPoint3dList(buildingVertecies);
         setMaxHeight();
     }

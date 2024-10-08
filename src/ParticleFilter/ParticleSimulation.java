@@ -534,39 +534,50 @@ public class ParticleSimulation {
     }
 
     public  static void simulationMain2() {
-
+        //The filename of the buildings
         String walls_file = "Esri_v0.4.kml";
+        //Variable for satellites
         List<Sat> allSats;
-
+        //Variable for path
         List<Point3D> path;
+        //Variable for Particles
         Particles ParticleList;
+        //Variable for pivots
         Point3D pivot, pivot2;
         int CurrentGeneration;
         String Simulation_route_kml_path = "Simulaton__route_May_2016.kml";
 
-
+        //Variable for Actions
         List<ActionFunction>  Actions;
+        //Variable for Building
         List<Building> bs = null;
         try {
+            //generate the buildings from their kml file (returned in utm)
             bs = BuildingsFactory.generateUTMBuildingListfromKMLfile(walls_file);
         } catch (Exception e) {
             e.printStackTrace();
         }
         System.out.println("Number of buildings is " + bs.size());
+        //Creating the initial path
         path = UtilsAlgorithms.createPath();
-
+        //Creating satellites
         allSats = UtilsAlgorithms.createSatDataList();
+        //A name string for the kml file that represented the original path
         String Simulation_route_3D_kml_path = "Simulaton__route_May_2016.kml";
-
+        //A name string for the kml file that will represent each of the rounds of the Particles
         String Particle_path = "KaminData\\Simulaton_routeTest_FInal";
+        //A name string for the kml file that will represent the initialization of the Particles
         String Particle_path3 = "KaminData\\Simulaton_routeTest_initial.kml";
-
+        //Creating kml for the particles in their initialized form
         KML_Generator.Generate_kml_from_List(path, Simulation_route_3D_kml_path);
 
-
+        //Initialization of the ParticleList
         ParticleList = new Particles();
+        //The pivot represents the lower left point (in utm units) of the ParticleList
         pivot = new Point3D(670053, 3551100, 1);
+        //pivot2 gets the values of pivot
         pivot2 =  new Point3D(pivot);
+        //pivot2 shifts 100 units to the right and 100 relative units up
         pivot2.offset(100, 100, 0);
         LosData losData = new LosData( bs, path, allSats);
 

@@ -26,11 +26,10 @@ import org.xml.sax.SAXException;
  */
 public class BuildingsFactory {
 
-
-    //this function return true is the list was created and false if an error occurs.
+//This function accepts the name of a kml file of buildings and creates a list of buildings in utm units
     public static List<Building> generateUTMBuildingListfromKMLfile(String file) throws Exception {
+        //A variable for the list of buildings to return
         List<Building> buildingList = new ArrayList<Building>();
-
         try {
             BufferedReader reader = new BufferedReader(new FileReader(file));
             String line= "";
@@ -38,7 +37,9 @@ public class BuildingsFactory {
             while(line!=null)
             {
                 if(line.startsWith("<coordinates")) {
+                    //Reading a line of coordinates
                     line = reader.readLine();
+                    //Creating a building (in utm) units from a named coordinate line
                     Building tmpBuilding = generateUTMBuildingFromCordString(line);
                     buildingList.add(tmpBuilding);
                 }
@@ -54,19 +55,24 @@ public class BuildingsFactory {
         return buildingList;
 
     }
-
+    //This function that receives a string of coordinates representing a building in units of latlong and returns a building in units of utm
     private static Building generateUTMBuildingFromCordString(String cordFromKMLString) throws Exception {
+        //Separates the list by comma or space
         String[] cords = cordFromKMLString.split(",| ");
+        //A list of points that will hold the vertices of the building
         List<Point3D> buildingVertices = new ArrayList<Point3D>();
         int size = cords.length;
         int idx=0;
         Double x, y, z;
         while(idx<size-2)
         {
+            //lat represents y therefore taken from the first place and then long represents x therefore taken from the second place and then z
             y = Double.parseDouble(cords[idx]);
             x = Double.parseDouble(cords[idx+1]);
             z= Double.parseDouble(cords[idx+2]);
+            //Creating point x,y,z
             Point3D tmpPoint = new Point3D(x, y, z);
+            //Changing the units of the point lat long to utm
             tmpPoint = GeoUtils.convertLATLONtoUTM(tmpPoint);
             buildingVertices.add(tmpPoint);
             idx+=3;
@@ -80,6 +86,7 @@ public class BuildingsFactory {
         else{
             throw new Exception("Bad KML File");
         }
+        //Returning the building by creating it from the list of vertices from which it is built
         return new Building(buildingVertices);
     }
     public static List<Point3D> parseKML(String filePath) {
