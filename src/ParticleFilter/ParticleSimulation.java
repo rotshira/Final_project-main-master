@@ -581,13 +581,14 @@ public class ParticleSimulation {
         pivot2.offset(100, 100, 0);
         LosData losData = new LosData( bs, path, allSats);
 
-
+        //Particle initialization
         ParticleList.initParticles(pivot, pivot2);
+        //Generate kml of the initialized particles
         KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path3,allSats.size());
 
 
 
-
+        //Initialize Actions
         Actions = new ArrayList<ActionFunction>();
         System.out.println(path.size());
         for(int i=0;i<path.size()-1; i++)
@@ -595,33 +596,36 @@ public class ParticleSimulation {
             ActionFunction tmp = new ActionFunction(path.get(i), path.get(i+1), 0 , 0,0);
             Actions.add(tmp);
         }
-
+        //Initialize a list of points called ans that will hold the answer of the algorithm
         List<Point3D> ans = new ArrayList<Point3D>();
         for(int i=1;i<path.size()-1; i++)
         {
 
             System.out.println("compute for timestamp "+i);
-
+            //Calculation of the OutFfRegion value for all particles
             ParticleList.OutFfRegion(bs, pivot, pivot2);
-
+            //calculate the value of the LOS array for all particles
             ParticleList.MessureSignalFromSats( bs,  allSats);
-
+            //Moving all the particles according to the appropriate Action
             ParticleList.MoveParticleWithError(Actions.get(i));
-
-          ParticleList.ComputeWeightsNoHistory(losData.getSatData(i));
+            //Calculate the weight for all the particles
+            ParticleList.ComputeWeightsNoHistory(losData.getSatData(i));
+            //resampling the particles
             ParticleList.Resample();
 
-
+            //Choosing the best particle
             Point3D tmp = ParticleList.GetParticleWithMaxWeight();
+            //Added it to the ans list
             ans.add(tmp);
+            //Adjusting Particle_path2 to the current rotation
             String Particle_path2=Particle_path+i+".kml";
-
+            //Generate the kml for the particles in the current rotation
             KML_Generator.Generate_kml_from_ParticleList(ParticleList, Particle_path2,allSats.size());
-
+            //Calculate and print the error in the current rotation
             ParticleList.ComputeAndPrintErrors(path.get(i));
 
         }
-
+        //Generate the kml of the answer from the ans list
         KML_Generator.Generate_kml_from_List(ans,"checkAns.kml");
 
     }

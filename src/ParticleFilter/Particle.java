@@ -99,18 +99,16 @@ public class Particle implements Comparable<Particle> {
         System.out.println("}");
     }
 
-
+    /**
+     * This function goes through all the satellites and calculates its los value for satellite i
+     * and puts the answer from an array in place of i
+     */
     public void MessureSesnor(List<Building> bs,  List<Sat> allSats)
     {
-
         Boolean[] los = new Boolean[allSats.size()];
         for (int i=0; i<allSats.size(); i++)
         {
-//            los[i] = LosData.los(allSats.get(i), GeoUtils.convertUTMtoLATLONForOutOfRegion(this.pos, 36), bs);
-//            los[i] = LosData.los(allSats.get(i), GeoUtils.convertUTMtoLATLON(this.pos, 36), bs);
-//            los[i] = LosData.los(allSats.get(i), Point3D.convertUTMToLatLon(this.pos,"36N"),bs);
             los[i] = LosData.los(allSats.get(i), pos,bs);
-
         }
         this.LOS = los;
         //  System.out.println();
@@ -314,10 +312,10 @@ public class Particle implements Comparable<Particle> {
     }
 
 
-
-
-
-    //this function checks if
+    /**
+     * This function checks whether a certain particle is outside the area represented by 2 points (p1 is the lower left point and p2 is the upper right point)
+     * or inside a building and returns true or false
+     */
     public boolean OutOfRegion(List<Building> bs, Point3D p1, Point3D p2)
     {
         double conf=1;
@@ -333,9 +331,6 @@ public class Particle implements Comparable<Particle> {
 
         for (Building tmp : bs)
         {
-//           contain=tmp.isPoint2D_inBuilding(GeoUtils.convertUTMtoLATLONForOutOfRegion(this.pos,36));
-//            contain=tmp.isPoint2D_inBuilding(GeoUtils.convertUTMtoLATLON(this.pos,36));
-//            contain=tmp.isPoint2D_inBuilding(Point3D.convertUTMToLatLon(this.pos,"36N"));
             contain=tmp.isPoint2D_inBuilding(this.pos);
 
 

@@ -57,7 +57,9 @@ public class Building {
         setMaxHeight();
     }
 
-
+    /**
+     *This function checks whether a certain point is inside a building
+     */
     public boolean isPoint2D_inBuilding(Point2D pos)
     {
 

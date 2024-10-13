@@ -258,7 +258,13 @@ public class Particles {
 
 
     }
-
+    /**
+     *This function calculates the equation for all particles according to the LOS array of the original particle
+     * It receives an array called RecordedLos which is the array of the LOS of the original particle at the specific point in time
+     * and for each particle calculates the weight for it.
+     * The weight of each particle is a calculation of the number of adjustments of its LOS array to RecordedLos,
+     * divided by the number of satellites
+     *  **/
     public void ComputeWeightsNoHistory(Boolean[] RecordedLos)
     {
 
@@ -385,6 +391,10 @@ public class Particles {
         return tmp;
     }
 
+    /**
+     *This function returns the point that is the "Particle With Max Weight",
+     *but it is a weighted point for all the particles according to their weight
+     */
     public Point3D GetParticleWithMaxWeight()
     {
         double w=this.ParticleList.get(0).getWeight();
@@ -452,7 +462,9 @@ public class Particles {
 
     }
 
-
+    /**
+     *This function goes through all the particles and sets each of the particles the corresponding OutFfRegion value
+     */
     public void OutFfRegion(List<Building> bs, Point3D p1, Point3D p2)
     {
         double tmp;
@@ -588,13 +600,18 @@ public class Particles {
        // ParticleList.addAll(NewWeightedList);
     }
 
+    /**
+     *This function receives a list of points called NewList
+     *and initializes the particles according to the positions of the points in NewList
+     *And the weight of each particle is initialized to 1
+     *so that in the next round all the particles will have the same weight for the sample
+     */
     public void SetAfterResample(List<Point3D> NewList)
     {
         for(int i=0; i<NumberOfParticles; i++)
         {
             ParticleList.get(i).SetLocation(NewList.get(i));
             ParticleList.get(i).setWeight(1);
-            //ParticleList.get(i).setNumberOfMatchedSats(0);
         }
 
     }
@@ -608,6 +625,13 @@ public class Particles {
         }
 
     }
+
+    /**
+     * This function resamples the particles,
+     * Each particle has a weight between 0 and 1, which is its probability of being the original particle.
+     * According to this probability the function resamples particles and initializes the particles to be the particles that the funccia sampled.
+     * A particle with a greater weight has a greater probability of being sampled
+     */
 
     public void Resample()
     {
@@ -636,6 +660,7 @@ public class Particles {
 //             tmp.setWeight(ParticleList.get(index).getWeight());
             NewWeightedList.add(tmp);
         }
+        //NewWeightedList is the list of the new sampled points with which the particles will be initialized
         SetAfterResample(NewWeightedList);
     }
 
@@ -838,6 +863,9 @@ public class Particles {
         }
     }
 
+    /**
+     * This function goes through each and every particle and calculates for it the value of its LOS array
+     */
     public void MessureSignalFromSats(List<Building> bs, List<Sat> allSats)
     {
          for(int i=0; i<NumberOfParticles; i++)
@@ -941,6 +969,10 @@ public class Particles {
         Point2D ans = new Point2D(x,y);
         return ans;
     }
+
+    /**
+     * This function moves all the particles according to the corresponding Action in the current round with an error
+     */
     public void MoveParticleWithError(ActionFunction action)
     {
 
