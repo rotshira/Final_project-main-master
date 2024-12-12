@@ -34,7 +34,19 @@ public class ParticleSimulation {
 	}
 
 	public static void main(String[] args) throws Exception {
-        simulationMain2();
+        //simulationMain2();
+
+        simulatePoint(21, 55, 56.33, 'N', 24, 55, 10.2, 'E', 5.0);
+        createSquarePath();
+        Point3D pointA = new Point3D(21.0, 24.0, 0.0); // Latitude, Longitude, Altitude
+        Point3D pointB = new Point3D(21.0, 25.0, 0.0);
+        Point3D pointC = new Point3D(22.0, 25.0, 0.0);
+        Point3D pointD = new Point3D(22.0, 24.0, 0.0);
+        createRectanglePathWithTacks(pointA,pointB,pointC,pointD);
+
+        Point3D point = new Point3D(21.9323, 24.9189, 100.0); // Latitude, Longitude, Altitude
+        simulatePoint(point);
+
 //        simulationMainWithML();
         //testParse();
 
@@ -50,6 +62,143 @@ public class ParticleSimulation {
 
 
 
+    }
+
+    private static void createRectanglePathWithTacks(Point3D A, Point3D B,Point3D C,Point3D D) {
+        // Step 1: Define the four corners of the rectangle
+        Point3D pointA = A; // Latitude, Longitude, Altitude
+        Point3D pointB = B;
+        Point3D pointC = C;
+        Point3D pointD = D;
+
+        // Step 2: Generate intermediate points along each side of the rectangle
+        List<Point3D> rectanglePoints = new ArrayList<>();
+        int steps = 50; // Number of tacks per side
+
+        // Add points between A and B
+        rectanglePoints.addAll(interpolatePoints(pointA, pointB, steps));
+
+        // Add points between B and C
+        rectanglePoints.addAll(interpolatePoints(pointB, pointC, steps));
+
+        // Add points between C and D
+        rectanglePoints.addAll(interpolatePoints(pointC, pointD, steps));
+
+        // Add points between D and A
+        rectanglePoints.addAll(interpolatePoints(pointD, pointA, steps));
+
+        // Step 3: Specify the output file path
+        String filePath = "rectangleWithTacks.kml";
+
+        // Step 4: Generate the KML file
+        try {
+            KML_Generator.Generate_kml_from_List(rectanglePoints, filePath, true);
+            System.out.println("KML file for rectangle with tacks generated successfully: " + filePath);
+        } catch (Exception e) {
+            System.err.println("Error generating KML file: " + e.getMessage());
+        }
+    }
+
+    // Method to interpolate points between two coordinates
+    private static List<Point3D> interpolatePoints(Point3D start, Point3D end, int steps) {
+        List<Point3D> points = new ArrayList<>();
+        for (int i = 0; i <= steps; i++) {
+            double lat = start.getX() + i * (end.getX() - start.getX()) / steps;
+            double lon = start.getY() + i * (end.getY() - start.getY()) / steps;
+            double alt = start.getZ() + i * (end.getZ() - start.getZ()) / steps;
+            points.add(new Point3D(lat, lon, alt));
+        }
+        return points;
+    }
+
+
+    private static void simulatePoint(int latDegrees, int latMinutes, double latSeconds, char latDirection,
+                                      int lonDegrees, int lonMinutes, double lonSeconds, char lonDirection,
+                                      double altitude) {
+        // Step 1: Convert latitude and longitude to decimal degrees
+        double latitude = convertToDecimalDegrees(latDegrees, latMinutes, latSeconds, latDirection);
+        double longitude = convertToDecimalDegrees(lonDegrees, lonMinutes, lonSeconds, lonDirection);
+
+        // Step 2: Create a Point3D object for the point
+        Point3D point = new Point3D(latitude, longitude, altitude);
+
+        // Step 3: Add the point to a list
+        List<Point3D> pointList = new ArrayList<>();
+        pointList.add(point);
+
+        // Step 4: Specify the output file path
+        String filePath = "outputAdiel.kml";
+
+        // Step 5: Generate the KML file
+        try {
+            KML_Generator.Generate_kml_from_List(pointList, filePath, true);
+            System.out.println("KML file generated successfully: " + filePath);
+        } catch (Exception e) {
+            System.err.println("Error generating KML file: " + e.getMessage());
+        }
+    }
+
+    private static void simulatePoint(Point3D point) {
+        // Step 1: Add the point to a list
+        List<Point3D> pointList = new ArrayList<>();
+        pointList.add(point);
+
+        // Step 2: Specify the output file path
+        String filePath = "outputRoey.kml";
+
+        // Step 3: Generate the KML file
+        try {
+            KML_Generator.Generate_kml_from_List(pointList, filePath, true);
+            System.out.println("KML file generated successfully: " + filePath);
+        } catch (Exception e) {
+            System.err.println("Error generating KML file: " + e.getMessage());
+        }
+    }
+
+
+    private static void createSquarePath() {
+        // Step 1: Define the four points of the square
+        Point3D pointA = new Point3D(21.0, 24.0, 0.0); // Latitude, Longitude, Altitude
+        Point3D pointB = new Point3D(21.0, 25.0, 0.0);
+        Point3D pointC = new Point3D(22.0, 25.0, 0.0);
+        Point3D pointD = new Point3D(22.0, 24.0, 0.0);
+
+        // Step 2: Create a list to represent the path
+        List<Point3D> squarePath = new ArrayList<>();
+        squarePath.add(pointA); // Start at A
+        squarePath.add(pointB); // Move to B
+        squarePath.add(pointC); // Move to C
+        squarePath.add(pointD); // Move to D
+        squarePath.add(pointA); // Close the square back at A
+
+        // Step 3: Specify the output file path
+        String filePath = "squarePath.kml";
+
+        // Step 4: Generate the KML file
+        try {
+            KML_Generator.Generate_kml_from_List(squarePath, filePath, true);
+            System.out.println("KML file for square path generated successfully: " + filePath);
+        } catch (Exception e) {
+            System.err.println("Error generating KML file: " + e.getMessage());
+        }
+    }
+
+
+
+    public static double convertToDecimalDegrees(int degrees, int minutes, double seconds, char direction) {
+        // Convert DMS to decimal degrees
+        double decimalDegrees = degrees + (minutes / 60.0) + (seconds / 3600.0);
+
+        // Apply the sign based on the direction
+        switch (Character.toUpperCase(direction)) {
+            case 'N': case 'E':
+                return decimalDegrees;
+            case 'S': case 'W':
+                return -decimalDegrees;
+            default:
+                throw new IllegalArgumentException("Invalid direction: " + direction +
+                        ". Must be one of N, S, E, or W.");
+        }
     }
 
     private static void testParse() {

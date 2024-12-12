@@ -28,8 +28,6 @@ public class Particle implements Comparable<Particle> {
     public static final  double OldNewRatio=0.8;
     private double oldWeight;
 
-
-
     public Particle(Particle tmp) {
         this.pos = tmp.pos;
         this.Weight = tmp.getWeight();
@@ -84,6 +82,10 @@ public class Particle implements Comparable<Particle> {
 
     public Boolean[] getLOS() {
         return LOS;
+    }
+
+    public void setLOS(Boolean[] LOS) {
+        this.LOS = LOS;
     }
 
     public Boolean[] LOS;
@@ -214,40 +216,46 @@ public class Particle implements Comparable<Particle> {
         this.OldWeight = newWeight;
 
     }
-     public void EvaluateWeights(Boolean[] recordedLos)
-     {
-         int tmp_Weight=0;
-         double newWeight;
-         for(int i=0; i<recordedLos.length; i++)
-         {
-             if(recordedLos[i]==this.LOS[i]) {
-                 if(this.LOS[i]==true)
-                     tmp_Weight += 1;
-                 if(this.LOS[i]==false)
-                     tmp_Weight += 1;
-             }
+     public void EvaluateWeights(Boolean[] recordedLos) {
+        int tmp_Weight = 0;
+        double newWeight;
+        
+        // Count matching satellites with different weights for LOS/NLOS
+        for(int i = 0; i < recordedLos.length; i++) {
+            if(recordedLos[i] == this.LOS[i]) {
+                if(this.LOS[i] == true) {
+                    // Give more weight to LOS matches as they're more reliable
+                    tmp_Weight += 1.5;
+                } else {
+                    // NLOS matches get normal weight
+                    tmp_Weight += 1.0;
+                }
+            }
+        }
 
-         }
-
-        //tmp_Weight += 1;
         this.setNumberOfMatchedSats(tmp_Weight);
 
-        if(this.OldWeight==-1)
-        {
-            newWeight = this.getNumberOfMatchedSats();
-            newWeight = newWeight/recordedLos.length;
+        // Calculate base weight from matching satellites
+        double matchWeight = (double)this.getNumberOfMatchedSats() / (recordedLos.length * 1.5);
+        
+        // Normalize matchWeight to be between 0 and 1
+        matchWeight = Math.min(1.0, Math.max(0.0, matchWeight));
+
+        // Calculate final weight considering history
+        if(this.OldWeight == -1) {
+            newWeight = matchWeight;
+        } else {
+            // Give more weight to history (80% history, 20% current) for more stability
+            newWeight = 0.2 * matchWeight + 0.8 * this.OldWeight;
         }
-            else
-        {
-          newWeight=OldNewRatio*this.getNumberOfMatchedSats()/(recordedLos.length)+(1-OldNewRatio)*this.OldWeight;
 
-        }
+        // Apply exponential weighting to emphasize better matches
+        newWeight = Math.pow(newWeight, 1.5);
 
-         this.setOldMatchingSats(this.getNumberOfMatchedSats());
-         this.setWeight(newWeight);
-         this.OldWeight = newWeight;
-
-     }
+        this.setOldMatchingSats(this.getNumberOfMatchedSats());
+        this.setWeight(newWeight);
+        this.OldWeight = newWeight;
+    }
 
 
     public void EvaluateWeightsNoHistory(Boolean[] recordedLos)

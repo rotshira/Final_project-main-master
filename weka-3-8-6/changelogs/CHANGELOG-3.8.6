@@ -1,0 +1,57 @@
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.tmatesoft.svn.core.internal.util.SVNSocketFactory (file:/Users/mhall/Documents/java/apache-ant-1.10.1/lib/svnkit-1.8.6.jar) to method sun.security.ssl.SSLSocketImpl.setHost(java.lang.String)
+WARNING: Please consider reporting this to the maintainers of org.tmatesoft.svn.core.internal.util.SVNSocketFactory
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+------------------------------------------------------------------------
+r15744 | mhall | 2020-12-23 10:43:53 +1300 (Wed, 23 Dec 2020) | 1 line
+Changed paths:
+   M /branches/stable-3-8/weka/src/main/java/weka/datagenerators/clusterers/SubspaceClusterDefinition.java
+
+Fixed a bug where if no -A, -G or -U was specified in the option string, then the default attribute index range would be overwritten with empty string
+------------------------------------------------------------------------
+r15748 | eibe | 2020-12-23 12:54:32 +1300 (Wed, 23 Dec 2020) | 1 line
+Changed paths:
+   M /branches/stable-3-8/weka/src/main/java/weka/datagenerators/clusterers/SubspaceCluster.java
+
+SubspaceCluster now runs at the command-line even when the user does not explicitly provide a cluster definition, to be consistent with the setup in the GUI.
+------------------------------------------------------------------------
+r15753 | fracpete | 2020-12-27 15:54:06 +1300 (Sun, 27 Dec 2020) | 1 line
+Changed paths:
+   M /branches/stable-3-8/weka/src/main/java/weka/classifiers/evaluation/CostCurve.java
+   M /branches/stable-3-8/weka/src/main/java/weka/classifiers/evaluation/MarginCurve.java
+   M /branches/stable-3-8/weka/src/main/java/weka/classifiers/evaluation/ThresholdCurve.java
+
+removed main method (only used for testing) to clean up dependencies
+------------------------------------------------------------------------
+r15757 | fracpete | 2021-01-02 14:22:20 +1300 (Sat, 02 Jan 2021) | 1 line
+Changed paths:
+   M /branches/stable-3-8/weka/src/main/java/weka/gui/AttributeSummaryPanel.java
+
+date attributes now display dates instead of milliseconds using the attribute's format for min/max/mean/stdev
+------------------------------------------------------------------------
+r15792 | eibe | 2021-06-06 18:41:38 +1200 (Sun, 06 Jun 2021) | 1 line
+Changed paths:
+   M /branches/stable-3-8/weka/src/main/java/weka/filters/MultiFilter.java
+   M /branches/stable-3-8/weka/src/test/resources/wekarefs/weka/filters/MultiFilterTest.ref
+   M /branches/waikato-3-8/weka/src/main/java/weka/filters/MultiFilter.java
+   M /branches/waikato-3-8/weka/src/test/resources/wekarefs/weka/filters/MultiFilterTest.ref
+   M /branches/waikato/weka/src/main/java/weka/filters/MultiFilter.java
+   M /branches/waikato/weka/src/test/resources/wekarefs/weka/filters/MultiFilterTest.ref
+
+MultiFilter now implements Randomizable. The seed that is specified is passed through the filters included in the list specified by the user. If no filter is Randomizable, there will be no effect. Now, MultiFilter also checks that at least one of the specified filters can handle instance or attribute weights if the data has unequal attribute or instance weights respectively. Otherwise, an exception will be thrown.
+------------------------------------------------------------------------
+r15801 | eibe | 2021-06-08 20:04:52 +1200 (Tue, 08 Jun 2021) | 1 line
+Changed paths:
+   M /branches/stable-3-8/weka/src/main/java/weka/classifiers/meta/Bagging.java
+   M /branches/stable-3-8/weka/src/main/java/weka/classifiers/meta/RandomCommittee.java
+   M /branches/stable-3-8/weka/src/main/java/weka/classifiers/meta/RandomSubSpace.java
+   M /branches/waikato-3-8/weka/src/main/java/weka/classifiers/meta/Bagging.java
+   M /branches/waikato-3-8/weka/src/main/java/weka/classifiers/meta/RandomCommittee.java
+   M /branches/waikato-3-8/weka/src/main/java/weka/classifiers/meta/RandomSubSpace.java
+   M /branches/waikato/weka/src/main/java/weka/classifiers/meta/Bagging.java
+   M /branches/waikato/weka/src/main/java/weka/classifiers/meta/RandomCommittee.java
+   M /branches/waikato/weka/src/main/java/weka/classifiers/meta/RandomSubSpace.java
+
+Now, Bagging, RandomCommittee, and RandomSubSpace implement multi-threaded batch prediction if base learner supports batch prediction (e.g., MLRClassifier). Normal single-instance prediction is still single-threaded.
+------------------------------------------------------------------------

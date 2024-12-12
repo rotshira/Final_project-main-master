@@ -89,8 +89,6 @@ public class KML_Generator
         }
     }
 
-
-
     public static void Generate_kml_from_ParticleList(Particles Particles, String FilePath, int MaxSat)
     {
         String line= new String("");
@@ -174,8 +172,6 @@ public class KML_Generator
                     }
                 }
 
-
-
                 //out.write("<Style>\n<BalloonStyle>\n<text>This point was taken at time "+ i +"</text>\n</BalloonStyle>\n</Style>\n ");
                 out.write("<Style>\n<BalloonStyle>\n<text>His OutOfRegion is: "+Particles.getParticleList().get(i).OutOfRegion  +"</text>\n</BalloonStyle>\n</Style>\n ");
                 //out.write("<Style>\n<BalloonStyle>\n<text>Los:  "+ los +"</text>\n</BalloonStyle>\n</Style>\n ");
@@ -239,13 +235,6 @@ public class KML_Generator
             out.write("<color>ff0000ff</color>\n<scale>0.5</scale>\n</IconStyle>\n");
             out.write("</Style>\n");
 
-
-
-
-
-
-
-
             System.out.println("");
 
             //out.write("")
@@ -263,13 +252,10 @@ public class KML_Generator
                 out.write(" </TimeStamp>\n");
                 out.write("<Point>\n<altitudeMode>relativeToGround</altitudeMode>\n<coordinates>");
                 tmp=PointList.get(i);
-                // tmp=Algo0.convertToLatLon(PointList.get(i), 36);
-               // tmp = GeoUtils.convertECEFtoLATLON(PointList.get(i));
                 if(!isPointsInLATLON)
-                    tmp = GeoUtils.convertUTMtoLATLON(PointList.get(i), 36);
-                lat=tmp.getX();
-                lon=tmp.getY();
-                line=Double.toString(lon)+" "+Double.toString(lat)+" "+tmp.getZ();
+                    tmp = GeoUtils.convertUTMtoLATLON(tmp, 36);
+                // In KML format, coordinates should be: longitude,latitude,altitude
+                line = String.format("%f,%f,%f", tmp.getX(), tmp.getY(), tmp.getZ());
                 out.write(line);
 
                 out.write("</coordinates>\n");
