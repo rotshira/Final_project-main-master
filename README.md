@@ -32,5 +32,18 @@ In urban environments, GNSS signals often get obstructed or reflected by buildin
    - After several iterations, the particle filter provides a final, more accurate estimated location.
 
 
+## Project Useful Functions:
 
+# Part A:
+1.A function that can read a kml file and turn it into a list of point3d - src\Geometry\BuildingsFactory\parseKML()
+2.A function that accepts the esri file and turns it into a list of buildings - src\Geometry\BuildingsFactory\generateUTMBuildingListfromKMLfile()
+3.A function that, given a point and a list of buildings and a list of satellites, returns los or nlos - src/Algorithm/LosAlgorithm/ComputeLos()
+
+# Part B:
+1.A function that, given 2 points, produces particles in space -   src/ParticleFilter/Particles/initParticlesIn3D()
+2.A function that goes over each particle and checks its number of matches to the los/nlos vector of the original position - src/ParticleFilter/Particle/ReturnNumberOfMatchingSats()  
+3.A function that weights each particle according to its probability - src/ParticleFilter/Particles/EvaluateWeightsNoHistory()
+4.A function that respamlping all particles - src/ParticleFilter/Particles/Resample()
+5.A function that selects the best particle - src/ParticleFilter/Particles/GetParticleWithMaxWeight()
+6.A function that takes all the best particles and produces a kml file from them -  src/Utils/KML_Generator/Generate_kml_from_List()
 
